@@ -1,0 +1,33 @@
+% Saved by Prover9-Mace4 Version 0.5B, March 2008 (Dec 2007 LADR).
+
+set(ignore_option_dependencies). % GUI handles dependencies
+
+if(Prover9). % Options for Prover9
+  assign(max_seconds, 60).
+end_if.
+
+if(Mace4).   % Options for Mace4
+  assign(max_seconds, 60).
+end_if.
+
+formulas(assumptions).
+
+formulas(sos).
+
+goodParents(Eva).
+isAngry(Eva).
+
+isAngry(x) -> -canDo(x, TV).
+(-canDo(x, y) & -isAngry(x)) -> -does(x, y).
+broughtUpWell(x) -> -isAngry(x).
+goodParents(x) -> broughtUpWell(x).
+goodParents(x) -> does(x, TV).
+
+end_of_list.
+
+formulas(goals).
+
+list(goals).
+
+end_of_list.
+
