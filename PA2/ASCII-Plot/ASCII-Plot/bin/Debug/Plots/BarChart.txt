@@ -1,0 +1,51 @@
+                                                                                                     **************
+                                                                                                     *            *
+                                                                                                     *    Mac : A *
+                                                                                                     *   iPad : B *
+                                                                                                     * iPhone : C *
+                                                                                                     *            *
+                                                                                                     **************
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+                                                                                                                   
+          |                                                                                                        
+          |                                                                                                        
+ 4.78e+01 -         CCC                                                                                            
+          |         CCC                                                                                            
+          |         CCC                                                                                            
+ 4.30e+01 -         CCC                                                                                            
+          |         CCC                                                                                            
+          |         CCC                                                                                            
+ 3.82e+01 -         CCC                                                                                            
+          |         CCC                          CCC                                                               
+          |         CCC                          CCC                                                               
+ 3.35e+01 -         CCC                          CCC                                                       CCC     
+          |         CCC                          CCC                                                       CCC     
+          |         CCC                          CCC                          CCC                          CCC     
+ 2.87e+01 -         CCC                          CCC                          CCC                          CCC     
+          |         CCC                          CCC                          CCC                          CCC     
+          |         CCC                          CCC                          CCC                          CCC     
+ 2.39e+01 -         CCC                          CCC                          CCC                          CCC     
+          |      BBBCCC                          CCC                          CCC                          CCC     
+          |      BBBCCC                          CCC                          CCC                          CCC     
+ 1.91e+01 -      BBBCCC                       BBBCCC                          CCC                          CCC     
+          |      BBBCCC                       BBBCCC                          CCC                          CCC     
+          |      BBBCCC                       BBBCCC                          CCC                          CCC     
+ 1.43e+01 -      BBBCCC                       BBBCCC                       BBBCCC                          CCC     
+          |      BBBCCC                       BBBCCC                       BBBCCC                       BBBCCC     
+          |      BBBCCC                       BBBCCC                       BBBCCC                       BBBCCC     
+ 9.56e+00 -      BBBCCC                       BBBCCC                       BBBCCC                       BBBCCC     
+          |      BBBCCC                       BBBCCC                       BBBCCC                       BBBCCC     
+          |      BBBCCC                       BBBCCC                       BBBCCC                       BBBCCC     
+ 4.78e+00 -      BBBCCC                       BBBCCC                       BBBCCC                       BBBCCC     
+          |   AAABBBCCC                    AAABBBCCC                    AAABBBCCC                    AAABBBCCC     
+          |   AAABBBCCC                    AAABBBCCC                    AAABBBCCC                    AAABBBCCC     
+ 0.00e+00 -________________________________________________________________________________________________________
+              Q1                           Q2                           Q3                           Q4            
