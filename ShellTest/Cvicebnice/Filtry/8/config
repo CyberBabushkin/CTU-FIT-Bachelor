@@ -1,0 +1,4 @@
+local_dir=~/project
+filename=main.java
+remote_host=dray1.feld.cvut.cz
+remote_dir=~/java/project

@@ -1,0 +1,1103 @@
+job name = 
+job id = 
+0 0 [INFO] Jan 25 17:28:20 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+0 1 [WARNING] Jan 25 17:28:20 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+0 2 [INFO] Jan 25 17:28:20 VAL [init.cpp@90] - [output_file=-]
+0 3 [INFO] Jan 25 17:28:20 VAL [init.cpp@112] - [max_mfi_output_file=-]
+0 4 [INFO] Jan 25 17:28:20 Global [init.cpp@114] - rss limit: unlimited
+0 5 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@454] - program size(MB): 188.699
+0 6 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@455] - rss usage(MB): 7.19531
+0 7 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@459] - loading part 1 from 6
+0 8 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@475] - rss limit: unlimited
+0 9 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@479] - proc #0/6
+0 10 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@480] - database->size()=83333
+0 11 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@481] - program size(MB): 210.953
+0 12 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@482] - rss usage(MB): 28.4102
+0 13 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@483] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+0 14 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@484] - [input_file_format=-bin]
+0 15 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@485] - [output_file=-]
+0 16 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@486] - [number_of_items=80]
+0 17 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@487] - database loaded. Initializing global variables.
+0 18 [INFO] Jan 25 17:28:20 VAL [init.cpp@166] - [global_absolute_support=50000]
+0 19 [INFO] Jan 25 17:28:20 VAL [init.cpp@167] - [relative_support=0.1]
+0 20 [INFO] Jan 25 17:28:20 VAL [init.cpp@168] - [global_transaction_number=500000]
+0 21 [INFO] Jan 25 17:28:20 VAL [init.cpp@169] - [local_db_size=83333]
+0 22 [INFO] Jan 25 17:28:20 Global [init.cpp@171] - exchanging database samples
+0 23 [INFO] Jan 25 17:28:20 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+0 24 [INFO] Jan 25 17:28:20 Global [various.cpp@61] - [db_sample_delta=0.05]
+0 25 [INFO] Jan 25 17:28:20 Global [various.cpp@62] - [db_sample_size=738]
+0 26 [INFO] Jan 25 17:28:20 SC [various.cpp@29] - sampling database
+0 27 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@64] - serializing database
+0 28 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@69] - exchanging size of samples
+0 29 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@73] - done
+0 30 [INFO] Jan 25 17:28:20 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+0 31 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@495] - =================== Phase 1 (Search space sampling) ===================
+0 32 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@496] - program size(MB): 226.145
+0 33 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@497] - rss usage(MB): 43.8867
+0 34 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@499] - parallel reservoir sampling
+0 35 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@351] - executing reservoir sampling based that computes the FIs using a database that contains all MFIs.
+0 36 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@353] - executing fpmax*
+0 37 [INFO] Jan 25 17:29:32 PS [reservoir.cpp@356] - program size(MB): 610.801
+0 38 [INFO] Jan 25 17:29:32 PS [reservoir.cpp@357] - rss usage(MB): 409.805
+0 39 [INFO] Jan 25 17:29:32 VAL [reservoir.cpp@361] - [db_sample_size=4428]
+0 40 [INFO] Jan 25 17:29:33 Global [reservoir_sampling.cpp@28] - threshold=0;T=20; number_of_samples=0
+0 41 [INFO] Jan 25 17:29:43 Global [dynamic_loadbalancing.hpp@120] - dynamic load-balancing initialized
+0 42 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@368] - reservoir: sampling 7189 samples
+0 43 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@372] - running the eclat algorithm, min_supp=1, the database contains all MFIs
+0 44 [INFO] Jan 25 17:29:43 Global [par_eclat.cpp@50] - initializing reservoir 2
+0 45 [INFO] Jan 25 17:29:43 Global [reservoir_sampling.cpp@75] - threshold=143780
+0 46 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@70] - datastructure create time=1.71426
+0 47 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@74] - minsup_double=0
+0 48 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@75] - minsup=1
+0 49 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@76] - tnr=3386670
+0 50 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@100] - proc num=6
+0 51 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@101] - block_size=11
+0 52 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@102] - from=0
+0 53 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@103] - to=11
+0 54 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@104] - items_to_work.size()=70
+0 55 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@129] - calling grow
+0 56 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@131] - grow finished ...
+0 57 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@139] - VAL [relative_support=0]
+0 58 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@140] - VAL [total_time=76.5922]
+0 59 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@141] - VAL [computed_items=146482237]
+0 60 [INFO] Jan 25 17:30:59 VAL [reservoir.cpp@377] - [eclat_smpl_time=76.6162]
+0 61 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@378] - running the eclat algorithm ... finished
+0 62 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@379] - computed_items=1.46482e+08
+0 63 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@383] - exchanging samples
+0 64 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@15] - processor_number = 6
+0 65 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@16] - total_samples = 7189
+0 66 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@20] - computed_fis[0]=1.46482e+08
+0 67 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@20] - computed_fis[1]=3.03057e+07
+0 68 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@20] - computed_fis[2]=9.51126e+07
+0 69 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@20] - computed_fis[3]=6.87902e+07
+0 70 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@20] - computed_fis[4]=2.50274e+07
+0 71 [INFO] Jan 25 17:30:59 Global [mult_hyper_simul.cpp@20] - computed_fis[5]=65312
+0 72 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@416] - sample sizes: 2897 571 1842 1400 479 0 
+0 73 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@425] - sample size fraction: 2897
+0 74 [INFO] Jan 25 17:30:59 SC [various.cpp@29] - sampling database
+0 75 [INFO] Jan 25 17:31:00 PS [reservoir.cpp@508] - program size(MB): 640.258
+0 76 [INFO] Jan 25 17:31:00 PS [reservoir.cpp@509] - rss usage(MB): 458.188
+0 77 [INFO] Jan 25 17:31:00 VAL [reservoir.cpp@512] - [p1time=160.018]
+0 78 [INFO] Jan 25 17:31:00 Global [reservoir.cpp@515] - =================== Phase 2 (Search space partitioning) ===================
+0 79 [INFO] Jan 25 17:31:00 Global [reservoir.cpp@517] - search space samples no=7189
+0 80 [INFO] Jan 25 17:31:00 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+0 81 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@238] -  partitioning on parts of size < 0.05
+0 82 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@272] - scheduling
+0 83 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@318] - SCHEDULE using the LPT-Makespan algorithm
+0 84 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@358] - [sum_job_size=0.956322]
+0 85 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@359] - [avg_job_size=0.00317715]
+0 86 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@360] - [max_job_size=0.0358882]
+0 87 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@361] - [min_job_size=0.000139101]
+0 88 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@362] - [min0_job_size=0]
+0 89 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@363] - [zero_size_classes=141]
+0 90 [INFO] Jan 25 17:31:01 VAL [scheduler.cpp@364] - [number_of_classes=301]
+0 91 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@300] - [procload_p0=0]
+0 92 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@301] - [number_of_samples_p0=0]
+0 93 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@302] - [number_of_subspaces_p0=51]
+0 94 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@300] - [procload_p1=0]
+0 95 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@301] - [number_of_samples_p1=0]
+0 96 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@302] - [number_of_subspaces_p1=49]
+0 97 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@300] - [procload_p2=0]
+0 98 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@301] - [number_of_samples_p2=0]
+0 99 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@302] - [number_of_subspaces_p2=50]
+0 100 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@300] - [procload_p3=0]
+0 101 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@301] - [number_of_samples_p3=0]
+0 102 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@302] - [number_of_subspaces_p3=50]
+0 103 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@300] - [procload_p4=0]
+0 104 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@301] - [number_of_samples_p4=0]
+0 105 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@302] - [number_of_subspaces_p4=51]
+0 106 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@300] - [procload_p5=0]
+0 107 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@301] - [number_of_samples_p5=0]
+0 108 [INFO] Jan 25 17:31:01 PS [scheduler.cpp@302] - [number_of_subspaces_p5=50]
+0 109 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@524] - program size(MB): 640.258
+0 110 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@525] - rss usage(MB): 458.227
+0 111 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@529] - broadcasting space division
+0 112 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@532] - program size(MB): 640.258
+0 113 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@533] - rss usage(MB): 458.484
+0 114 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@550] - [load_p0=0.15941]
+0 115 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@550] - [load_p1=0.15941]
+0 116 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@550] - [load_p2=0.15941]
+0 117 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@550] - [load_p3=0.159271]
+0 118 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@550] - [load_p4=0.15941]
+0 119 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@550] - [load_p5=0.15941]
+0 120 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@552] - sum=0.956322
+0 121 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@558] - [p2time=0.477022]
+0 122 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@564] - [p2time_total=0.503714]
+0 123 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@567] - =================== Phase 3 (Data distribution) ===================
+0 124 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@568] - program size(MB): 640.258
+0 125 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@569] - rss usage(MB): 458.488
+0 126 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@591] - exchanging data
+0 127 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=0, processor_number=6, i=0
+0 128 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@257] - sending...
+0 129 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+0 130 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@129] - sending database to processor #5
+0 131 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@132] - sending message of size: 2959935, buffer size: 2959935
+0 132 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@134] - send_database_to finished
+0 133 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@268] - receiving...
+0 134 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@152] - should receive: 2958626, receive buffer: 2959935, recv_from=5
+0 135 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@154] - received buffer of size: 2958626
+0 136 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@160] - deserializing
+0 137 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@163] - recv_database_to finished
+0 138 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 139 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=0, processor_number=6, i=1
+0 140 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@257] - sending...
+0 141 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@116] - serializing database, size=83331
+0 142 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@129] - sending database to processor #4
+0 143 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@132] - sending message of size: 2959903, buffer size: 2959935
+0 144 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@134] - send_database_to finished
+0 145 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@268] - receiving...
+0 146 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@152] - should receive: 2958431, receive buffer: 2959935, recv_from=4
+0 147 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@154] - received buffer of size: 2958431
+0 148 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@160] - deserializing
+0 149 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@163] - recv_database_to finished
+0 150 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 151 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=0, processor_number=6, i=2
+0 152 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@257] - sending...
+0 153 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@116] - serializing database, size=83319
+0 154 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@129] - sending database to processor #3
+0 155 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@132] - sending message of size: 2959688, buffer size: 2959935
+0 156 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@134] - send_database_to finished
+0 157 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@268] - receiving...
+0 158 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@152] - should receive: 2956076, receive buffer: 2959935, recv_from=3
+0 159 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@154] - received buffer of size: 2956076
+0 160 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@160] - deserializing
+0 161 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@163] - recv_database_to finished
+0 162 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 163 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=0, processor_number=6, i=3
+0 164 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@257] - sending...
+0 165 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+0 166 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@129] - sending database to processor #2
+0 167 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@132] - sending message of size: 2959935, buffer size: 2959935
+0 168 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@134] - send_database_to finished
+0 169 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@268] - receiving...
+0 170 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@152] - should receive: 2958548, receive buffer: 2959935, recv_from=2
+0 171 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@154] - received buffer of size: 2958548
+0 172 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@160] - deserializing
+0 173 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@163] - recv_database_to finished
+0 174 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 175 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=0, processor_number=6, i=4
+0 176 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@257] - sending...
+0 177 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@116] - serializing database, size=83326
+0 178 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@129] - sending database to processor #1
+0 179 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@132] - sending message of size: 2959834, buffer size: 2959935
+0 180 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@134] - send_database_to finished
+0 181 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@268] - receiving...
+0 182 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@152] - should receive: 2958133, receive buffer: 2959935, recv_from=1
+0 183 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@154] - received buffer of size: 2958133
+0 184 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@160] - deserializing
+0 185 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@163] - recv_database_to finished
+0 186 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 187 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@595] - [p3time=9.67079]
+0 188 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@596] - [recv_db_portion_size=416651]
+0 189 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@597] - [local_db_portion_size=499984]
+0 190 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@601] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+0 191 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@602] - program size(MB): 640.258
+0 192 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@603] - rss usage(MB): 458.504
+0 193 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@610] - generating
+0 194 [INFO] Jan 25 17:31:11 Global [cml_support.cpp@121] - Using the Eclat algorithm
+0 195 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+0 196 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@473] - output=0x802100; &output=0x13aba3d8
+0 197 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+0 198 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@511] - done: 0%
+0 199 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@512] - rss usage(MB): 458.516
+0 200 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+0 201 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.516
+0 202 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=255
+0 203 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.531
+0 204 [INFO] Jan 25 17:31:56 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=5976051
+0 205 [INFO] Jan 25 17:31:56 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.531
+0 206 [INFO] Jan 25 17:37:58 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=64125089
+0 207 [INFO] Jan 25 17:37:58 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.531
+0 208 [INFO] Jan 25 17:38:01 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=64488252
+0 209 [INFO] Jan 25 17:38:01 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.531
+0 210 [INFO] Jan 25 17:38:15 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=66664267
+0 211 [INFO] Jan 25 17:38:15 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.531
+0 212 [INFO] Jan 25 17:39:37 Global [reservoir.cpp@618] - deallocating
+0 213 [INFO] Jan 25 17:39:37 VAL [reservoir.cpp@619] - [p4time=506.512]
+0 214 [INFO] Jan 25 17:39:37 VAL [reservoir.cpp@620] - [computed_items=94425558]
+0 215 [INFO] Jan 25 17:39:37 VAL [reservoir.cpp@624] - [this_proc_time=676.707]
+0 216 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@628] - [cmltime=814.611]
+0 217 [INFO] Jan 25 17:41:55 Global [util_mpi.cpp@12] - computing total number of itemsets
+0 218 [INFO] Jan 25 17:41:55 VAL [util_mpi.cpp@19] - [total_computed_itemsets=545201475]
+0 219 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@631] - [exit_status=OK]
+0 220 [INFO] Jan 25 17:41:55 Global [init.cpp@126] - deallocating ...
+1 0 [INFO] Jan 25 17:28:20 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+1 1 [WARNING] Jan 25 17:28:20 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+1 2 [INFO] Jan 25 17:28:20 VAL [init.cpp@90] - [output_file=-]
+1 3 [INFO] Jan 25 17:28:20 VAL [init.cpp@112] - [max_mfi_output_file=-]
+1 4 [INFO] Jan 25 17:28:20 Global [init.cpp@114] - rss limit: unlimited
+1 5 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@454] - program size(MB): 188.699
+1 6 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@455] - rss usage(MB): 7.19922
+1 7 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@459] - loading part 2 from 6
+1 8 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@475] - rss limit: unlimited
+1 9 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@479] - proc #1/6
+1 10 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@480] - database->size()=83333
+1 11 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@481] - program size(MB): 210.953
+1 12 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@482] - rss usage(MB): 28.4141
+1 13 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@483] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+1 14 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@484] - [input_file_format=-bin]
+1 15 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@485] - [output_file=-]
+1 16 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@486] - [number_of_items=79]
+1 17 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@487] - database loaded. Initializing global variables.
+1 18 [INFO] Jan 25 17:28:20 VAL [init.cpp@166] - [global_absolute_support=50000]
+1 19 [INFO] Jan 25 17:28:20 VAL [init.cpp@167] - [relative_support=0.1]
+1 20 [INFO] Jan 25 17:28:20 VAL [init.cpp@168] - [global_transaction_number=500000]
+1 21 [INFO] Jan 25 17:28:20 VAL [init.cpp@169] - [local_db_size=83333]
+1 22 [INFO] Jan 25 17:28:20 Global [init.cpp@171] - exchanging database samples
+1 23 [INFO] Jan 25 17:28:20 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+1 24 [INFO] Jan 25 17:28:20 Global [various.cpp@61] - [db_sample_delta=0.05]
+1 25 [INFO] Jan 25 17:28:20 Global [various.cpp@62] - [db_sample_size=738]
+1 26 [INFO] Jan 25 17:28:20 SC [various.cpp@29] - sampling database
+1 27 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@64] - serializing database
+1 28 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@69] - exchanging size of samples
+1 29 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@73] - done
+1 30 [INFO] Jan 25 17:28:20 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+1 31 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@495] - =================== Phase 1 (Search space sampling) ===================
+1 32 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@496] - program size(MB): 226.145
+1 33 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@497] - rss usage(MB): 43.8867
+1 34 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@499] - parallel reservoir sampling
+1 35 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@351] - executing reservoir sampling based that computes the FIs using a database that contains all MFIs.
+1 36 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@353] - executing fpmax*
+1 37 [INFO] Jan 25 17:29:32 PS [reservoir.cpp@356] - program size(MB): 610.871
+1 38 [INFO] Jan 25 17:29:32 PS [reservoir.cpp@357] - rss usage(MB): 409.816
+1 39 [INFO] Jan 25 17:29:32 VAL [reservoir.cpp@361] - [db_sample_size=4428]
+1 40 [INFO] Jan 25 17:29:33 Global [reservoir_sampling.cpp@28] - threshold=0;T=20; number_of_samples=0
+1 41 [INFO] Jan 25 17:29:43 Global [dynamic_loadbalancing.hpp@120] - dynamic load-balancing initialized
+1 42 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@368] - reservoir: sampling 7189 samples
+1 43 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@372] - running the eclat algorithm, min_supp=1, the database contains all MFIs
+1 44 [INFO] Jan 25 17:29:43 Global [par_eclat.cpp@50] - initializing reservoir 2
+1 45 [INFO] Jan 25 17:29:43 Global [reservoir_sampling.cpp@75] - threshold=143780
+1 46 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@70] - datastructure create time=1.63198
+1 47 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@74] - minsup_double=0
+1 48 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@75] - minsup=1
+1 49 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@76] - tnr=3386670
+1 50 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@100] - proc num=6
+1 51 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@101] - block_size=11
+1 52 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@102] - from=11
+1 53 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@103] - to=22
+1 54 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@104] - items_to_work.size()=70
+1 55 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@129] - calling grow
+1 56 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@131] - grow finished ...
+1 57 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@139] - VAL [relative_support=0]
+1 58 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@140] - VAL [total_time=76.594]
+1 59 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@141] - VAL [computed_items=30305676]
+1 60 [INFO] Jan 25 17:30:59 VAL [reservoir.cpp@377] - [eclat_smpl_time=76.6162]
+1 61 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@378] - running the eclat algorithm ... finished
+1 62 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@379] - computed_items=3.03057e+07
+1 63 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@383] - exchanging samples
+1 64 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@425] - sample size fraction: 571
+1 65 [INFO] Jan 25 17:30:59 SC [various.cpp@29] - sampling database
+1 66 [INFO] Jan 25 17:31:00 PS [reservoir.cpp@508] - program size(MB): 638.938
+1 67 [INFO] Jan 25 17:31:00 PS [reservoir.cpp@509] - rss usage(MB): 456.906
+1 68 [INFO] Jan 25 17:31:00 VAL [reservoir.cpp@512] - [p1time=160.008]
+1 69 [INFO] Jan 25 17:31:00 Global [reservoir.cpp@515] - =================== Phase 2 (Search space partitioning) ===================
+1 70 [INFO] Jan 25 17:31:00 Global [reservoir.cpp@517] - search space samples no=0
+1 71 [INFO] Jan 25 17:31:00 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+1 72 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@524] - program size(MB): 636.52
+1 73 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@525] - rss usage(MB): 454.512
+1 74 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@529] - broadcasting space division
+1 75 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@532] - program size(MB): 636.52
+1 76 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@533] - rss usage(MB): 454.645
+1 77 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@558] - [p2time=0.507515]
+1 78 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@564] - [p2time_total=0.51333]
+1 79 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@567] - =================== Phase 3 (Data distribution) ===================
+1 80 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@568] - program size(MB): 636.52
+1 81 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@569] - rss usage(MB): 454.652
+1 82 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@591] - exchanging data
+1 83 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=1, processor_number=6, i=0
+1 84 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@257] - sending...
+1 85 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@116] - serializing database, size=83332
+1 86 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@129] - sending database to processor #4
+1 87 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@132] - sending message of size: 2958141, buffer size: 2958141
+1 88 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@134] - send_database_to finished
+1 89 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@268] - receiving...
+1 90 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@152] - should receive: 2958336, receive buffer: 2958336, recv_from=4
+1 91 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@154] - received buffer of size: 2958336
+1 92 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@160] - deserializing
+1 93 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@163] - recv_database_to finished
+1 94 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 95 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=1, processor_number=6, i=1
+1 96 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@257] - sending...
+1 97 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+1 98 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@129] - sending database to processor #2
+1 99 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@132] - sending message of size: 2958150, buffer size: 2958336
+1 100 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@134] - send_database_to finished
+1 101 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@268] - receiving...
+1 102 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@152] - should receive: 2958580, receive buffer: 2958580, recv_from=2
+1 103 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@154] - received buffer of size: 2958580
+1 104 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@160] - deserializing
+1 105 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@163] - recv_database_to finished
+1 106 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 107 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=1, processor_number=6, i=2
+1 108 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@257] - sending...
+1 109 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+1 110 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@129] - sending database to processor #5
+1 111 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@132] - sending message of size: 2958150, buffer size: 2958580
+1 112 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@134] - send_database_to finished
+1 113 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@268] - receiving...
+1 114 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@152] - should receive: 2958601, receive buffer: 2958601, recv_from=5
+1 115 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@154] - received buffer of size: 2958601
+1 116 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@160] - deserializing
+1 117 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@163] - recv_database_to finished
+1 118 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 119 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=1, processor_number=6, i=3
+1 120 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@257] - sending...
+1 121 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@116] - serializing database, size=83319
+1 122 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@129] - sending database to processor #3
+1 123 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@132] - sending message of size: 2957903, buffer size: 2958601
+1 124 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@134] - send_database_to finished
+1 125 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@268] - receiving...
+1 126 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@152] - should receive: 2956003, receive buffer: 2958601, recv_from=3
+1 127 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@154] - received buffer of size: 2956003
+1 128 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@160] - deserializing
+1 129 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@163] - recv_database_to finished
+1 130 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 131 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=1, processor_number=6, i=4
+1 132 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@260] - receiving...
+1 133 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@152] - should receive: 2959834, receive buffer: 2959834, recv_from=0
+1 134 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@154] - received buffer of size: 2959834
+1 135 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@160] - deserializing
+1 136 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@163] - recv_database_to finished
+1 137 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@265] - sending...
+1 138 [INFO] Jan 25 17:31:10 PMFI [data_distribution.cpp@116] - serializing database, size=83332
+1 139 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@129] - sending database to processor #0
+1 140 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@132] - sending message of size: 2958133, buffer size: 2959834
+1 141 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@134] - send_database_to finished
+1 142 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 143 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@595] - [p3time=9.67071]
+1 144 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@596] - [recv_db_portion_size=416633]
+1 145 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@597] - [local_db_portion_size=499966]
+1 146 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@601] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+1 147 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@602] - program size(MB): 636.52
+1 148 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@603] - rss usage(MB): 454.668
+1 149 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@610] - generating
+1 150 [INFO] Jan 25 17:31:11 Global [cml_support.cpp@121] - Using the Eclat algorithm
+1 151 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+1 152 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@473] - output=0x802100; &output=0x545f138
+1 153 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+1 154 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@511] - done: 0%
+1 155 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@512] - rss usage(MB): 454.68
+1 156 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+1 157 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.68
+1 158 [INFO] Jan 25 17:34:19 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=30704149
+1 159 [INFO] Jan 25 17:34:19 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+1 160 [INFO] Jan 25 17:34:20 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=30705172
+1 161 [INFO] Jan 25 17:34:20 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+1 162 [INFO] Jan 25 17:40:54 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=93459350
+1 163 [INFO] Jan 25 17:40:54 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+1 164 [INFO] Jan 25 17:40:54 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=93475733
+1 165 [INFO] Jan 25 17:40:54 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+1 166 [INFO] Jan 25 17:40:54 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=93475748
+1 167 [INFO] Jan 25 17:40:54 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+1 168 [INFO] Jan 25 17:41:55 Global [reservoir.cpp@618] - deallocating
+1 169 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@619] - [p4time=644.416]
+1 170 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@620] - [computed_items=109827040]
+1 171 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@624] - [this_proc_time=814.611]
+1 172 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@628] - [cmltime=814.611]
+1 173 [INFO] Jan 25 17:41:55 Global [util_mpi.cpp@12] - computing total number of itemsets
+1 174 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@631] - [exit_status=OK]
+1 175 [INFO] Jan 25 17:41:55 Global [init.cpp@126] - deallocating ...
+2 0 [INFO] Jan 25 17:28:20 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+2 1 [WARNING] Jan 25 17:28:20 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+2 2 [INFO] Jan 25 17:28:20 VAL [init.cpp@90] - [output_file=-]
+2 3 [INFO] Jan 25 17:28:20 VAL [init.cpp@112] - [max_mfi_output_file=-]
+2 4 [INFO] Jan 25 17:28:20 Global [init.cpp@114] - rss limit: unlimited
+2 5 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@454] - program size(MB): 188.699
+2 6 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@455] - rss usage(MB): 7.18359
+2 7 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@459] - loading part 3 from 6
+2 8 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@475] - rss limit: unlimited
+2 9 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@479] - proc #2/6
+2 10 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@480] - database->size()=83333
+2 11 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@481] - program size(MB): 211.078
+2 12 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@482] - rss usage(MB): 28.4258
+2 13 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@483] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+2 14 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@484] - [input_file_format=-bin]
+2 15 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@485] - [output_file=-]
+2 16 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@486] - [number_of_items=79]
+2 17 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@487] - database loaded. Initializing global variables.
+2 18 [INFO] Jan 25 17:28:20 VAL [init.cpp@166] - [global_absolute_support=50000]
+2 19 [INFO] Jan 25 17:28:20 VAL [init.cpp@167] - [relative_support=0.1]
+2 20 [INFO] Jan 25 17:28:20 VAL [init.cpp@168] - [global_transaction_number=500000]
+2 21 [INFO] Jan 25 17:28:20 VAL [init.cpp@169] - [local_db_size=83333]
+2 22 [INFO] Jan 25 17:28:20 Global [init.cpp@171] - exchanging database samples
+2 23 [INFO] Jan 25 17:28:20 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+2 24 [INFO] Jan 25 17:28:20 Global [various.cpp@61] - [db_sample_delta=0.05]
+2 25 [INFO] Jan 25 17:28:20 Global [various.cpp@62] - [db_sample_size=738]
+2 26 [INFO] Jan 25 17:28:20 SC [various.cpp@29] - sampling database
+2 27 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@64] - serializing database
+2 28 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@69] - exchanging size of samples
+2 29 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@73] - done
+2 30 [INFO] Jan 25 17:28:20 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+2 31 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@495] - =================== Phase 1 (Search space sampling) ===================
+2 32 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@496] - program size(MB): 225.941
+2 33 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@497] - rss usage(MB): 43.6641
+2 34 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@499] - parallel reservoir sampling
+2 35 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@351] - executing reservoir sampling based that computes the FIs using a database that contains all MFIs.
+2 36 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@353] - executing fpmax*
+2 37 [INFO] Jan 25 17:29:40 PS [reservoir.cpp@356] - program size(MB): 613.938
+2 38 [INFO] Jan 25 17:29:40 PS [reservoir.cpp@357] - rss usage(MB): 412.875
+2 39 [INFO] Jan 25 17:29:40 VAL [reservoir.cpp@361] - [db_sample_size=4428]
+2 40 [INFO] Jan 25 17:29:41 Global [reservoir_sampling.cpp@28] - threshold=0;T=20; number_of_samples=0
+2 41 [INFO] Jan 25 17:29:43 Global [dynamic_loadbalancing.hpp@120] - dynamic load-balancing initialized
+2 42 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@368] - reservoir: sampling 7189 samples
+2 43 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@372] - running the eclat algorithm, min_supp=1, the database contains all MFIs
+2 44 [INFO] Jan 25 17:29:43 Global [par_eclat.cpp@50] - initializing reservoir 2
+2 45 [INFO] Jan 25 17:29:43 Global [reservoir_sampling.cpp@75] - threshold=143780
+2 46 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@70] - datastructure create time=1.82913
+2 47 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@74] - minsup_double=0
+2 48 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@75] - minsup=1
+2 49 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@76] - tnr=3386670
+2 50 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@100] - proc num=6
+2 51 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@101] - block_size=11
+2 52 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@102] - from=22
+2 53 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@103] - to=33
+2 54 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@104] - items_to_work.size()=70
+2 55 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@129] - calling grow
+2 56 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@131] - grow finished ...
+2 57 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@139] - VAL [relative_support=0]
+2 58 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@140] - VAL [total_time=76.6128]
+2 59 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@141] - VAL [computed_items=95112620]
+2 60 [INFO] Jan 25 17:30:59 VAL [reservoir.cpp@377] - [eclat_smpl_time=76.6162]
+2 61 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@378] - running the eclat algorithm ... finished
+2 62 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@379] - computed_items=9.51126e+07
+2 63 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@383] - exchanging samples
+2 64 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@425] - sample size fraction: 1842
+2 65 [INFO] Jan 25 17:30:59 SC [various.cpp@29] - sampling database
+2 66 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@508] - program size(MB): 638.578
+2 67 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@509] - rss usage(MB): 456.57
+2 68 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@512] - [p1time=160.339]
+2 69 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@515] - =================== Phase 2 (Search space partitioning) ===================
+2 70 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@517] - search space samples no=0
+2 71 [INFO] Jan 25 17:31:01 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+2 72 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@524] - program size(MB): 636.094
+2 73 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@525] - rss usage(MB): 454.098
+2 74 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@529] - broadcasting space division
+2 75 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@532] - program size(MB): 636.094
+2 76 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@533] - rss usage(MB): 454.355
+2 77 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@558] - [p2time=0.177192]
+2 78 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@564] - [p2time_total=0.182442]
+2 79 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@567] - =================== Phase 3 (Data distribution) ===================
+2 80 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@568] - program size(MB): 636.094
+2 81 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@569] - rss usage(MB): 454.363
+2 82 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@591] - exchanging data
+2 83 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=2, processor_number=6, i=0
+2 84 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@257] - sending...
+2 85 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@116] - serializing database, size=83318
+2 86 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@129] - sending database to processor #3
+2 87 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@132] - sending message of size: 2958436, buffer size: 2958436
+2 88 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@134] - send_database_to finished
+2 89 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@268] - receiving...
+2 90 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@152] - should receive: 2956091, receive buffer: 2958436, recv_from=3
+2 91 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@154] - received buffer of size: 2956091
+2 92 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@160] - deserializing
+2 93 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@163] - recv_database_to finished
+2 94 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 95 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=2, processor_number=6, i=1
+2 96 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@260] - receiving...
+2 97 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@152] - should receive: 2958150, receive buffer: 2958436, recv_from=1
+2 98 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@154] - received buffer of size: 2958150
+2 99 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@160] - deserializing
+2 100 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@163] - recv_database_to finished
+2 101 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@265] - sending...
+2 102 [INFO] Jan 25 17:31:04 PMFI [data_distribution.cpp@116] - serializing database, size=83325
+2 103 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@129] - sending database to processor #1
+2 104 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@132] - sending message of size: 2958580, buffer size: 2958580
+2 105 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@134] - send_database_to finished
+2 106 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 107 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=2, processor_number=6, i=2
+2 108 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@257] - sending...
+2 109 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@116] - serializing database, size=83329
+2 110 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@129] - sending database to processor #4
+2 111 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@132] - sending message of size: 2958634, buffer size: 2958634
+2 112 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@134] - send_database_to finished
+2 113 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@268] - receiving...
+2 114 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@152] - should receive: 2958491, receive buffer: 2958634, recv_from=4
+2 115 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@154] - received buffer of size: 2958491
+2 116 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@160] - deserializing
+2 117 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@163] - recv_database_to finished
+2 118 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 119 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=2, processor_number=6, i=3
+2 120 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@260] - receiving...
+2 121 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@152] - should receive: 2959935, receive buffer: 2959935, recv_from=0
+2 122 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@154] - received buffer of size: 2959935
+2 123 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@160] - deserializing
+2 124 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@163] - recv_database_to finished
+2 125 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@265] - sending...
+2 126 [INFO] Jan 25 17:31:08 PMFI [data_distribution.cpp@116] - serializing database, size=83325
+2 127 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@129] - sending database to processor #0
+2 128 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@132] - sending message of size: 2958548, buffer size: 2959935
+2 129 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@134] - send_database_to finished
+2 130 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 131 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=2, processor_number=6, i=4
+2 132 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@257] - sending...
+2 133 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@116] - serializing database, size=83331
+2 134 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@129] - sending database to processor #5
+2 135 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@132] - sending message of size: 2958662, buffer size: 2959935
+2 136 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@134] - send_database_to finished
+2 137 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@268] - receiving...
+2 138 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@152] - should receive: 2958639, receive buffer: 2959935, recv_from=5
+2 139 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@154] - received buffer of size: 2958639
+2 140 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@160] - deserializing
+2 141 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@163] - recv_database_to finished
+2 142 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 143 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@595] - [p3time=9.67218]
+2 144 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@596] - [recv_db_portion_size=416666]
+2 145 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@597] - [local_db_portion_size=499999]
+2 146 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@601] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+2 147 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@602] - program size(MB): 636.094
+2 148 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@603] - rss usage(MB): 454.668
+2 149 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@610] - generating
+2 150 [INFO] Jan 25 17:31:11 Global [cml_support.cpp@121] - Using the Eclat algorithm
+2 151 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+2 152 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@473] - output=0x800de0; &output=0x45d97c8
+2 153 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+2 154 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@511] - done: 0%
+2 155 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@512] - rss usage(MB): 454.68
+2 156 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+2 157 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.68
+2 158 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=5708
+2 159 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+2 160 [INFO] Jan 25 17:31:29 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=3566385
+2 161 [INFO] Jan 25 17:31:29 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+2 162 [INFO] Jan 25 17:39:38 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=63663713
+2 163 [INFO] Jan 25 17:39:38 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+2 164 [INFO] Jan 25 17:39:38 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=63663776
+2 165 [INFO] Jan 25 17:39:38 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+2 166 [INFO] Jan 25 17:39:46 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=65174156
+2 167 [INFO] Jan 25 17:39:46 PF [parallel_eclat.cpp@525] - rss usage(MB): 454.695
+2 168 [INFO] Jan 25 17:41:16 Global [reservoir.cpp@618] - deallocating
+2 169 [INFO] Jan 25 17:41:16 VAL [reservoir.cpp@619] - [p4time=605.596]
+2 170 [INFO] Jan 25 17:41:16 VAL [reservoir.cpp@620] - [computed_items=86508873]
+2 171 [INFO] Jan 25 17:41:16 VAL [reservoir.cpp@624] - [this_proc_time=775.793]
+2 172 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@628] - [cmltime=814.611]
+2 173 [INFO] Jan 25 17:41:55 Global [util_mpi.cpp@12] - computing total number of itemsets
+2 174 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@631] - [exit_status=OK]
+2 175 [INFO] Jan 25 17:41:55 Global [init.cpp@126] - deallocating ...
+3 0 [INFO] Jan 25 17:28:20 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+3 1 [WARNING] Jan 25 17:28:20 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+3 2 [INFO] Jan 25 17:28:20 VAL [init.cpp@90] - [output_file=-]
+3 3 [INFO] Jan 25 17:28:20 VAL [init.cpp@112] - [max_mfi_output_file=-]
+3 4 [INFO] Jan 25 17:28:20 Global [init.cpp@114] - rss limit: unlimited
+3 5 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@454] - program size(MB): 188.699
+3 6 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@455] - rss usage(MB): 7.18359
+3 7 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@459] - loading part 4 from 6
+3 8 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@475] - rss limit: unlimited
+3 9 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@479] - proc #3/6
+3 10 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@480] - database->size()=83333
+3 11 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@481] - program size(MB): 210.953
+3 12 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@482] - rss usage(MB): 28.4141
+3 13 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@483] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+3 14 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@484] - [input_file_format=-bin]
+3 15 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@485] - [output_file=-]
+3 16 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@486] - [number_of_items=79]
+3 17 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@487] - database loaded. Initializing global variables.
+3 18 [INFO] Jan 25 17:28:20 VAL [init.cpp@166] - [global_absolute_support=50000]
+3 19 [INFO] Jan 25 17:28:20 VAL [init.cpp@167] - [relative_support=0.1]
+3 20 [INFO] Jan 25 17:28:20 VAL [init.cpp@168] - [global_transaction_number=500000]
+3 21 [INFO] Jan 25 17:28:20 VAL [init.cpp@169] - [local_db_size=83333]
+3 22 [INFO] Jan 25 17:28:20 Global [init.cpp@171] - exchanging database samples
+3 23 [INFO] Jan 25 17:28:20 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+3 24 [INFO] Jan 25 17:28:20 Global [various.cpp@61] - [db_sample_delta=0.05]
+3 25 [INFO] Jan 25 17:28:20 Global [various.cpp@62] - [db_sample_size=738]
+3 26 [INFO] Jan 25 17:28:20 SC [various.cpp@29] - sampling database
+3 27 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@64] - serializing database
+3 28 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@69] - exchanging size of samples
+3 29 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@73] - done
+3 30 [INFO] Jan 25 17:28:20 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+3 31 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@495] - =================== Phase 1 (Search space sampling) ===================
+3 32 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@496] - program size(MB): 226.984
+3 33 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@497] - rss usage(MB): 45.0234
+3 34 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@499] - parallel reservoir sampling
+3 35 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@351] - executing reservoir sampling based that computes the FIs using a database that contains all MFIs.
+3 36 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@353] - executing fpmax*
+3 37 [INFO] Jan 25 17:29:40 PS [reservoir.cpp@356] - program size(MB): 611.953
+3 38 [INFO] Jan 25 17:29:40 PS [reservoir.cpp@357] - rss usage(MB): 411.242
+3 39 [INFO] Jan 25 17:29:40 VAL [reservoir.cpp@361] - [db_sample_size=4428]
+3 40 [INFO] Jan 25 17:29:42 Global [reservoir_sampling.cpp@28] - threshold=0;T=20; number_of_samples=0
+3 41 [INFO] Jan 25 17:29:43 Global [dynamic_loadbalancing.hpp@120] - dynamic load-balancing initialized
+3 42 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@368] - reservoir: sampling 7189 samples
+3 43 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@372] - running the eclat algorithm, min_supp=1, the database contains all MFIs
+3 44 [INFO] Jan 25 17:29:43 Global [par_eclat.cpp@50] - initializing reservoir 2
+3 45 [INFO] Jan 25 17:29:43 Global [reservoir_sampling.cpp@75] - threshold=143780
+3 46 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@70] - datastructure create time=1.72742
+3 47 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@74] - minsup_double=0
+3 48 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@75] - minsup=1
+3 49 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@76] - tnr=3386670
+3 50 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@100] - proc num=6
+3 51 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@101] - block_size=11
+3 52 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@102] - from=33
+3 53 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@103] - to=44
+3 54 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@104] - items_to_work.size()=70
+3 55 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@129] - calling grow
+3 56 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@131] - grow finished ...
+3 57 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@139] - VAL [relative_support=0]
+3 58 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@140] - VAL [total_time=76.6111]
+3 59 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@141] - VAL [computed_items=68790212]
+3 60 [INFO] Jan 25 17:30:59 VAL [reservoir.cpp@377] - [eclat_smpl_time=76.6162]
+3 61 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@378] - running the eclat algorithm ... finished
+3 62 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@379] - computed_items=6.87902e+07
+3 63 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@383] - exchanging samples
+3 64 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@425] - sample size fraction: 1400
+3 65 [INFO] Jan 25 17:30:59 SC [various.cpp@29] - sampling database
+3 66 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@508] - program size(MB): 639.816
+3 67 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@509] - rss usage(MB): 458.035
+3 68 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@512] - [p1time=160.343]
+3 69 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@515] - =================== Phase 2 (Search space partitioning) ===================
+3 70 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@517] - search space samples no=0
+3 71 [INFO] Jan 25 17:31:01 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+3 72 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@524] - program size(MB): 639.816
+3 73 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@525] - rss usage(MB): 458.047
+3 74 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@529] - broadcasting space division
+3 75 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@532] - program size(MB): 639.816
+3 76 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@533] - rss usage(MB): 458.059
+3 77 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@558] - [p2time=0.178123]
+3 78 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@564] - [p2time_total=0.17821]
+3 79 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@567] - =================== Phase 3 (Data distribution) ===================
+3 80 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@568] - program size(MB): 639.816
+3 81 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@569] - rss usage(MB): 458.066
+3 82 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@591] - exchanging data
+3 83 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=3, processor_number=6, i=0
+3 84 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@260] - receiving...
+3 85 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@152] - should receive: 2958436, receive buffer: 2958436, recv_from=2
+3 86 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@154] - received buffer of size: 2958436
+3 87 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@160] - deserializing
+3 88 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@163] - recv_database_to finished
+3 89 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@265] - sending...
+3 90 [INFO] Jan 25 17:31:02 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+3 91 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@129] - sending database to processor #2
+3 92 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@132] - sending message of size: 2956091, buffer size: 2958436
+3 93 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@134] - send_database_to finished
+3 94 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 95 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=3, processor_number=6, i=1
+3 96 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@257] - sending...
+3 97 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@116] - serializing database, size=83328
+3 98 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@129] - sending database to processor #5
+3 99 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@132] - sending message of size: 2956034, buffer size: 2958436
+3 100 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@134] - send_database_to finished
+3 101 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@268] - receiving...
+3 102 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@152] - should receive: 2958415, receive buffer: 2958436, recv_from=5
+3 103 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@154] - received buffer of size: 2958415
+3 104 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@160] - deserializing
+3 105 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@163] - recv_database_to finished
+3 106 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 107 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=3, processor_number=6, i=2
+3 108 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@260] - receiving...
+3 109 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@152] - should receive: 2959688, receive buffer: 2959688, recv_from=0
+3 110 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@154] - received buffer of size: 2959688
+3 111 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@160] - deserializing
+3 112 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@163] - recv_database_to finished
+3 113 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@265] - sending...
+3 114 [INFO] Jan 25 17:31:06 PMFI [data_distribution.cpp@116] - serializing database, size=83332
+3 115 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@129] - sending database to processor #0
+3 116 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@132] - sending message of size: 2956076, buffer size: 2959688
+3 117 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@134] - send_database_to finished
+3 118 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 119 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=3, processor_number=6, i=3
+3 120 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@260] - receiving...
+3 121 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@152] - should receive: 2957903, receive buffer: 2959688, recv_from=1
+3 122 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@154] - received buffer of size: 2957903
+3 123 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@160] - deserializing
+3 124 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@163] - recv_database_to finished
+3 125 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@265] - sending...
+3 126 [INFO] Jan 25 17:31:08 PMFI [data_distribution.cpp@116] - serializing database, size=83326
+3 127 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@129] - sending database to processor #1
+3 128 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@132] - sending message of size: 2956003, buffer size: 2959688
+3 129 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@134] - send_database_to finished
+3 130 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 131 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=3, processor_number=6, i=4
+3 132 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@257] - sending...
+3 133 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@116] - serializing database, size=83327
+3 134 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@129] - sending database to processor #4
+3 135 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@132] - sending message of size: 2956003, buffer size: 2959688
+3 136 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@134] - send_database_to finished
+3 137 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@268] - receiving...
+3 138 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@152] - should receive: 2958191, receive buffer: 2959688, recv_from=4
+3 139 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@154] - received buffer of size: 2958191
+3 140 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@160] - deserializing
+3 141 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@163] - recv_database_to finished
+3 142 [INFO] Jan 25 17:31:11 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 143 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@595] - [p3time=9.67235]
+3 144 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@596] - [recv_db_portion_size=416593]
+3 145 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@597] - [local_db_portion_size=499926]
+3 146 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@601] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+3 147 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@602] - program size(MB): 639.816
+3 148 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@603] - rss usage(MB): 458.246
+3 149 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@610] - generating
+3 150 [INFO] Jan 25 17:31:11 Global [cml_support.cpp@121] - Using the Eclat algorithm
+3 151 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+3 152 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@473] - output=0x800de0; &output=0x4e45968
+3 153 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+3 154 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@511] - done: 0%
+3 155 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@512] - rss usage(MB): 458.258
+3 156 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+3 157 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.258
+3 158 [INFO] Jan 25 17:33:48 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=24742701
+3 159 [INFO] Jan 25 17:33:48 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.273
+3 160 [INFO] Jan 25 17:33:48 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=24744748
+3 161 [INFO] Jan 25 17:33:48 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.273
+3 162 [INFO] Jan 25 17:38:41 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=62929674
+3 163 [INFO] Jan 25 17:38:41 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.273
+3 164 [INFO] Jan 25 17:39:14 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=69569102
+3 165 [INFO] Jan 25 17:39:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.273
+3 166 [INFO] Jan 25 17:39:34 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=72126722
+3 167 [INFO] Jan 25 17:39:34 PF [parallel_eclat.cpp@525] - rss usage(MB): 458.273
+3 168 [INFO] Jan 25 17:40:28 Global [reservoir.cpp@618] - deallocating
+3 169 [INFO] Jan 25 17:40:28 VAL [reservoir.cpp@619] - [p4time=557.252]
+3 170 [INFO] Jan 25 17:40:28 VAL [reservoir.cpp@620] - [computed_items=83507324]
+3 171 [INFO] Jan 25 17:40:28 VAL [reservoir.cpp@624] - [this_proc_time=727.45]
+3 172 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@628] - [cmltime=814.611]
+3 173 [INFO] Jan 25 17:41:55 Global [util_mpi.cpp@12] - computing total number of itemsets
+3 174 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@631] - [exit_status=OK]
+3 175 [INFO] Jan 25 17:41:55 Global [init.cpp@126] - deallocating ...
+4 0 [INFO] Jan 25 17:28:20 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+4 1 [WARNING] Jan 25 17:28:20 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+4 2 [INFO] Jan 25 17:28:20 VAL [init.cpp@90] - [output_file=-]
+4 3 [INFO] Jan 25 17:28:20 VAL [init.cpp@112] - [max_mfi_output_file=-]
+4 4 [INFO] Jan 25 17:28:20 Global [init.cpp@114] - rss limit: unlimited
+4 5 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@454] - program size(MB): 188.699
+4 6 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@455] - rss usage(MB): 7.17969
+4 7 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@459] - loading part 5 from 6
+4 8 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@475] - rss limit: unlimited
+4 9 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@479] - proc #4/6
+4 10 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@480] - database->size()=83333
+4 11 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@481] - program size(MB): 211.078
+4 12 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@482] - rss usage(MB): 28.4219
+4 13 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@483] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+4 14 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@484] - [input_file_format=-bin]
+4 15 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@485] - [output_file=-]
+4 16 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@486] - [number_of_items=79]
+4 17 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@487] - database loaded. Initializing global variables.
+4 18 [INFO] Jan 25 17:28:20 VAL [init.cpp@166] - [global_absolute_support=50000]
+4 19 [INFO] Jan 25 17:28:20 VAL [init.cpp@167] - [relative_support=0.1]
+4 20 [INFO] Jan 25 17:28:20 VAL [init.cpp@168] - [global_transaction_number=500000]
+4 21 [INFO] Jan 25 17:28:20 VAL [init.cpp@169] - [local_db_size=83333]
+4 22 [INFO] Jan 25 17:28:20 Global [init.cpp@171] - exchanging database samples
+4 23 [INFO] Jan 25 17:28:20 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+4 24 [INFO] Jan 25 17:28:20 Global [various.cpp@61] - [db_sample_delta=0.05]
+4 25 [INFO] Jan 25 17:28:20 Global [various.cpp@62] - [db_sample_size=738]
+4 26 [INFO] Jan 25 17:28:20 SC [various.cpp@29] - sampling database
+4 27 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@64] - serializing database
+4 28 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@69] - exchanging size of samples
+4 29 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@73] - done
+4 30 [INFO] Jan 25 17:28:20 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+4 31 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@495] - =================== Phase 1 (Search space sampling) ===================
+4 32 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@496] - program size(MB): 225.684
+4 33 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@497] - rss usage(MB): 43.5664
+4 34 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@499] - parallel reservoir sampling
+4 35 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@351] - executing reservoir sampling based that computes the FIs using a database that contains all MFIs.
+4 36 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@353] - executing fpmax*
+4 37 [INFO] Jan 25 17:29:38 PS [reservoir.cpp@356] - program size(MB): 611.195
+4 38 [INFO] Jan 25 17:29:38 PS [reservoir.cpp@357] - rss usage(MB): 410.352
+4 39 [INFO] Jan 25 17:29:38 VAL [reservoir.cpp@361] - [db_sample_size=4428]
+4 40 [INFO] Jan 25 17:29:40 Global [reservoir_sampling.cpp@28] - threshold=0;T=20; number_of_samples=0
+4 41 [INFO] Jan 25 17:29:43 Global [dynamic_loadbalancing.hpp@120] - dynamic load-balancing initialized
+4 42 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@368] - reservoir: sampling 7189 samples
+4 43 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@372] - running the eclat algorithm, min_supp=1, the database contains all MFIs
+4 44 [INFO] Jan 25 17:29:43 Global [par_eclat.cpp@50] - initializing reservoir 2
+4 45 [INFO] Jan 25 17:29:43 Global [reservoir_sampling.cpp@75] - threshold=143780
+4 46 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@70] - datastructure create time=1.80924
+4 47 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@74] - minsup_double=0
+4 48 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@75] - minsup=1
+4 49 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@76] - tnr=3386670
+4 50 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@100] - proc num=6
+4 51 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@101] - block_size=11
+4 52 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@102] - from=44
+4 53 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@103] - to=55
+4 54 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@104] - items_to_work.size()=70
+4 55 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@129] - calling grow
+4 56 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@131] - grow finished ...
+4 57 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@139] - VAL [relative_support=0]
+4 58 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@140] - VAL [total_time=76.6055]
+4 59 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@141] - VAL [computed_items=25027366]
+4 60 [INFO] Jan 25 17:30:59 VAL [reservoir.cpp@377] - [eclat_smpl_time=76.6161]
+4 61 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@378] - running the eclat algorithm ... finished
+4 62 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@379] - computed_items=2.50274e+07
+4 63 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@383] - exchanging samples
+4 64 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@425] - sample size fraction: 479
+4 65 [INFO] Jan 25 17:30:59 SC [various.cpp@29] - sampling database
+4 66 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@508] - program size(MB): 638.629
+4 67 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@509] - rss usage(MB): 456.633
+4 68 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@512] - [p1time=160.341]
+4 69 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@515] - =================== Phase 2 (Search space partitioning) ===================
+4 70 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@517] - search space samples no=0
+4 71 [INFO] Jan 25 17:31:01 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+4 72 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@524] - program size(MB): 638.629
+4 73 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@525] - rss usage(MB): 456.645
+4 74 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@529] - broadcasting space division
+4 75 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@532] - program size(MB): 638.629
+4 76 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@533] - rss usage(MB): 456.688
+4 77 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@558] - [p2time=0.179797]
+4 78 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@564] - [p2time_total=0.180204]
+4 79 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@567] - =================== Phase 3 (Data distribution) ===================
+4 80 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@568] - program size(MB): 638.629
+4 81 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@569] - rss usage(MB): 456.695
+4 82 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@591] - exchanging data
+4 83 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=4, processor_number=6, i=0
+4 84 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@260] - receiving...
+4 85 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@152] - should receive: 2958141, receive buffer: 2958141, recv_from=1
+4 86 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@154] - received buffer of size: 2958141
+4 87 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@160] - deserializing
+4 88 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@163] - recv_database_to finished
+4 89 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@265] - sending...
+4 90 [INFO] Jan 25 17:31:02 PMFI [data_distribution.cpp@116] - serializing database, size=83324
+4 91 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@129] - sending database to processor #1
+4 92 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@132] - sending message of size: 2958336, buffer size: 2958336
+4 93 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@134] - send_database_to finished
+4 94 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 95 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=4, processor_number=6, i=1
+4 96 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@260] - receiving...
+4 97 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@152] - should receive: 2959903, receive buffer: 2959903, recv_from=0
+4 98 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@154] - received buffer of size: 2959903
+4 99 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@160] - deserializing
+4 100 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@163] - recv_database_to finished
+4 101 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@265] - sending...
+4 102 [INFO] Jan 25 17:31:04 PMFI [data_distribution.cpp@116] - serializing database, size=83329
+4 103 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@129] - sending database to processor #0
+4 104 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@132] - sending message of size: 2958431, buffer size: 2959903
+4 105 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@134] - send_database_to finished
+4 106 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 107 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=4, processor_number=6, i=2
+4 108 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@260] - receiving...
+4 109 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@152] - should receive: 2958634, receive buffer: 2959903, recv_from=2
+4 110 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@154] - received buffer of size: 2958634
+4 111 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@160] - deserializing
+4 112 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@163] - recv_database_to finished
+4 113 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@265] - sending...
+4 114 [INFO] Jan 25 17:31:06 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+4 115 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@129] - sending database to processor #2
+4 116 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@132] - sending message of size: 2958491, buffer size: 2959903
+4 117 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@134] - send_database_to finished
+4 118 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 119 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=4, processor_number=6, i=3
+4 120 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@257] - sending...
+4 121 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@116] - serializing database, size=83331
+4 122 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@129] - sending database to processor #5
+4 123 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@132] - sending message of size: 2958467, buffer size: 2959903
+4 124 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@134] - send_database_to finished
+4 125 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@268] - receiving...
+4 126 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@152] - should receive: 2958552, receive buffer: 2959903, recv_from=5
+4 127 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@154] - received buffer of size: 2958552
+4 128 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@160] - deserializing
+4 129 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@163] - recv_database_to finished
+4 130 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 131 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=4, processor_number=6, i=4
+4 132 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@260] - receiving...
+4 133 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@152] - should receive: 2956003, receive buffer: 2959903, recv_from=3
+4 134 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@154] - received buffer of size: 2956003
+4 135 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@160] - deserializing
+4 136 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@163] - recv_database_to finished
+4 137 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@265] - sending...
+4 138 [INFO] Jan 25 17:31:10 PMFI [data_distribution.cpp@116] - serializing database, size=83316
+4 139 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@129] - sending database to processor #3
+4 140 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@132] - sending message of size: 2958191, buffer size: 2959903
+4 141 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@134] - send_database_to finished
+4 142 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 143 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@595] - [p3time=9.67215]
+4 144 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@596] - [recv_db_portion_size=416648]
+4 145 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@597] - [local_db_portion_size=499981]
+4 146 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@601] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+4 147 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@602] - program size(MB): 638.629
+4 148 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@603] - rss usage(MB): 456.875
+4 149 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@610] - generating
+4 150 [INFO] Jan 25 17:31:11 Global [cml_support.cpp@121] - Using the Eclat algorithm
+4 151 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+4 152 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@473] - output=0x800de0; &output=0x50fb4f8
+4 153 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+4 154 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@511] - done: 0%
+4 155 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@512] - rss usage(MB): 456.887
+4 156 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+4 157 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.887
+4 158 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=63
+4 159 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.902
+4 160 [INFO] Jan 25 17:31:18 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=524350
+4 161 [INFO] Jan 25 17:31:18 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.902
+4 162 [INFO] Jan 25 17:35:42 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=36631539
+4 163 [INFO] Jan 25 17:35:42 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.902
+4 164 [INFO] Jan 25 17:35:42 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=36631540
+4 165 [INFO] Jan 25 17:35:42 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.902
+4 166 [INFO] Jan 25 17:36:13 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=42976579
+4 167 [INFO] Jan 25 17:36:13 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.902
+4 168 [INFO] Jan 25 17:36:59 Global [reservoir.cpp@618] - deallocating
+4 169 [INFO] Jan 25 17:36:59 VAL [reservoir.cpp@619] - [p4time=347.939]
+4 170 [INFO] Jan 25 17:36:59 VAL [reservoir.cpp@620] - [computed_items=56816033]
+4 171 [INFO] Jan 25 17:36:59 VAL [reservoir.cpp@624] - [this_proc_time=518.136]
+4 172 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@628] - [cmltime=814.611]
+4 173 [INFO] Jan 25 17:41:55 Global [util_mpi.cpp@12] - computing total number of itemsets
+4 174 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@631] - [exit_status=OK]
+4 175 [INFO] Jan 25 17:41:55 Global [init.cpp@126] - deallocating ...
+5 0 [INFO] Jan 25 17:28:20 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+5 1 [WARNING] Jan 25 17:28:20 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+5 2 [INFO] Jan 25 17:28:20 VAL [init.cpp@90] - [output_file=-]
+5 3 [INFO] Jan 25 17:28:20 VAL [init.cpp@112] - [max_mfi_output_file=-]
+5 4 [INFO] Jan 25 17:28:20 Global [init.cpp@114] - rss limit: unlimited
+5 5 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@454] - program size(MB): 188.699
+5 6 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@455] - rss usage(MB): 7.18359
+5 7 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@459] - loading part 6 from 6
+5 8 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@475] - rss limit: unlimited
+5 9 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@479] - proc #5/6
+5 10 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@480] - database->size()=83335
+5 11 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@481] - program size(MB): 210.953
+5 12 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@482] - rss usage(MB): 28.418
+5 13 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@483] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+5 14 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@484] - [input_file_format=-bin]
+5 15 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@485] - [output_file=-]
+5 16 [INFO] Jan 25 17:28:20 VAL [reservoir.cpp@486] - [number_of_items=79]
+5 17 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@487] - database loaded. Initializing global variables.
+5 18 [INFO] Jan 25 17:28:20 VAL [init.cpp@166] - [global_absolute_support=50000]
+5 19 [INFO] Jan 25 17:28:20 VAL [init.cpp@167] - [relative_support=0.1]
+5 20 [INFO] Jan 25 17:28:20 VAL [init.cpp@168] - [global_transaction_number=500000]
+5 21 [INFO] Jan 25 17:28:20 VAL [init.cpp@169] - [local_db_size=83335]
+5 22 [INFO] Jan 25 17:28:20 Global [init.cpp@171] - exchanging database samples
+5 23 [INFO] Jan 25 17:28:20 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+5 24 [INFO] Jan 25 17:28:20 Global [various.cpp@61] - [db_sample_delta=0.05]
+5 25 [INFO] Jan 25 17:28:20 Global [various.cpp@62] - [db_sample_size=738]
+5 26 [INFO] Jan 25 17:28:20 SC [various.cpp@29] - sampling database
+5 27 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@64] - serializing database
+5 28 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@69] - exchanging size of samples
+5 29 [INFO] Jan 25 17:28:20 Global [serialization_mpi.cpp@73] - done
+5 30 [INFO] Jan 25 17:28:20 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+5 31 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@495] - =================== Phase 1 (Search space sampling) ===================
+5 32 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@496] - program size(MB): 225.945
+5 33 [INFO] Jan 25 17:28:20 PS [reservoir.cpp@497] - rss usage(MB): 43.668
+5 34 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@499] - parallel reservoir sampling
+5 35 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@351] - executing reservoir sampling based that computes the FIs using a database that contains all MFIs.
+5 36 [INFO] Jan 25 17:28:20 Global [reservoir.cpp@353] - executing fpmax*
+5 37 [INFO] Jan 25 17:29:39 PS [reservoir.cpp@356] - program size(MB): 610.18
+5 38 [INFO] Jan 25 17:29:39 PS [reservoir.cpp@357] - rss usage(MB): 409.355
+5 39 [INFO] Jan 25 17:29:39 VAL [reservoir.cpp@361] - [db_sample_size=4428]
+5 40 [INFO] Jan 25 17:29:40 Global [reservoir_sampling.cpp@28] - threshold=0;T=20; number_of_samples=0
+5 41 [INFO] Jan 25 17:29:43 Global [dynamic_loadbalancing.hpp@120] - dynamic load-balancing initialized
+5 42 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@368] - reservoir: sampling 7189 samples
+5 43 [INFO] Jan 25 17:29:43 Global [reservoir.cpp@372] - running the eclat algorithm, min_supp=1, the database contains all MFIs
+5 44 [INFO] Jan 25 17:29:43 Global [par_eclat.cpp@50] - initializing reservoir 2
+5 45 [INFO] Jan 25 17:29:43 Global [reservoir_sampling.cpp@75] - threshold=143780
+5 46 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@70] - datastructure create time=1.83256
+5 47 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@74] - minsup_double=0
+5 48 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@75] - minsup=1
+5 49 [INFO] Jan 25 17:29:44 Global [par_eclat.cpp@76] - tnr=3386670
+5 50 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@100] - proc num=6
+5 51 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@101] - block_size=11
+5 52 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@102] - from=55
+5 53 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@103] - to=66
+5 54 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@104] - items_to_work.size()=70
+5 55 [INFO] Jan 25 17:29:45 Global [par_eclat.cpp@129] - calling grow
+5 56 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@131] - grow finished ...
+5 57 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@139] - VAL [relative_support=0]
+5 58 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@140] - VAL [total_time=76.5844]
+5 59 [INFO] Jan 25 17:30:59 Global [par_eclat.cpp@141] - VAL [computed_items=65312]
+5 60 [INFO] Jan 25 17:30:59 VAL [reservoir.cpp@377] - [eclat_smpl_time=76.6162]
+5 61 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@378] - running the eclat algorithm ... finished
+5 62 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@379] - computed_items=65312
+5 63 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@383] - exchanging samples
+5 64 [INFO] Jan 25 17:30:59 Global [reservoir.cpp@425] - sample size fraction: 0
+5 65 [INFO] Jan 25 17:30:59 SC [various.cpp@29] - sampling database
+5 66 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@508] - program size(MB): 638.367
+5 67 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@509] - rss usage(MB): 456.301
+5 68 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@512] - [p1time=160.328]
+5 69 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@515] - =================== Phase 2 (Search space partitioning) ===================
+5 70 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@517] - search space samples no=0
+5 71 [INFO] Jan 25 17:31:01 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+5 72 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@524] - program size(MB): 638.367
+5 73 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@525] - rss usage(MB): 456.312
+5 74 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@529] - broadcasting space division
+5 75 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@532] - program size(MB): 638.367
+5 76 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@533] - rss usage(MB): 456.32
+5 77 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@558] - [p2time=0.167189]
+5 78 [INFO] Jan 25 17:31:01 VAL [reservoir.cpp@564] - [p2time_total=0.193414]
+5 79 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@567] - =================== Phase 3 (Data distribution) ===================
+5 80 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@568] - program size(MB): 638.367
+5 81 [INFO] Jan 25 17:31:01 PS [reservoir.cpp@569] - rss usage(MB): 456.328
+5 82 [INFO] Jan 25 17:31:01 Global [reservoir.cpp@591] - exchanging data
+5 83 [INFO] Jan 25 17:31:01 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=5, processor_number=6, i=0
+5 84 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@260] - receiving...
+5 85 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@152] - should receive: 2959935, receive buffer: 2959935, recv_from=0
+5 86 [INFO] Jan 25 17:31:01 DD [data_distribution.cpp@154] - received buffer of size: 2959935
+5 87 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@160] - deserializing
+5 88 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@163] - recv_database_to finished
+5 89 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@265] - sending...
+5 90 [INFO] Jan 25 17:31:02 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+5 91 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@129] - sending database to processor #0
+5 92 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@132] - sending message of size: 2958626, buffer size: 2959935
+5 93 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@134] - send_database_to finished
+5 94 [INFO] Jan 25 17:31:02 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 95 [INFO] Jan 25 17:31:03 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=5, processor_number=6, i=1
+5 96 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@260] - receiving...
+5 97 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@152] - should receive: 2956034, receive buffer: 2959935, recv_from=3
+5 98 [INFO] Jan 25 17:31:03 DD [data_distribution.cpp@154] - received buffer of size: 2956034
+5 99 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@160] - deserializing
+5 100 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@163] - recv_database_to finished
+5 101 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@265] - sending...
+5 102 [INFO] Jan 25 17:31:04 PMFI [data_distribution.cpp@116] - serializing database, size=83321
+5 103 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@129] - sending database to processor #3
+5 104 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@132] - sending message of size: 2958415, buffer size: 2959935
+5 105 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@134] - send_database_to finished
+5 106 [INFO] Jan 25 17:31:04 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 107 [INFO] Jan 25 17:31:05 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=5, processor_number=6, i=2
+5 108 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@260] - receiving...
+5 109 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@152] - should receive: 2958150, receive buffer: 2959935, recv_from=1
+5 110 [INFO] Jan 25 17:31:05 DD [data_distribution.cpp@154] - received buffer of size: 2958150
+5 111 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@160] - deserializing
+5 112 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@163] - recv_database_to finished
+5 113 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@265] - sending...
+5 114 [INFO] Jan 25 17:31:06 PMFI [data_distribution.cpp@116] - serializing database, size=83332
+5 115 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@129] - sending database to processor #1
+5 116 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@132] - sending message of size: 2958601, buffer size: 2959935
+5 117 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@134] - send_database_to finished
+5 118 [INFO] Jan 25 17:31:06 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 119 [INFO] Jan 25 17:31:07 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=5, processor_number=6, i=3
+5 120 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@260] - receiving...
+5 121 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@152] - should receive: 2958467, receive buffer: 2959935, recv_from=4
+5 122 [INFO] Jan 25 17:31:07 DD [data_distribution.cpp@154] - received buffer of size: 2958467
+5 123 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@160] - deserializing
+5 124 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@163] - recv_database_to finished
+5 125 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@265] - sending...
+5 126 [INFO] Jan 25 17:31:08 PMFI [data_distribution.cpp@116] - serializing database, size=83329
+5 127 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@129] - sending database to processor #4
+5 128 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@132] - sending message of size: 2958552, buffer size: 2959935
+5 129 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@134] - send_database_to finished
+5 130 [INFO] Jan 25 17:31:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 131 [INFO] Jan 25 17:31:09 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=5, processor_number=6, i=4
+5 132 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@260] - receiving...
+5 133 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@152] - should receive: 2958662, receive buffer: 2959935, recv_from=2
+5 134 [INFO] Jan 25 17:31:09 DD [data_distribution.cpp@154] - received buffer of size: 2958662
+5 135 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@160] - deserializing
+5 136 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@163] - recv_database_to finished
+5 137 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@265] - sending...
+5 138 [INFO] Jan 25 17:31:10 PMFI [data_distribution.cpp@116] - serializing database, size=83334
+5 139 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@129] - sending database to processor #2
+5 140 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@132] - sending message of size: 2958639, buffer size: 2959935
+5 141 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@134] - send_database_to finished
+5 142 [INFO] Jan 25 17:31:10 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 143 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@595] - [p3time=9.6716]
+5 144 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@596] - [recv_db_portion_size=416656]
+5 145 [INFO] Jan 25 17:31:11 VAL [reservoir.cpp@597] - [local_db_portion_size=499991]
+5 146 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@601] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+5 147 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@602] - program size(MB): 638.367
+5 148 [INFO] Jan 25 17:31:11 PS [reservoir.cpp@603] - rss usage(MB): 456.652
+5 149 [INFO] Jan 25 17:31:11 Global [reservoir.cpp@610] - generating
+5 150 [INFO] Jan 25 17:31:11 Global [cml_support.cpp@121] - Using the Eclat algorithm
+5 151 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+5 152 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@473] - output=0x800de0; &output=0x31aeb58
+5 153 [INFO] Jan 25 17:31:12 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+5 154 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@511] - done: 0%
+5 155 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@512] - rss usage(MB): 456.664
+5 156 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+5 157 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.664
+5 158 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=511
+5 159 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.68
+5 160 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=511
+5 161 [INFO] Jan 25 17:31:12 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.68
+5 162 [INFO] Jan 25 17:35:36 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=41923026
+5 163 [INFO] Jan 25 17:35:36 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.68
+5 164 [INFO] Jan 25 17:35:36 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=41923281
+5 165 [INFO] Jan 25 17:35:36 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.68
+5 166 [INFO] Jan 25 17:35:59 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=48819133
+5 167 [INFO] Jan 25 17:35:59 PF [parallel_eclat.cpp@525] - rss usage(MB): 456.68
+5 168 [INFO] Jan 25 17:41:21 Global [reservoir.cpp@618] - deallocating
+5 169 [INFO] Jan 25 17:41:21 VAL [reservoir.cpp@619] - [p4time=610.673]
+5 170 [INFO] Jan 25 17:41:21 VAL [reservoir.cpp@620] - [computed_items=114116647]
+5 171 [INFO] Jan 25 17:41:21 VAL [reservoir.cpp@624] - [this_proc_time=780.87]
+5 172 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@628] - [cmltime=814.611]
+5 173 [INFO] Jan 25 17:41:55 Global [util_mpi.cpp@12] - computing total number of itemsets
+5 174 [INFO] Jan 25 17:41:55 VAL [reservoir.cpp@631] - [exit_status=OK]
+5 175 [INFO] Jan 25 17:41:55 Global [init.cpp@126] - deallocating ...

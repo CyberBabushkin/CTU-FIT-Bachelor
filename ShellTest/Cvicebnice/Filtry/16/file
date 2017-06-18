@@ -1,0 +1,5 @@
+	libsec.so.1 =>   /usr/lib/libsec.so.1
+        libc.so.1 =>     /usr/lib/libc.so.1
+        libavl.so.1 =>   /usr/lib/libavl.so.1
+        libm.so.2 =>     /usr/lib/libm.so.2
+        /platform/SUNW,SPARC-Enterprise-T5120/lib/libc_psr.so.1

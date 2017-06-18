@@ -1,0 +1,9 @@
+Oct 12 00:02:30 edux ap2[rpx]: 147.32.123.135 - - [10/1/2011:00:02:30 +0] "GET /BI-UOS/lec/03/3prednaska.pdf HTTP/1.1" 206 5830
+Oct 12 00:02:31 edux ap2[rpx]: 147.32.124.135 - - [10/1/2011:00:02:31 +0] "GET /BI-UOS/lec/03/3prednaska.pdf HTTP/1.1" 206 5830
+Oct 12 00:02:59 edux ap2[rpx]: [Wed Oct 12 00:02:59 2011] [error] [client 147.32.123.136] File does not exist: /apache/data/muieblackcat
+Oct 12 00:08:05 edux ap2[rpx]: 147.31.9.135 - - [10/1/2011:00:08:05 +0] "GET /BI-UOS/lec/07/7prednaska.pdf HTTP/1.1" 200 9210
+Oct 12 00:08:43 edux ap2[rpx]: 86.49.86.109 - - [10/1/2011:00:08:43 +0] "GET /BI-UOS/tutor/06/start HTTP/1.1" 200 23817
+Oct 12 00:08:44 edux ap2[rpx]: 86.49.86.108 - - [10/1/2011:00:08:44 +0] "GET /BI-UOS/lib/exe/idx.php?id=p%3A%3A HTTP/1.1" 200 42
+Oct 12 00:08:46 edux ap2[rpx]: 77.236.192.69 - - [10/1/2011:00:08:46 +0] "GET /BI-UOS/tutor/03/vi.png?id=%3A3 HTTP/1.1" 200 1122
+Oct 12 00:09:51 edux ap2[rpx]: 147.31.124.135 - - [10/1/2011:00:09:51 +0] "GET /BI-UOS/lec/03/3prednaska.pdf HTTP/1.1" 206 5830
+

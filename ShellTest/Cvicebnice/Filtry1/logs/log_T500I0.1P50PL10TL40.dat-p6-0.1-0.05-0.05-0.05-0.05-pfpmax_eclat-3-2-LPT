@@ -1,0 +1,1388 @@
+job name = 
+job id = 
+0 0 [INFO] Mar 09 12:57:16 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+0 1 [WARNING] Mar 09 12:57:16 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+0 2 [INFO] Mar 09 12:57:16 VAL [init.cpp@90] - [output_file=-]
+0 3 [INFO] Mar 09 12:57:16 VAL [init.cpp@112] - [max_mfi_output_file=-]
+0 4 [INFO] Mar 09 12:57:16 Global [init.cpp@114] - rss limit: unlimited
+0 5 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@76] - used environment variables:
+0 6 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@77] - ALGTYPE=pfpmax_eclat
+0 7 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@78] - ECLAT_STRATEGY=BU_DF_DIFF
+0 8 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@79] - LOG_LEVEL=INFO
+0 9 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@80] - SCHEDULEV=LPT
+0 10 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@127] - program size(MB): 188.961
+0 11 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@128] - rss usage(MB): 7.19531
+0 12 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@132] - loading part 1 from 6
+0 13 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@145] - db size=83333
+0 14 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@146] - first transaction: {1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36}
+0 15 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@154] - rss limit: unlimited
+0 16 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@158] - proc #0/6
+0 17 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@159] - database->size()=83333
+0 18 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@160] - program size(MB): 211.238
+0 19 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@161] - rss usage(MB): 28.4258
+0 20 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@162] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+0 21 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@163] - [input_file_format=-bin]
+0 22 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@164] - [output_file=-]
+0 23 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@165] - [number_of_items=80]
+0 24 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@166] - database loaded. Initializing global variables.
+0 25 [INFO] Mar 09 12:57:17 VAL [init.cpp@166] - [global_absolute_support=50000]
+0 26 [INFO] Mar 09 12:57:17 VAL [init.cpp@167] - [relative_support=0.1]
+0 27 [INFO] Mar 09 12:57:17 VAL [init.cpp@168] - [global_transaction_number=500000]
+0 28 [INFO] Mar 09 12:57:17 VAL [init.cpp@169] - [local_db_size=83333]
+0 29 [INFO] Mar 09 12:57:17 Global [init.cpp@171] - exchanging database samples
+0 30 [INFO] Mar 09 12:57:17 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+0 31 [INFO] Mar 09 12:57:17 Global [various.cpp@61] - [db_sample_delta=0.05]
+0 32 [INFO] Mar 09 12:57:17 Global [various.cpp@62] - [db_sample_size=738]
+0 33 [INFO] Mar 09 12:57:17 SC [various.cpp@29] - sampling database
+0 34 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@64] - serializing database
+0 35 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@69] - exchanging size of samples
+0 36 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@73] - done
+0 37 [INFO] Mar 09 12:57:17 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+0 38 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@175] - output=0x8011b0
+0 39 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@186] - rss usage(MB): 43.9141
+0 40 [INFO] Mar 09 12:57:17 Global [cml_support.cpp@42] - parallel fpmax
+0 41 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@23] - Initializing parallel FPMAX
+0 42 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@189] - running MFI algorithm
+0 43 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@139] - ******************** COMPUTE3 ********************
+0 44 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@146] - absolute min support: 50000
+0 45 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@147] - relative support: 0.1
+0 46 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@148] - computing maximal frequent itemsets
+0 47 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@95] - getting local mfi with min_support=0.1
+0 48 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@32] - ================================================================
+0 49 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@33] - running the Parallel FPMAX* algorithm
+0 50 [INFO] Mar 09 12:57:17 Global [fpmax_par.cpp@94] - running parallel fpmax*
+0 51 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@98] - done - getting local mfi
+0 52 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@99] - local_max_itemsets.size()=0
+0 53 [INFO] Mar 09 12:58:00 VAL [parallel_mafia.cpp@154] - [compute_local_mfi_time=43.7135]
+0 54 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@156] - done, @0
+0 55 [INFO] Mar 09 12:58:00 PS [cml_new.cpp@192] - rss usage(MB): 57.2656
+0 56 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@194] - [MFI_count=127663]
+0 57 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@198] - [p1time=43.739]
+0 58 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@204] - [p1time_total=43.9956]
+0 59 [INFO] Mar 09 12:58:01 Global [cml_new.cpp@205] - ============= Phase 2 (Sampling search space and dividing search space) ===================
+0 60 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@206] - program size(MB): 245.137
+0 61 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@207] - rss usage(MB): 62.6094
+0 62 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@74] - sampling from MFIs
+0 63 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@122] - [processor_number=6]
+0 64 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@123] - [processor_number=6]
+0 65 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@125] - [partition_epsilon=0.05]
+0 66 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@126] - [partition_delta=0.05]
+0 67 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@127] - [partition_number_of_samples=35413.2]
+0 68 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@98] - parallel sampler
+0 69 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@40] - mfi size max=20
+0 70 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@41] - mfi size min=2
+0 71 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@48] - sum_ld=504034
+0 72 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@50] - prefix_sum=504034
+0 73 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@73] - using MFI SEQUENTIAL sampling on processor 0
+0 74 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@44] - #of MFIs: 127663
+0 75 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@53] - set_index_bounds.size()=127663
+0 76 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@54] - mfi size max=20
+0 77 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@55] - mfi size min=2
+0 78 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@62] - sum_ld=504034; this=0x28f7ee0
+0 79 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@64] - prefix_sum=504034
+0 80 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@65] - set_index_bounds_double.size()=127663
+0 81 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@67] - mfi_sampling::mfi_sampling time: 0.040037
+0 82 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@259] - using NON-UNIFORM sampling
+0 83 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@260] - sampling: 957 samples
+0 84 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 0%
+0 85 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 86 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 87 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 9.92685%
+0 88 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 89 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 90 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 19.8537%
+0 91 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 92 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 93 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 29.7806%
+0 94 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 95 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 96 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 39.7074%
+0 97 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 98 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 99 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 49.6343%
+0 100 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 101 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 102 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 59.5611%
+0 103 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 104 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 105 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 69.488%
+0 106 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 107 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 108 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 79.4148%
+0 109 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 110 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 111 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 89.3417%
+0 112 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 113 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 114 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 99.2685%
+0 115 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.211
+0 116 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 67.6562
+0 117 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@270] - finished NON-UNIFORM sampling
+0 118 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@88] - mfi_sampling::sample(int)0.002915
+0 119 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@235] - output=0x8011b0
+0 120 [INFO] Mar 09 12:58:02 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+0 121 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@238] -  partitioning on parts of size < 0.05
+0 122 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@272] - scheduling
+0 123 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@318] - SCHEDULE using the LPT-Makespan algorithm
+0 124 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@358] - [sum_job_size=0.988254]
+0 125 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@359] - [avg_job_size=0.00431552]
+0 126 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@360] - [max_job_size=0.0498066]
+0 127 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@361] - [min_job_size=2.8235e-05]
+0 128 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@362] - [min0_job_size=0]
+0 129 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@363] - [zero_size_classes=7]
+0 130 [INFO] Mar 09 12:58:02 VAL [scheduler.cpp@364] - [number_of_classes=229]
+0 131 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@300] - [procload_p0=0]
+0 132 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@301] - [number_of_samples_p0=0]
+0 133 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@302] - [number_of_subspaces_p0=38]
+0 134 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@300] - [procload_p1=0]
+0 135 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@301] - [number_of_samples_p1=0]
+0 136 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@302] - [number_of_subspaces_p1=39]
+0 137 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@300] - [procload_p2=0]
+0 138 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@301] - [number_of_samples_p2=0]
+0 139 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@302] - [number_of_subspaces_p2=37]
+0 140 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@300] - [procload_p3=0]
+0 141 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@301] - [number_of_samples_p3=0]
+0 142 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@302] - [number_of_subspaces_p3=39]
+0 143 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@300] - [procload_p4=0]
+0 144 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@301] - [number_of_samples_p4=0]
+0 145 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@302] - [number_of_subspaces_p4=38]
+0 146 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@300] - [procload_p5=0]
+0 147 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@301] - [number_of_samples_p5=0]
+0 148 [INFO] Mar 09 12:58:02 PS [scheduler.cpp@302] - [number_of_subspaces_p5=38]
+0 149 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@266] - [load_p0=0.164723]
+0 150 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@266] - [load_p1=0.164723]
+0 151 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@266] - [load_p2=0.164695]
+0 152 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@266] - [load_p3=0.164695]
+0 153 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@266] - [load_p4=0.164695]
+0 154 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@266] - [load_p5=0.164723]
+0 155 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@268] - sum=0.988254
+0 156 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@289] - [p2time=1.6923]
+0 157 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@295] - [p2time_total=2.41286]
+0 158 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@297] - output=0x8011b0
+0 159 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@300] - =================== Phase 3 (Data distribution) ===================
+0 160 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@301] - program size(MB): 245.707
+0 161 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@302] - rss usage(MB): 63.6953
+0 162 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=0, processor_number=6, i=0
+0 163 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@257] - sending...
+0 164 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+0 165 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@129] - sending database to processor #5
+0 166 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@132] - sending message of size: 2959935, buffer size: 2959935
+0 167 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@134] - send_database_to finished
+0 168 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@268] - receiving...
+0 169 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@152] - should receive: 2958068, receive buffer: 2959935, recv_from=5
+0 170 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@154] - received buffer of size: 2958068
+0 171 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@160] - deserializing
+0 172 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@163] - recv_database_to finished
+0 173 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 174 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=0, processor_number=6, i=1
+0 175 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@257] - sending...
+0 176 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+0 177 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@129] - sending database to processor #4
+0 178 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@132] - sending message of size: 2959935, buffer size: 2959935
+0 179 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@134] - send_database_to finished
+0 180 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@268] - receiving...
+0 181 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@152] - should receive: 2957946, receive buffer: 2959935, recv_from=4
+0 182 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@154] - received buffer of size: 2957946
+0 183 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@160] - deserializing
+0 184 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@163] - recv_database_to finished
+0 185 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 186 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=0, processor_number=6, i=2
+0 187 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@257] - sending...
+0 188 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@116] - serializing database, size=83319
+0 189 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@129] - sending database to processor #3
+0 190 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@132] - sending message of size: 2959742, buffer size: 2959935
+0 191 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@134] - send_database_to finished
+0 192 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@268] - receiving...
+0 193 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@152] - should receive: 2955280, receive buffer: 2959935, recv_from=3
+0 194 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@154] - received buffer of size: 2955280
+0 195 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@160] - deserializing
+0 196 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@163] - recv_database_to finished
+0 197 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 198 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=0, processor_number=6, i=3
+0 199 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@257] - sending...
+0 200 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@116] - serializing database, size=83306
+0 201 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@129] - sending database to processor #2
+0 202 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@132] - sending message of size: 2959399, buffer size: 2959935
+0 203 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@134] - send_database_to finished
+0 204 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@268] - receiving...
+0 205 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@152] - should receive: 2958101, receive buffer: 2959935, recv_from=2
+0 206 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@154] - received buffer of size: 2958101
+0 207 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@160] - deserializing
+0 208 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@163] - recv_database_to finished
+0 209 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 210 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=0, processor_number=6, i=4
+0 211 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@257] - sending...
+0 212 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@116] - serializing database, size=83329
+0 213 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@129] - sending database to processor #1
+0 214 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@132] - sending message of size: 2959872, buffer size: 2959935
+0 215 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@134] - send_database_to finished
+0 216 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@268] - receiving...
+0 217 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@152] - should receive: 2957613, receive buffer: 2959935, recv_from=1
+0 218 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@154] - received buffer of size: 2957613
+0 219 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@160] - deserializing
+0 220 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@163] - recv_database_to finished
+0 221 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@272] - waiting at BARRIER
+0 222 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@327] - [p3time=9.79585]
+0 223 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@328] - [recv_db_portion_size=416499]
+0 224 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@329] - [local_db_portion_size=499832]
+0 225 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@332] - output=0x8011b0
+0 226 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@335] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+0 227 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@336] - program size(MB): 334.102
+0 228 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@337] - rss usage(MB): 149.59
+0 229 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@344] - generating
+0 230 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@348] - database deleted
+0 231 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@349] - program size(MB): 331.098
+0 232 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@350] - rss usage(MB): 149.586
+0 233 [INFO] Mar 09 12:58:13 Global [cml_support.cpp@121] - Using the Eclat algorithm
+0 234 [INFO] Mar 09 12:58:14 Global [cml_new.cpp@355] - output=0x8011b0; &output=0x6f91e8
+0 235 [INFO] Mar 09 12:58:14 VAL [cml_new.cpp@356] - [computed_items=0]
+0 236 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+0 237 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@473] - output=0x8011b0; &output=0x803e38
+0 238 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+0 239 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@511] - done: 0%
+0 240 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@512] - rss usage(MB): 164.77
+0 241 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+0 242 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 164.77
+0 243 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=255
+0 244 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 164.785
+0 245 [INFO] Mar 09 13:02:59 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=50064468
+0 246 [INFO] Mar 09 13:02:59 PF [parallel_eclat.cpp@525] - rss usage(MB): 164.785
+0 247 [INFO] Mar 09 13:02:59 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=50064595
+0 248 [INFO] Mar 09 13:02:59 PF [parallel_eclat.cpp@525] - rss usage(MB): 164.785
+0 249 [INFO] Mar 09 13:03:01 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=50130130
+0 250 [INFO] Mar 09 13:03:01 PF [parallel_eclat.cpp@525] - rss usage(MB): 164.785
+0 251 [INFO] Mar 09 13:07:47 Global [cml_new.cpp@367] - output=0x8011b0
+0 252 [INFO] Mar 09 13:07:47 Global [cml_new.cpp@369] - deallocating
+0 253 [INFO] Mar 09 13:07:47 VAL [cml_new.cpp@370] - [p4time=574.67]
+0 254 [INFO] Mar 09 13:07:47 VAL [cml_new.cpp@371] - [computed_items=88989243]
+0 255 [INFO] Mar 09 13:07:47 VAL [cml_new.cpp@375] - [this_proc_time=630.877]
+0 256 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@379] - [cmltime=754.449]
+0 257 [INFO] Mar 09 13:09:51 Global [util_mpi.cpp@12] - computing total number of itemsets
+0 258 [INFO] Mar 09 13:09:51 VAL [util_mpi.cpp@19] - [total_computed_itemsets=545201548]
+0 259 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@382] - [exit_status=OK]
+0 260 [INFO] Mar 09 13:09:51 Global [init.cpp@126] - deallocating ...
+1 0 [INFO] Mar 09 12:57:16 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+1 1 [WARNING] Mar 09 12:57:16 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+1 2 [INFO] Mar 09 12:57:16 VAL [init.cpp@90] - [output_file=-]
+1 3 [INFO] Mar 09 12:57:16 VAL [init.cpp@112] - [max_mfi_output_file=-]
+1 4 [INFO] Mar 09 12:57:16 Global [init.cpp@114] - rss limit: unlimited
+1 5 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@76] - used environment variables:
+1 6 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@77] - ALGTYPE=pfpmax_eclat
+1 7 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@78] - ECLAT_STRATEGY=BU_DF_DIFF
+1 8 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@79] - LOG_LEVEL=INFO
+1 9 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@80] - SCHEDULEV=LPT
+1 10 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@127] - program size(MB): 188.961
+1 11 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@128] - rss usage(MB): 7.19922
+1 12 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@132] - loading part 2 from 6
+1 13 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@145] - db size=83333
+1 14 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@146] - first transaction: {0 1 3 4 5 6 9 11 12 14 16 19 20 22 23 27 29 31 32 34 38 40 41 46 49 50 54 58 73}
+1 15 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@154] - rss limit: unlimited
+1 16 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@158] - proc #1/6
+1 17 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@159] - database->size()=83333
+1 18 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@160] - program size(MB): 211.242
+1 19 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@161] - rss usage(MB): 28.4258
+1 20 [INFO] Mar 09 12:57:17 VAL [cml_new.cpp@162] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+1 21 [INFO] Mar 09 12:57:17 VAL [cml_new.cpp@163] - [input_file_format=-bin]
+1 22 [INFO] Mar 09 12:57:17 VAL [cml_new.cpp@164] - [output_file=-]
+1 23 [INFO] Mar 09 12:57:17 VAL [cml_new.cpp@165] - [number_of_items=79]
+1 24 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@166] - database loaded. Initializing global variables.
+1 25 [INFO] Mar 09 12:57:17 VAL [init.cpp@166] - [global_absolute_support=50000]
+1 26 [INFO] Mar 09 12:57:17 VAL [init.cpp@167] - [relative_support=0.1]
+1 27 [INFO] Mar 09 12:57:17 VAL [init.cpp@168] - [global_transaction_number=500000]
+1 28 [INFO] Mar 09 12:57:17 VAL [init.cpp@169] - [local_db_size=83333]
+1 29 [INFO] Mar 09 12:57:17 Global [init.cpp@171] - exchanging database samples
+1 30 [INFO] Mar 09 12:57:17 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+1 31 [INFO] Mar 09 12:57:17 Global [various.cpp@61] - [db_sample_delta=0.05]
+1 32 [INFO] Mar 09 12:57:17 Global [various.cpp@62] - [db_sample_size=738]
+1 33 [INFO] Mar 09 12:57:17 SC [various.cpp@29] - sampling database
+1 34 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@64] - serializing database
+1 35 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@69] - exchanging size of samples
+1 36 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@73] - done
+1 37 [INFO] Mar 09 12:57:17 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+1 38 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@175] - output=0x801210
+1 39 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@186] - rss usage(MB): 43.9062
+1 40 [INFO] Mar 09 12:57:17 Global [cml_support.cpp@42] - parallel fpmax
+1 41 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@23] - Initializing parallel FPMAX
+1 42 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@189] - running MFI algorithm
+1 43 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@139] - ******************** COMPUTE3 ********************
+1 44 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@146] - absolute min support: 50000
+1 45 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@147] - relative support: 0.1
+1 46 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@148] - computing maximal frequent itemsets
+1 47 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@95] - getting local mfi with min_support=0.1
+1 48 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@32] - ================================================================
+1 49 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@33] - running the Parallel FPMAX* algorithm
+1 50 [INFO] Mar 09 12:57:17 Global [fpmax_par.cpp@94] - running parallel fpmax*
+1 51 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@98] - done - getting local mfi
+1 52 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@99] - local_max_itemsets.size()=0
+1 53 [INFO] Mar 09 12:58:00 VAL [parallel_mafia.cpp@154] - [compute_local_mfi_time=43.7135]
+1 54 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@156] - done, @1
+1 55 [INFO] Mar 09 12:58:00 PS [cml_new.cpp@192] - rss usage(MB): 221.016
+1 56 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@194] - [MFI_count=1088031]
+1 57 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@198] - [p1time=43.8969]
+1 58 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@204] - [p1time_total=43.9957]
+1 59 [INFO] Mar 09 12:58:01 Global [cml_new.cpp@205] - ============= Phase 2 (Sampling search space and dividing search space) ===================
+1 60 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@206] - program size(MB): 451.422
+1 61 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@207] - rss usage(MB): 245.938
+1 62 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@74] - sampling from MFIs
+1 63 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@122] - [processor_number=6]
+1 64 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@123] - [processor_number=6]
+1 65 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@125] - [partition_epsilon=0.05]
+1 66 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@126] - [partition_delta=0.05]
+1 67 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@127] - [partition_number_of_samples=35413.2]
+1 68 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@98] - parallel sampler
+1 69 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@40] - mfi size max=25
+1 70 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@41] - mfi size min=3
+1 71 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@48] - sum_ld=3.03242e+06
+1 72 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@50] - prefix_sum=3.03242e+06
+1 73 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@73] - using MFI SEQUENTIAL sampling on processor 1
+1 74 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@44] - #of MFIs: 1088031
+1 75 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@53] - set_index_bounds.size()=1088031
+1 76 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@54] - mfi size max=25
+1 77 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@55] - mfi size min=3
+1 78 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@62] - sum_ld=3.03242e+06; this=0x3d8d770
+1 79 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@64] - prefix_sum=3.03242e+06
+1 80 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@65] - set_index_bounds_double.size()=1088031
+1 81 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@67] - mfi_sampling::mfi_sampling time: 0.360557
+1 82 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@259] - using NON-UNIFORM sampling
+1 83 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@260] - sampling: 5753 samples
+1 84 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 0%
+1 85 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 86 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 87 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 9.99479%
+1 88 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 89 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 90 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 19.9896%
+1 91 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 92 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 93 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 29.9844%
+1 94 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 95 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 96 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 39.9791%
+1 97 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 98 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 99 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 49.9739%
+1 100 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 101 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 102 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 59.9687%
+1 103 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 104 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 105 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 69.9635%
+1 106 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 107 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 108 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 79.9583%
+1 109 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 110 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 111 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 89.9531%
+1 112 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 113 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 114 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 99.9479%
+1 115 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 523.434
+1 116 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 283.34
+1 117 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@270] - finished NON-UNIFORM sampling
+1 118 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@88] - mfi_sampling::sample(int)0.016639
+1 119 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@235] - output=0x801210
+1 120 [INFO] Mar 09 12:58:02 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+1 121 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@289] - [p2time=2.20559]
+1 122 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@295] - [p2time_total=2.41293]
+1 123 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@297] - output=0x801210
+1 124 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@300] - =================== Phase 3 (Data distribution) ===================
+1 125 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@301] - program size(MB): 344.281
+1 126 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@302] - rss usage(MB): 162.125
+1 127 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=1, processor_number=6, i=0
+1 128 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@257] - sending...
+1 129 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+1 130 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@129] - sending database to processor #4
+1 131 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@132] - sending message of size: 2958150, buffer size: 2958150
+1 132 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@134] - send_database_to finished
+1 133 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@268] - receiving...
+1 134 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@152] - should receive: 2958392, receive buffer: 2958392, recv_from=4
+1 135 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@154] - received buffer of size: 2958392
+1 136 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@160] - deserializing
+1 137 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@163] - recv_database_to finished
+1 138 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 139 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=1, processor_number=6, i=1
+1 140 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@257] - sending...
+1 141 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@116] - serializing database, size=83323
+1 142 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@129] - sending database to processor #2
+1 143 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@132] - sending message of size: 2957952, buffer size: 2958392
+1 144 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@134] - send_database_to finished
+1 145 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@268] - receiving...
+1 146 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@152] - should receive: 2958616, receive buffer: 2958616, recv_from=2
+1 147 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@154] - received buffer of size: 2958616
+1 148 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@160] - deserializing
+1 149 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@163] - recv_database_to finished
+1 150 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 151 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=1, processor_number=6, i=2
+1 152 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@257] - sending...
+1 153 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+1 154 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@129] - sending database to processor #5
+1 155 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@132] - sending message of size: 2958150, buffer size: 2958616
+1 156 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@134] - send_database_to finished
+1 157 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@268] - receiving...
+1 158 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@152] - should receive: 2958572, receive buffer: 2958616, recv_from=5
+1 159 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@154] - received buffer of size: 2958572
+1 160 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@160] - deserializing
+1 161 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@163] - recv_database_to finished
+1 162 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 163 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=1, processor_number=6, i=3
+1 164 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@257] - sending...
+1 165 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@116] - serializing database, size=83324
+1 166 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@129] - sending database to processor #3
+1 167 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@132] - sending message of size: 2958029, buffer size: 2958616
+1 168 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@134] - send_database_to finished
+1 169 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@268] - receiving...
+1 170 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@152] - should receive: 2956067, receive buffer: 2958616, recv_from=3
+1 171 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@154] - received buffer of size: 2956067
+1 172 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@160] - deserializing
+1 173 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@163] - recv_database_to finished
+1 174 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 175 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=1, processor_number=6, i=4
+1 176 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@260] - receiving...
+1 177 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@152] - should receive: 2959872, receive buffer: 2959872, recv_from=0
+1 178 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@154] - received buffer of size: 2959872
+1 179 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@160] - deserializing
+1 180 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@163] - recv_database_to finished
+1 181 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@265] - sending...
+1 182 [INFO] Mar 09 12:58:12 PMFI [data_distribution.cpp@116] - serializing database, size=83303
+1 183 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@129] - sending database to processor #0
+1 184 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@132] - sending message of size: 2957613, buffer size: 2959872
+1 185 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@134] - send_database_to finished
+1 186 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@272] - waiting at BARRIER
+1 187 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@327] - [p3time=9.79699]
+1 188 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@328] - [recv_db_portion_size=416642]
+1 189 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@329] - [local_db_portion_size=499975]
+1 190 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@332] - output=0x801210
+1 191 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@335] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+1 192 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@336] - program size(MB): 368.918
+1 193 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@337] - rss usage(MB): 184.254
+1 194 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@344] - generating
+1 195 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@348] - database deleted
+1 196 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@349] - program size(MB): 365.914
+1 197 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@350] - rss usage(MB): 184.25
+1 198 [INFO] Mar 09 12:58:13 Global [cml_support.cpp@121] - Using the Eclat algorithm
+1 199 [INFO] Mar 09 12:58:14 Global [cml_new.cpp@355] - output=0x801210; &output=0x6f91e8
+1 200 [INFO] Mar 09 12:58:14 VAL [cml_new.cpp@356] - [computed_items=0]
+1 201 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+1 202 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@473] - output=0x801210; &output=0xb099e8
+1 203 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+1 204 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@511] - done: 0%
+1 205 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@512] - rss usage(MB): 210.977
+1 206 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+1 207 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 210.977
+1 208 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=1
+1 209 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 210.992
+1 210 [INFO] Mar 09 13:01:01 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=21939727
+1 211 [INFO] Mar 09 13:01:01 PF [parallel_eclat.cpp@525] - rss usage(MB): 210.992
+1 212 [INFO] Mar 09 13:01:01 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=21939854
+1 213 [INFO] Mar 09 13:01:01 PF [parallel_eclat.cpp@525] - rss usage(MB): 210.992
+1 214 [INFO] Mar 09 13:01:01 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=21941901
+1 215 [INFO] Mar 09 13:01:01 PF [parallel_eclat.cpp@525] - rss usage(MB): 210.992
+1 216 [INFO] Mar 09 13:06:51 Global [cml_new.cpp@367] - output=0x801210
+1 217 [INFO] Mar 09 13:06:51 Global [cml_new.cpp@369] - deallocating
+1 218 [INFO] Mar 09 13:06:51 VAL [cml_new.cpp@370] - [p4time=518.653]
+1 219 [INFO] Mar 09 13:06:51 VAL [cml_new.cpp@371] - [computed_items=111949573]
+1 220 [INFO] Mar 09 13:06:51 VAL [cml_new.cpp@375] - [this_proc_time=574.862]
+1 221 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@379] - [cmltime=754.449]
+1 222 [INFO] Mar 09 13:09:51 Global [util_mpi.cpp@12] - computing total number of itemsets
+1 223 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@382] - [exit_status=OK]
+1 224 [INFO] Mar 09 13:09:51 Global [init.cpp@126] - deallocating ...
+2 0 [INFO] Mar 09 12:57:16 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+2 1 [WARNING] Mar 09 12:57:16 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+2 2 [INFO] Mar 09 12:57:16 VAL [init.cpp@90] - [output_file=-]
+2 3 [INFO] Mar 09 12:57:16 VAL [init.cpp@112] - [max_mfi_output_file=-]
+2 4 [INFO] Mar 09 12:57:16 Global [init.cpp@114] - rss limit: unlimited
+2 5 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@76] - used environment variables:
+2 6 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@77] - ALGTYPE=pfpmax_eclat
+2 7 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@78] - ECLAT_STRATEGY=BU_DF_DIFF
+2 8 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@79] - LOG_LEVEL=INFO
+2 9 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@80] - SCHEDULEV=LPT
+2 10 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@127] - program size(MB): 188.961
+2 11 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@128] - rss usage(MB): 7.19531
+2 12 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@132] - loading part 3 from 6
+2 13 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@145] - db size=83333
+2 14 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@146] - first transaction: {0 1 2 3 4 5 6 8 9 11 12 14 16 17 18 19 20 22 23 24 26 27 28 29 30 31 32 33 34 39 42 50 51 54 55 59 61 62 63 66}
+2 15 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@154] - rss limit: unlimited
+2 16 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@158] - proc #2/6
+2 17 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@159] - database->size()=83333
+2 18 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@160] - program size(MB): 211.242
+2 19 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@161] - rss usage(MB): 28.4492
+2 20 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@162] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+2 21 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@163] - [input_file_format=-bin]
+2 22 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@164] - [output_file=-]
+2 23 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@165] - [number_of_items=79]
+2 24 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@166] - database loaded. Initializing global variables.
+2 25 [INFO] Mar 09 12:57:17 VAL [init.cpp@166] - [global_absolute_support=50000]
+2 26 [INFO] Mar 09 12:57:17 VAL [init.cpp@167] - [relative_support=0.1]
+2 27 [INFO] Mar 09 12:57:17 VAL [init.cpp@168] - [global_transaction_number=500000]
+2 28 [INFO] Mar 09 12:57:17 VAL [init.cpp@169] - [local_db_size=83333]
+2 29 [INFO] Mar 09 12:57:17 Global [init.cpp@171] - exchanging database samples
+2 30 [INFO] Mar 09 12:57:17 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+2 31 [INFO] Mar 09 12:57:17 Global [various.cpp@61] - [db_sample_delta=0.05]
+2 32 [INFO] Mar 09 12:57:17 Global [various.cpp@62] - [db_sample_size=738]
+2 33 [INFO] Mar 09 12:57:17 SC [various.cpp@29] - sampling database
+2 34 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@64] - serializing database
+2 35 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@69] - exchanging size of samples
+2 36 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@73] - done
+2 37 [INFO] Mar 09 12:57:17 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+2 38 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@175] - output=0x8011e0
+2 39 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@186] - rss usage(MB): 43.9102
+2 40 [INFO] Mar 09 12:57:17 Global [cml_support.cpp@42] - parallel fpmax
+2 41 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@23] - Initializing parallel FPMAX
+2 42 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@189] - running MFI algorithm
+2 43 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@139] - ******************** COMPUTE3 ********************
+2 44 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@146] - absolute min support: 50000
+2 45 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@147] - relative support: 0.1
+2 46 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@148] - computing maximal frequent itemsets
+2 47 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@95] - getting local mfi with min_support=0.1
+2 48 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@32] - ================================================================
+2 49 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@33] - running the Parallel FPMAX* algorithm
+2 50 [INFO] Mar 09 12:57:17 Global [fpmax_par.cpp@94] - running parallel fpmax*
+2 51 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@98] - done - getting local mfi
+2 52 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@99] - local_max_itemsets.size()=0
+2 53 [INFO] Mar 09 12:58:00 VAL [parallel_mafia.cpp@154] - [compute_local_mfi_time=43.7135]
+2 54 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@156] - done, @2
+2 55 [INFO] Mar 09 12:58:00 PS [cml_new.cpp@192] - rss usage(MB): 225.605
+2 56 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@194] - [MFI_count=1255518]
+2 57 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@198] - [p1time=43.9506]
+2 58 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@204] - [p1time_total=43.9957]
+2 59 [INFO] Mar 09 12:58:01 Global [cml_new.cpp@205] - ============= Phase 2 (Sampling search space and dividing search space) ===================
+2 60 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@206] - program size(MB): 461.73
+2 61 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@207] - rss usage(MB): 260
+2 62 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@74] - sampling from MFIs
+2 63 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@122] - [processor_number=6]
+2 64 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@123] - [processor_number=6]
+2 65 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@125] - [partition_epsilon=0.05]
+2 66 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@126] - [partition_delta=0.05]
+2 67 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@127] - [partition_number_of_samples=35413.2]
+2 68 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@98] - parallel sampler
+2 69 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@40] - mfi size max=23
+2 70 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@41] - mfi size min=3
+2 71 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@48] - sum_ld=6.50101e+06
+2 72 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@50] - prefix_sum=6.50101e+06
+2 73 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@73] - using MFI SEQUENTIAL sampling on processor 2
+2 74 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@44] - #of MFIs: 1255518
+2 75 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@53] - set_index_bounds.size()=1255518
+2 76 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@54] - mfi size max=23
+2 77 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@55] - mfi size min=3
+2 78 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@62] - sum_ld=6.50101e+06; this=0xbabcb20
+2 79 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@64] - prefix_sum=6.50101e+06
+2 80 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@65] - set_index_bounds_double.size()=1255518
+2 81 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@67] - mfi_sampling::mfi_sampling time: 0.43158
+2 82 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@259] - using NON-UNIFORM sampling
+2 83 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@260] - sampling: 12332 samples
+2 84 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 0%
+2 85 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 541.789
+2 86 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.078
+2 87 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 9.99838%
+2 88 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 541.789
+2 89 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.078
+2 90 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 19.9968%
+2 91 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 541.992
+2 92 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.145
+2 93 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 29.9951%
+2 94 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 541.992
+2 95 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.172
+2 96 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 39.9935%
+2 97 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 542.184
+2 98 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.32
+2 99 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 49.9919%
+2 100 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 542.184
+2 101 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.352
+2 102 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 59.9903%
+2 103 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 542.184
+2 104 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.379
+2 105 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 69.9886%
+2 106 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 542.5
+2 107 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.484
+2 108 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 79.987%
+2 109 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 542.5
+2 110 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.512
+2 111 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 89.9854%
+2 112 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 542.5
+2 113 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 308.543
+2 114 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 99.9838%
+2 115 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 542.5
+2 116 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 308.57
+2 117 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@270] - finished NON-UNIFORM sampling
+2 118 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@88] - mfi_sampling::sample(int)0.041813
+2 119 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@235] - output=0x8011e0
+2 120 [INFO] Mar 09 12:58:02 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+2 121 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@289] - [p2time=2.34713]
+2 122 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@295] - [p2time_total=2.41294]
+2 123 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@297] - output=0x8011e0
+2 124 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@300] - =================== Phase 3 (Data distribution) ===================
+2 125 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@301] - program size(MB): 413.805
+2 126 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@302] - rss usage(MB): 231.477
+2 127 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=2, processor_number=6, i=0
+2 128 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@257] - sending...
+2 129 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@116] - serializing database, size=83328
+2 130 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@129] - sending database to processor #3
+2 131 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@132] - sending message of size: 2958601, buffer size: 2958601
+2 132 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@134] - send_database_to finished
+2 133 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@268] - receiving...
+2 134 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@152] - should receive: 2955797, receive buffer: 2958601, recv_from=3
+2 135 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@154] - received buffer of size: 2955797
+2 136 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@160] - deserializing
+2 137 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@163] - recv_database_to finished
+2 138 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 139 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=2, processor_number=6, i=1
+2 140 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@260] - receiving...
+2 141 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@152] - should receive: 2957952, receive buffer: 2958601, recv_from=1
+2 142 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@154] - received buffer of size: 2957952
+2 143 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@160] - deserializing
+2 144 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@163] - recv_database_to finished
+2 145 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@265] - sending...
+2 146 [INFO] Mar 09 12:58:06 PMFI [data_distribution.cpp@116] - serializing database, size=83328
+2 147 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@129] - sending database to processor #1
+2 148 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@132] - sending message of size: 2958616, buffer size: 2958616
+2 149 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@134] - send_database_to finished
+2 150 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 151 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=2, processor_number=6, i=2
+2 152 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@257] - sending...
+2 153 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+2 154 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@129] - sending database to processor #4
+2 155 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@132] - sending message of size: 2958685, buffer size: 2958685
+2 156 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@134] - send_database_to finished
+2 157 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@268] - receiving...
+2 158 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@152] - should receive: 2957822, receive buffer: 2958685, recv_from=4
+2 159 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@154] - received buffer of size: 2957822
+2 160 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@160] - deserializing
+2 161 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@163] - recv_database_to finished
+2 162 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 163 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=2, processor_number=6, i=3
+2 164 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@260] - receiving...
+2 165 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@152] - should receive: 2959399, receive buffer: 2959399, recv_from=0
+2 166 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@154] - received buffer of size: 2959399
+2 167 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@160] - deserializing
+2 168 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@163] - recv_database_to finished
+2 169 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@265] - sending...
+2 170 [INFO] Mar 09 12:58:10 PMFI [data_distribution.cpp@116] - serializing database, size=83301
+2 171 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@129] - sending database to processor #0
+2 172 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@132] - sending message of size: 2958101, buffer size: 2959399
+2 173 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@134] - send_database_to finished
+2 174 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 175 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=2, processor_number=6, i=4
+2 176 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@257] - sending...
+2 177 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+2 178 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@129] - sending database to processor #5
+2 179 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@132] - sending message of size: 2958685, buffer size: 2959399
+2 180 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@134] - send_database_to finished
+2 181 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@268] - receiving...
+2 182 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@152] - should receive: 2958226, receive buffer: 2959399, recv_from=5
+2 183 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@154] - received buffer of size: 2958226
+2 184 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@160] - deserializing
+2 185 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@163] - recv_database_to finished
+2 186 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@272] - waiting at BARRIER
+2 187 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@327] - [p3time=9.79603]
+2 188 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@328] - [recv_db_portion_size=416551]
+2 189 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@329] - [local_db_portion_size=499884]
+2 190 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@332] - output=0x8011e0
+2 191 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@335] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+2 192 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@336] - program size(MB): 413.758
+2 193 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@337] - rss usage(MB): 231.492
+2 194 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@344] - generating
+2 195 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@348] - database deleted
+2 196 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@349] - program size(MB): 410.754
+2 197 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@350] - rss usage(MB): 229.582
+2 198 [INFO] Mar 09 12:58:13 Global [cml_support.cpp@121] - Using the Eclat algorithm
+2 199 [INFO] Mar 09 12:58:14 Global [cml_new.cpp@355] - output=0x8011e0; &output=0x6f91e8
+2 200 [INFO] Mar 09 12:58:14 VAL [cml_new.cpp@356] - [computed_items=0]
+2 201 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+2 202 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@473] - output=0x8011e0; &output=0x813468
+2 203 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+2 204 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@511] - done: 0%
+2 205 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@512] - rss usage(MB): 237.824
+2 206 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+2 207 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 237.824
+2 208 [INFO] Mar 09 12:58:21 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=305320
+2 209 [INFO] Mar 09 12:58:21 PF [parallel_eclat.cpp@525] - rss usage(MB): 237.84
+2 210 [INFO] Mar 09 13:01:13 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=30671946
+2 211 [INFO] Mar 09 13:01:13 PF [parallel_eclat.cpp@525] - rss usage(MB): 237.84
+2 212 [INFO] Mar 09 13:01:13 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=30688113
+2 213 [INFO] Mar 09 13:01:13 PF [parallel_eclat.cpp@525] - rss usage(MB): 237.84
+2 214 [INFO] Mar 09 13:02:04 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=34936995
+2 215 [INFO] Mar 09 13:02:04 PF [parallel_eclat.cpp@525] - rss usage(MB): 237.84
+2 216 [INFO] Mar 09 13:08:07 Global [cml_new.cpp@367] - output=0x8011e0
+2 217 [INFO] Mar 09 13:08:07 Global [cml_new.cpp@369] - deallocating
+2 218 [INFO] Mar 09 13:08:07 VAL [cml_new.cpp@370] - [p4time=593.987]
+2 219 [INFO] Mar 09 13:08:07 VAL [cml_new.cpp@371] - [computed_items=97347007]
+2 220 [INFO] Mar 09 13:08:07 VAL [cml_new.cpp@375] - [this_proc_time=650.196]
+2 221 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@379] - [cmltime=754.449]
+2 222 [INFO] Mar 09 13:09:51 Global [util_mpi.cpp@12] - computing total number of itemsets
+2 223 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@382] - [exit_status=OK]
+2 224 [INFO] Mar 09 13:09:51 Global [init.cpp@126] - deallocating ...
+3 0 [INFO] Mar 09 12:57:16 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+3 1 [WARNING] Mar 09 12:57:16 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+3 2 [INFO] Mar 09 12:57:16 VAL [init.cpp@90] - [output_file=-]
+3 3 [INFO] Mar 09 12:57:16 VAL [init.cpp@112] - [max_mfi_output_file=-]
+3 4 [INFO] Mar 09 12:57:16 Global [init.cpp@114] - rss limit: unlimited
+3 5 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@76] - used environment variables:
+3 6 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@77] - ALGTYPE=pfpmax_eclat
+3 7 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@78] - ECLAT_STRATEGY=BU_DF_DIFF
+3 8 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@79] - LOG_LEVEL=INFO
+3 9 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@80] - SCHEDULEV=LPT
+3 10 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@127] - program size(MB): 188.961
+3 11 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@128] - rss usage(MB): 7.19531
+3 12 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@132] - loading part 4 from 6
+3 13 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@145] - db size=83333
+3 14 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@146] - first transaction: {0 1 5 6 12 13 14 16 17 18 19 20 21 22 23 24 28 29 30 31 32 33 34 36 38 39 40 43 46 48 51 52 53 55 57 60 63 64 66 68 72}
+3 15 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@154] - rss limit: unlimited
+3 16 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@158] - proc #3/6
+3 17 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@159] - database->size()=83333
+3 18 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@160] - program size(MB): 211.242
+3 19 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@161] - rss usage(MB): 28.4375
+3 20 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@162] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+3 21 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@163] - [input_file_format=-bin]
+3 22 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@164] - [output_file=-]
+3 23 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@165] - [number_of_items=79]
+3 24 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@166] - database loaded. Initializing global variables.
+3 25 [INFO] Mar 09 12:57:17 VAL [init.cpp@166] - [global_absolute_support=50000]
+3 26 [INFO] Mar 09 12:57:17 VAL [init.cpp@167] - [relative_support=0.1]
+3 27 [INFO] Mar 09 12:57:17 VAL [init.cpp@168] - [global_transaction_number=500000]
+3 28 [INFO] Mar 09 12:57:17 VAL [init.cpp@169] - [local_db_size=83333]
+3 29 [INFO] Mar 09 12:57:17 Global [init.cpp@171] - exchanging database samples
+3 30 [INFO] Mar 09 12:57:17 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+3 31 [INFO] Mar 09 12:57:17 Global [various.cpp@61] - [db_sample_delta=0.05]
+3 32 [INFO] Mar 09 12:57:17 Global [various.cpp@62] - [db_sample_size=738]
+3 33 [INFO] Mar 09 12:57:17 SC [various.cpp@29] - sampling database
+3 34 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@64] - serializing database
+3 35 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@69] - exchanging size of samples
+3 36 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@73] - done
+3 37 [INFO] Mar 09 12:57:17 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+3 38 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@175] - output=0x8011e0
+3 39 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@186] - rss usage(MB): 44.9023
+3 40 [INFO] Mar 09 12:57:17 Global [cml_support.cpp@42] - parallel fpmax
+3 41 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@23] - Initializing parallel FPMAX
+3 42 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@189] - running MFI algorithm
+3 43 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@139] - ******************** COMPUTE3 ********************
+3 44 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@146] - absolute min support: 50000
+3 45 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@147] - relative support: 0.1
+3 46 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@148] - computing maximal frequent itemsets
+3 47 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@95] - getting local mfi with min_support=0.1
+3 48 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@32] - ================================================================
+3 49 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@33] - running the Parallel FPMAX* algorithm
+3 50 [INFO] Mar 09 12:57:17 Global [fpmax_par.cpp@94] - running parallel fpmax*
+3 51 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@98] - done - getting local mfi
+3 52 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@99] - local_max_itemsets.size()=0
+3 53 [INFO] Mar 09 12:58:00 VAL [parallel_mafia.cpp@154] - [compute_local_mfi_time=43.7256]
+3 54 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@156] - done, @3
+3 55 [INFO] Mar 09 12:58:00 PS [cml_new.cpp@192] - rss usage(MB): 229.715
+3 56 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@194] - [MFI_count=1395817]
+3 57 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@198] - [p1time=43.9956]
+3 58 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@204] - [p1time_total=43.9958]
+3 59 [INFO] Mar 09 12:58:01 Global [cml_new.cpp@205] - ============= Phase 2 (Sampling search space and dividing search space) ===================
+3 60 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@206] - program size(MB): 479.422
+3 61 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@207] - rss usage(MB): 280.996
+3 62 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@74] - sampling from MFIs
+3 63 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@122] - [processor_number=6]
+3 64 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@123] - [processor_number=6]
+3 65 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@125] - [partition_epsilon=0.05]
+3 66 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@126] - [partition_delta=0.05]
+3 67 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@127] - [partition_number_of_samples=35413.2]
+3 68 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@98] - parallel sampler
+3 69 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@40] - mfi size max=24
+3 70 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@41] - mfi size min=4
+3 71 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@48] - sum_ld=5.03348e+06
+3 72 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@50] - prefix_sum=5.03348e+06
+3 73 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@73] - using MFI SEQUENTIAL sampling on processor 3
+3 74 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@44] - #of MFIs: 1395817
+3 75 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@53] - set_index_bounds.size()=1395817
+3 76 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@54] - mfi size max=24
+3 77 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@55] - mfi size min=4
+3 78 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@62] - sum_ld=5.03348e+06; this=0xc767a10
+3 79 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@64] - prefix_sum=5.03348e+06
+3 80 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@65] - set_index_bounds_double.size()=1395817
+3 81 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@67] - mfi_sampling::mfi_sampling time: 0.45916
+3 82 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@259] - using NON-UNIFORM sampling
+3 83 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@260] - sampling: 9549 samples
+3 84 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 0%
+3 85 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 559.48
+3 86 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 334.426
+3 87 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 9.99057%
+3 88 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 559.48
+3 89 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 334.426
+3 90 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 19.9811%
+3 91 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 559.48
+3 92 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 334.426
+3 93 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 29.9717%
+3 94 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 559.684
+3 95 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 334.5
+3 96 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 39.9623%
+3 97 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 559.684
+3 98 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 334.523
+3 99 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@265] - done: 49.9529%
+3 100 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 559.875
+3 101 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 334.664
+3 102 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@265] - done: 59.9434%
+3 103 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 559.875
+3 104 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 334.688
+3 105 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@265] - done: 69.934%
+3 106 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 559.875
+3 107 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 334.711
+3 108 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@265] - done: 79.9246%
+3 109 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 559.875
+3 110 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 334.73
+3 111 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@265] - done: 89.9152%
+3 112 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 560.062
+3 113 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 334.816
+3 114 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@265] - done: 99.9057%
+3 115 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@266] - program size(MB): 560.062
+3 116 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@267] - rss usage(MB): 334.836
+3 117 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@270] - finished NON-UNIFORM sampling
+3 118 [INFO] Mar 09 12:58:02 PS [sampler_method.cpp@88] - mfi_sampling::sample(int)0.03359
+3 119 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@235] - output=0x8011e0
+3 120 [INFO] Mar 09 12:58:02 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+3 121 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@289] - [p2time=2.41256]
+3 122 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@295] - [p2time_total=2.41277]
+3 123 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@297] - output=0x8011e0
+3 124 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@300] - =================== Phase 3 (Data distribution) ===================
+3 125 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@301] - program size(MB): 431.695
+3 126 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@302] - rss usage(MB): 249.504
+3 127 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=3, processor_number=6, i=0
+3 128 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@260] - receiving...
+3 129 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@152] - should receive: 2958601, receive buffer: 2958601, recv_from=2
+3 130 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@154] - received buffer of size: 2958601
+3 131 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@160] - deserializing
+3 132 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@163] - recv_database_to finished
+3 133 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@265] - sending...
+3 134 [INFO] Mar 09 12:58:04 PMFI [data_distribution.cpp@116] - serializing database, size=83317
+3 135 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@129] - sending database to processor #2
+3 136 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@132] - sending message of size: 2955797, buffer size: 2958601
+3 137 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@134] - send_database_to finished
+3 138 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 139 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=3, processor_number=6, i=1
+3 140 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@257] - sending...
+3 141 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+3 142 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@129] - sending database to processor #5
+3 143 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@132] - sending message of size: 2956091, buffer size: 2958601
+3 144 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@134] - send_database_to finished
+3 145 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@268] - receiving...
+3 146 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@152] - should receive: 2958633, receive buffer: 2958633, recv_from=5
+3 147 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@154] - received buffer of size: 2958633
+3 148 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@160] - deserializing
+3 149 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@163] - recv_database_to finished
+3 150 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 151 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=3, processor_number=6, i=2
+3 152 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@260] - receiving...
+3 153 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@152] - should receive: 2959742, receive buffer: 2959742, recv_from=0
+3 154 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@154] - received buffer of size: 2959742
+3 155 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@160] - deserializing
+3 156 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@163] - recv_database_to finished
+3 157 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@265] - sending...
+3 158 [INFO] Mar 09 12:58:08 PMFI [data_distribution.cpp@116] - serializing database, size=83290
+3 159 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@129] - sending database to processor #0
+3 160 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@132] - sending message of size: 2955280, buffer size: 2959742
+3 161 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@134] - send_database_to finished
+3 162 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 163 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=3, processor_number=6, i=3
+3 164 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@260] - receiving...
+3 165 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@152] - should receive: 2958029, receive buffer: 2959742, recv_from=1
+3 166 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@154] - received buffer of size: 2958029
+3 167 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@160] - deserializing
+3 168 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@163] - recv_database_to finished
+3 169 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@265] - sending...
+3 170 [INFO] Mar 09 12:58:10 PMFI [data_distribution.cpp@116] - serializing database, size=83331
+3 171 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@129] - sending database to processor #1
+3 172 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@132] - sending message of size: 2956067, buffer size: 2959742
+3 173 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@134] - send_database_to finished
+3 174 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 175 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=3, processor_number=6, i=4
+3 176 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@257] - sending...
+3 177 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+3 178 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@129] - sending database to processor #4
+3 179 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@132] - sending message of size: 2956091, buffer size: 2959742
+3 180 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@134] - send_database_to finished
+3 181 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@268] - receiving...
+3 182 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@152] - should receive: 2958399, receive buffer: 2959742, recv_from=4
+3 183 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@154] - received buffer of size: 2958399
+3 184 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@160] - deserializing
+3 185 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@163] - recv_database_to finished
+3 186 [INFO] Mar 09 12:58:13 DD [data_distribution.cpp@272] - waiting at BARRIER
+3 187 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@327] - [p3time=9.79578]
+3 188 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@328] - [recv_db_portion_size=416630]
+3 189 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@329] - [local_db_portion_size=499963]
+3 190 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@332] - output=0x8011e0
+3 191 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@335] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+3 192 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@336] - program size(MB): 431.691
+3 193 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@337] - rss usage(MB): 249.516
+3 194 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@344] - generating
+3 195 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@348] - database deleted
+3 196 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@349] - program size(MB): 428.688
+3 197 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@350] - rss usage(MB): 247.605
+3 198 [INFO] Mar 09 12:58:13 Global [cml_support.cpp@121] - Using the Eclat algorithm
+3 199 [INFO] Mar 09 12:58:14 Global [cml_new.cpp@355] - output=0x8011e0; &output=0x6f91e8
+3 200 [INFO] Mar 09 12:58:14 VAL [cml_new.cpp@356] - [computed_items=0]
+3 201 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+3 202 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@473] - output=0x8011e0; &output=0x868958
+3 203 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+3 204 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@511] - done: 0%
+3 205 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@512] - rss usage(MB): 252.43
+3 206 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+3 207 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 252.43
+3 208 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=511
+3 209 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 252.445
+3 210 [INFO] Mar 09 13:02:23 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=31065621
+3 211 [INFO] Mar 09 13:02:23 PF [parallel_eclat.cpp@525] - rss usage(MB): 252.445
+3 212 [INFO] Mar 09 13:02:23 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=31065876
+3 213 [INFO] Mar 09 13:02:23 PF [parallel_eclat.cpp@525] - rss usage(MB): 252.445
+3 214 [INFO] Mar 09 13:05:51 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=55068870
+3 215 [INFO] Mar 09 13:05:51 PF [parallel_eclat.cpp@525] - rss usage(MB): 252.445
+3 216 [INFO] Mar 09 13:07:07 Global [cml_new.cpp@367] - output=0x8011e0
+3 217 [INFO] Mar 09 13:07:07 Global [cml_new.cpp@369] - deallocating
+3 218 [INFO] Mar 09 13:07:07 VAL [cml_new.cpp@370] - [p4time=534.491]
+3 219 [INFO] Mar 09 13:07:07 VAL [cml_new.cpp@371] - [computed_items=67166639]
+3 220 [INFO] Mar 09 13:07:07 VAL [cml_new.cpp@375] - [this_proc_time=590.698]
+3 221 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@379] - [cmltime=754.449]
+3 222 [INFO] Mar 09 13:09:51 Global [util_mpi.cpp@12] - computing total number of itemsets
+3 223 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@382] - [exit_status=OK]
+3 224 [INFO] Mar 09 13:09:51 Global [init.cpp@126] - deallocating ...
+4 0 [INFO] Mar 09 12:57:16 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+4 1 [WARNING] Mar 09 12:57:16 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+4 2 [INFO] Mar 09 12:57:16 VAL [init.cpp@90] - [output_file=-]
+4 3 [INFO] Mar 09 12:57:16 VAL [init.cpp@112] - [max_mfi_output_file=-]
+4 4 [INFO] Mar 09 12:57:16 Global [init.cpp@114] - rss limit: unlimited
+4 5 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@76] - used environment variables:
+4 6 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@77] - ALGTYPE=pfpmax_eclat
+4 7 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@78] - ECLAT_STRATEGY=BU_DF_DIFF
+4 8 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@79] - LOG_LEVEL=INFO
+4 9 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@80] - SCHEDULEV=LPT
+4 10 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@127] - program size(MB): 188.961
+4 11 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@128] - rss usage(MB): 7.19531
+4 12 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@132] - loading part 5 from 6
+4 13 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@145] - db size=83333
+4 14 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@146] - first transaction: {0 1 2 3 5 6 8 9 11 12 14 15 16 17 18 19 20 22 23 24 26 27 28 29 30 31 32 34 35 36 38 39 41 43 46 48 50 60 63 64 66 68}
+4 15 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@154] - rss limit: unlimited
+4 16 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@158] - proc #4/6
+4 17 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@159] - database->size()=83333
+4 18 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@160] - program size(MB): 211.242
+4 19 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@161] - rss usage(MB): 28.4453
+4 20 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@162] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+4 21 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@163] - [input_file_format=-bin]
+4 22 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@164] - [output_file=-]
+4 23 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@165] - [number_of_items=79]
+4 24 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@166] - database loaded. Initializing global variables.
+4 25 [INFO] Mar 09 12:57:17 VAL [init.cpp@166] - [global_absolute_support=50000]
+4 26 [INFO] Mar 09 12:57:17 VAL [init.cpp@167] - [relative_support=0.1]
+4 27 [INFO] Mar 09 12:57:17 VAL [init.cpp@168] - [global_transaction_number=500000]
+4 28 [INFO] Mar 09 12:57:17 VAL [init.cpp@169] - [local_db_size=83333]
+4 29 [INFO] Mar 09 12:57:17 Global [init.cpp@171] - exchanging database samples
+4 30 [INFO] Mar 09 12:57:17 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+4 31 [INFO] Mar 09 12:57:17 Global [various.cpp@61] - [db_sample_delta=0.05]
+4 32 [INFO] Mar 09 12:57:17 Global [various.cpp@62] - [db_sample_size=738]
+4 33 [INFO] Mar 09 12:57:17 SC [various.cpp@29] - sampling database
+4 34 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@64] - serializing database
+4 35 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@69] - exchanging size of samples
+4 36 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@73] - done
+4 37 [INFO] Mar 09 12:57:17 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+4 38 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@175] - output=0x801220
+4 39 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@186] - rss usage(MB): 43.9023
+4 40 [INFO] Mar 09 12:57:17 Global [cml_support.cpp@42] - parallel fpmax
+4 41 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@23] - Initializing parallel FPMAX
+4 42 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@189] - running MFI algorithm
+4 43 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@139] - ******************** COMPUTE3 ********************
+4 44 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@146] - absolute min support: 50000
+4 45 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@147] - relative support: 0.1
+4 46 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@148] - computing maximal frequent itemsets
+4 47 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@95] - getting local mfi with min_support=0.1
+4 48 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@32] - ================================================================
+4 49 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@33] - running the Parallel FPMAX* algorithm
+4 50 [INFO] Mar 09 12:57:17 Global [fpmax_par.cpp@94] - running parallel fpmax*
+4 51 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@98] - done - getting local mfi
+4 52 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@99] - local_max_itemsets.size()=0
+4 53 [INFO] Mar 09 12:58:00 VAL [parallel_mafia.cpp@154] - [compute_local_mfi_time=43.7135]
+4 54 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@156] - done, @4
+4 55 [INFO] Mar 09 12:58:00 PS [cml_new.cpp@192] - rss usage(MB): 61.5938
+4 56 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@194] - [MFI_count=88929]
+4 57 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@198] - [p1time=43.7298]
+4 58 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@204] - [p1time_total=43.9957]
+4 59 [INFO] Mar 09 12:58:01 Global [cml_new.cpp@205] - ============= Phase 2 (Sampling search space and dividing search space) ===================
+4 60 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@206] - program size(MB): 246.98
+4 61 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@207] - rss usage(MB): 63.6406
+4 62 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@74] - sampling from MFIs
+4 63 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@122] - [processor_number=6]
+4 64 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@123] - [processor_number=6]
+4 65 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@125] - [partition_epsilon=0.05]
+4 66 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@126] - [partition_delta=0.05]
+4 67 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@127] - [partition_number_of_samples=35413.2]
+4 68 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@98] - parallel sampler
+4 69 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@40] - mfi size max=23
+4 70 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@41] - mfi size min=7
+4 71 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@48] - sum_ld=1.33428e+06
+4 72 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@50] - prefix_sum=1.33428e+06
+4 73 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@73] - using MFI SEQUENTIAL sampling on processor 4
+4 74 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@44] - #of MFIs: 88929
+4 75 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@53] - set_index_bounds.size()=88929
+4 76 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@54] - mfi size max=23
+4 77 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@55] - mfi size min=7
+4 78 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@62] - sum_ld=1.33428e+06; this=0x1e2a370
+4 79 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@64] - prefix_sum=1.33428e+06
+4 80 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@65] - set_index_bounds_double.size()=88929
+4 81 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@67] - mfi_sampling::mfi_sampling time: 0.027245
+4 82 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@259] - using NON-UNIFORM sampling
+4 83 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@260] - sampling: 2532 samples
+4 84 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 0%
+4 85 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 86 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 87 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 9.9921%
+4 88 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 89 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 90 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 19.9842%
+4 91 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 92 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 93 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 29.9763%
+4 94 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 95 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 96 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 39.9684%
+4 97 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 98 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 99 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 49.9605%
+4 100 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 101 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 102 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 59.9526%
+4 103 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 104 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 105 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 69.9447%
+4 106 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 107 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 108 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 79.9368%
+4 109 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 110 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 111 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 89.9289%
+4 112 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 113 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 114 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 99.921%
+4 115 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 250.988
+4 116 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 66.3984
+4 117 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@270] - finished NON-UNIFORM sampling
+4 118 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@88] - mfi_sampling::sample(int)0.007062
+4 119 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@235] - output=0x801220
+4 120 [INFO] Mar 09 12:58:02 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+4 121 [INFO] Mar 09 12:58:02 VAL [cml_new.cpp@289] - [p2time=1.6681]
+4 122 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@295] - [p2time_total=2.41285]
+4 123 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@297] - output=0x801220
+4 124 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@300] - =================== Phase 3 (Data distribution) ===================
+4 125 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@301] - program size(MB): 243.969
+4 126 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@302] - rss usage(MB): 61.6875
+4 127 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=4, processor_number=6, i=0
+4 128 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@260] - receiving...
+4 129 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@152] - should receive: 2958150, receive buffer: 2958150, recv_from=1
+4 130 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@154] - received buffer of size: 2958150
+4 131 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@160] - deserializing
+4 132 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@163] - recv_database_to finished
+4 133 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@265] - sending...
+4 134 [INFO] Mar 09 12:58:04 PMFI [data_distribution.cpp@116] - serializing database, size=83325
+4 135 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@129] - sending database to processor #1
+4 136 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@132] - sending message of size: 2958392, buffer size: 2958392
+4 137 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@134] - send_database_to finished
+4 138 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 139 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=4, processor_number=6, i=1
+4 140 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@260] - receiving...
+4 141 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@152] - should receive: 2959935, receive buffer: 2959935, recv_from=0
+4 142 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@154] - received buffer of size: 2959935
+4 143 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@160] - deserializing
+4 144 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@163] - recv_database_to finished
+4 145 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@265] - sending...
+4 146 [INFO] Mar 09 12:58:06 PMFI [data_distribution.cpp@116] - serializing database, size=83300
+4 147 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@129] - sending database to processor #0
+4 148 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@132] - sending message of size: 2957946, buffer size: 2959935
+4 149 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@134] - send_database_to finished
+4 150 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 151 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=4, processor_number=6, i=2
+4 152 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@260] - receiving...
+4 153 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@152] - should receive: 2958685, receive buffer: 2959935, recv_from=2
+4 154 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@154] - received buffer of size: 2958685
+4 155 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@160] - deserializing
+4 156 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@163] - recv_database_to finished
+4 157 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@265] - sending...
+4 158 [INFO] Mar 09 12:58:08 PMFI [data_distribution.cpp@116] - serializing database, size=83294
+4 159 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@129] - sending database to processor #2
+4 160 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@132] - sending message of size: 2957822, buffer size: 2959935
+4 161 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@134] - send_database_to finished
+4 162 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 163 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@252] - send_to=5, processor_rank=4, processor_number=6, i=3
+4 164 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@257] - sending...
+4 165 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+4 166 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@129] - sending database to processor #5
+4 167 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@132] - sending message of size: 2958491, buffer size: 2959935
+4 168 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@134] - send_database_to finished
+4 169 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@268] - receiving...
+4 170 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@152] - should receive: 2958632, receive buffer: 2959935, recv_from=5
+4 171 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@154] - received buffer of size: 2958632
+4 172 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@160] - deserializing
+4 173 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@163] - recv_database_to finished
+4 174 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 175 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=4, processor_number=6, i=4
+4 176 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@260] - receiving...
+4 177 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@152] - should receive: 2956091, receive buffer: 2959935, recv_from=3
+4 178 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@154] - received buffer of size: 2956091
+4 179 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@160] - deserializing
+4 180 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@163] - recv_database_to finished
+4 181 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@265] - sending...
+4 182 [INFO] Mar 09 12:58:12 PMFI [data_distribution.cpp@116] - serializing database, size=83325
+4 183 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@129] - sending database to processor #3
+4 184 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@132] - sending message of size: 2958399, buffer size: 2959935
+4 185 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@134] - send_database_to finished
+4 186 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@272] - waiting at BARRIER
+4 187 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@327] - [p3time=9.79512]
+4 188 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@328] - [recv_db_portion_size=416665]
+4 189 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@329] - [local_db_portion_size=499998]
+4 190 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@332] - output=0x801220
+4 191 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@335] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+4 192 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@336] - program size(MB): 331.848
+4 193 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@337] - rss usage(MB): 147.016
+4 194 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@344] - generating
+4 195 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@348] - database deleted
+4 196 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@349] - program size(MB): 328.844
+4 197 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@350] - rss usage(MB): 147.012
+4 198 [INFO] Mar 09 12:58:13 Global [cml_support.cpp@121] - Using the Eclat algorithm
+4 199 [INFO] Mar 09 12:58:14 Global [cml_new.cpp@355] - output=0x801220; &output=0x6f91e8
+4 200 [INFO] Mar 09 12:58:14 VAL [cml_new.cpp@356] - [computed_items=0]
+4 201 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+4 202 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@473] - output=0x801220; &output=0xb12d08
+4 203 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+4 204 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@511] - done: 0%
+4 205 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@512] - rss usage(MB): 161.945
+4 206 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+4 207 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 161.945
+4 208 [INFO] Mar 09 12:58:41 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=4640212
+4 209 [INFO] Mar 09 12:58:41 PF [parallel_eclat.cpp@525] - rss usage(MB): 161.961
+4 210 [INFO] Mar 09 13:02:03 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=27791289
+4 211 [INFO] Mar 09 13:02:03 PF [parallel_eclat.cpp@525] - rss usage(MB): 161.961
+4 212 [INFO] Mar 09 13:02:03 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=27791290
+4 213 [INFO] Mar 09 13:02:03 PF [parallel_eclat.cpp@525] - rss usage(MB): 161.961
+4 214 [INFO] Mar 09 13:02:04 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=27824057
+4 215 [INFO] Mar 09 13:02:04 PF [parallel_eclat.cpp@525] - rss usage(MB): 161.961
+4 216 [INFO] Mar 09 13:09:51 Global [cml_new.cpp@367] - output=0x801220
+4 217 [INFO] Mar 09 13:09:51 Global [cml_new.cpp@369] - deallocating
+4 218 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@370] - [p4time=698.241]
+4 219 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@371] - [computed_items=113355859]
+4 220 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@375] - [this_proc_time=754.448]
+4 221 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@379] - [cmltime=754.448]
+4 222 [INFO] Mar 09 13:09:51 Global [util_mpi.cpp@12] - computing total number of itemsets
+4 223 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@382] - [exit_status=OK]
+4 224 [INFO] Mar 09 13:09:51 Global [init.cpp@126] - deallocating ...
+5 0 [INFO] Mar 09 12:57:16 Global [init.cpp@85] - input file: /home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat
+5 1 [WARNING] Mar 09 12:57:16 Global [init.cpp@89] - WARNING: output will NOT be written to the output file !
+5 2 [INFO] Mar 09 12:57:16 VAL [init.cpp@90] - [output_file=-]
+5 3 [INFO] Mar 09 12:57:16 VAL [init.cpp@112] - [max_mfi_output_file=-]
+5 4 [INFO] Mar 09 12:57:16 Global [init.cpp@114] - rss limit: unlimited
+5 5 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@76] - used environment variables:
+5 6 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@77] - ALGTYPE=pfpmax_eclat
+5 7 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@78] - ECLAT_STRATEGY=BU_DF_DIFF
+5 8 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@79] - LOG_LEVEL=INFO
+5 9 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@80] - SCHEDULEV=LPT
+5 10 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@127] - program size(MB): 188.961
+5 11 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@128] - rss usage(MB): 7.19531
+5 12 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@132] - loading part 6 from 6
+5 13 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@145] - db size=83335
+5 14 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@146] - first transaction: {0 1 3 5 6 9 11 13 14 15 16 17 19 20 22 24 27 28 29 30 31 33 34 35 39 46 54 55 58}
+5 15 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@154] - rss limit: unlimited
+5 16 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@158] - proc #5/6
+5 17 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@159] - database->size()=83335
+5 18 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@160] - program size(MB): 211.242
+5 19 [INFO] Mar 09 12:57:16 PS [cml_new.cpp@161] - rss usage(MB): 28.4375
+5 20 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@162] - [input_file=/home/kesslr/exp2008/submits/T500I0.1P50PL10TL40.dat/T500I0.1P50PL10TL40.dat]
+5 21 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@163] - [input_file_format=-bin]
+5 22 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@164] - [output_file=-]
+5 23 [INFO] Mar 09 12:57:16 VAL [cml_new.cpp@165] - [number_of_items=79]
+5 24 [INFO] Mar 09 12:57:16 Global [cml_new.cpp@166] - database loaded. Initializing global variables.
+5 25 [INFO] Mar 09 12:57:17 VAL [init.cpp@166] - [global_absolute_support=50000]
+5 26 [INFO] Mar 09 12:57:17 VAL [init.cpp@167] - [relative_support=0.1]
+5 27 [INFO] Mar 09 12:57:17 VAL [init.cpp@168] - [global_transaction_number=500000]
+5 28 [INFO] Mar 09 12:57:17 VAL [init.cpp@169] - [local_db_size=83335]
+5 29 [INFO] Mar 09 12:57:17 Global [init.cpp@171] - exchanging database samples
+5 30 [INFO] Mar 09 12:57:17 Global [various.cpp@60] - [db_sample_epsilon=0.05]
+5 31 [INFO] Mar 09 12:57:17 Global [various.cpp@61] - [db_sample_delta=0.05]
+5 32 [INFO] Mar 09 12:57:17 Global [various.cpp@62] - [db_sample_size=738]
+5 33 [INFO] Mar 09 12:57:17 SC [various.cpp@29] - sampling database
+5 34 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@64] - serializing database
+5 35 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@69] - exchanging size of samples
+5 36 [INFO] Mar 09 12:57:17 Global [serialization_mpi.cpp@73] - done
+5 37 [INFO] Mar 09 12:57:17 PMFI [init.cpp@174] - exchanging local frequent items to get global supports
+5 38 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@175] - output=0x801220
+5 39 [INFO] Mar 09 12:57:17 PS [cml_new.cpp@186] - rss usage(MB): 43.9102
+5 40 [INFO] Mar 09 12:57:17 Global [cml_support.cpp@42] - parallel fpmax
+5 41 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@23] - Initializing parallel FPMAX
+5 42 [INFO] Mar 09 12:57:17 Global [cml_new.cpp@189] - running MFI algorithm
+5 43 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@139] - ******************** COMPUTE3 ********************
+5 44 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@146] - absolute min support: 50000
+5 45 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@147] - relative support: 0.1
+5 46 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@148] - computing maximal frequent itemsets
+5 47 [INFO] Mar 09 12:57:17 PMFI [parallel_mafia.cpp@95] - getting local mfi with min_support=0.1
+5 48 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@32] - ================================================================
+5 49 [INFO] Mar 09 12:57:17 Global [parallel_fpmax.hpp@33] - running the Parallel FPMAX* algorithm
+5 50 [INFO] Mar 09 12:57:17 Global [fpmax_par.cpp@94] - running parallel fpmax*
+5 51 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@98] - done - getting local mfi
+5 52 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@99] - local_max_itemsets.size()=0
+5 53 [INFO] Mar 09 12:58:00 VAL [parallel_mafia.cpp@154] - [compute_local_mfi_time=43.7136]
+5 54 [INFO] Mar 09 12:58:00 PMFI [parallel_mafia.cpp@156] - done, @5
+5 55 [INFO] Mar 09 12:58:00 PS [cml_new.cpp@192] - rss usage(MB): 138.062
+5 56 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@194] - [MFI_count=825952]
+5 57 [INFO] Mar 09 12:58:00 VAL [cml_new.cpp@198] - [p1time=43.8518]
+5 58 [INFO] Mar 09 12:58:01 VAL [cml_new.cpp@204] - [p1time_total=43.9958]
+5 59 [INFO] Mar 09 12:58:01 Global [cml_new.cpp@205] - ============= Phase 2 (Sampling search space and dividing search space) ===================
+5 60 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@206] - program size(MB): 366.781
+5 61 [INFO] Mar 09 12:58:01 PS [cml_new.cpp@207] - rss usage(MB): 179.199
+5 62 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@74] - sampling from MFIs
+5 63 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@122] - [processor_number=6]
+5 64 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@123] - [processor_number=6]
+5 65 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@125] - [partition_epsilon=0.05]
+5 66 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@126] - [partition_delta=0.05]
+5 67 [INFO] Mar 09 12:58:01 VAL [sampler_method.cpp@127] - [partition_number_of_samples=35413.2]
+5 68 [INFO] Mar 09 12:58:01 Global [cml_support.cpp@98] - parallel sampler
+5 69 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@40] - mfi size max=23
+5 70 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@41] - mfi size min=2
+5 71 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@48] - sum_ld=2.26341e+06
+5 72 [INFO] Mar 09 12:58:01 PS [sampler_parallel.hpp@50] - prefix_sum=2.26341e+06
+5 73 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@73] - using MFI SEQUENTIAL sampling on processor 5
+5 74 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@44] - #of MFIs: 825952
+5 75 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@53] - set_index_bounds.size()=825952
+5 76 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@54] - mfi size max=23
+5 77 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@55] - mfi size min=2
+5 78 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@62] - sum_ld=2.26341e+06; this=0x7d994a0
+5 79 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@64] - prefix_sum=2.26341e+06
+5 80 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@65] - set_index_bounds_double.size()=825952
+5 81 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@67] - mfi_sampling::mfi_sampling time: 0.260584
+5 82 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@259] - using NON-UNIFORM sampling
+5 83 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@260] - sampling: 4294 samples
+5 84 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 0%
+5 85 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 406.82
+5 86 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.887
+5 87 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 9.99068%
+5 88 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 406.82
+5 89 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.887
+5 90 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 19.9814%
+5 91 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 406.82
+5 92 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.887
+5 93 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 29.9721%
+5 94 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 406.82
+5 95 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.887
+5 96 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 39.9627%
+5 97 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 406.82
+5 98 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.887
+5 99 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 49.9534%
+5 100 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 407.016
+5 101 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.926
+5 102 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 59.9441%
+5 103 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 407.016
+5 104 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.934
+5 105 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 69.9348%
+5 106 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 407.016
+5 107 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.945
+5 108 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 79.9255%
+5 109 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 407.016
+5 110 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.953
+5 111 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 89.9162%
+5 112 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 407.016
+5 113 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 210.965
+5 114 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@265] - done: 99.9068%
+5 115 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@266] - program size(MB): 407.207
+5 116 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@267] - rss usage(MB): 211.086
+5 117 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@270] - finished NON-UNIFORM sampling
+5 118 [INFO] Mar 09 12:58:01 PS [sampler_method.cpp@88] - mfi_sampling::sample(int)0.01345
+5 119 [INFO] Mar 09 12:58:02 Global [cml_new.cpp@235] - output=0x801220
+5 120 [INFO] Mar 09 12:58:02 Global [cml_support.cpp@141] - using LPT-Makespan scheduler
+5 121 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@289] - [p2time=2.01812]
+5 122 [INFO] Mar 09 12:58:03 VAL [cml_new.cpp@295] - [p2time_total=2.41276]
+5 123 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@297] - output=0x801220
+5 124 [INFO] Mar 09 12:58:03 Global [cml_new.cpp@300] - =================== Phase 3 (Data distribution) ===================
+5 125 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@301] - program size(MB): 342.793
+5 126 [INFO] Mar 09 12:58:03 PS [cml_new.cpp@302] - rss usage(MB): 160.512
+5 127 [INFO] Mar 09 12:58:03 PMFI [data_distribution.cpp@252] - send_to=0, processor_rank=5, processor_number=6, i=0
+5 128 [INFO] Mar 09 12:58:03 DD [data_distribution.cpp@260] - receiving...
+5 129 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@152] - should receive: 2959935, receive buffer: 2959935, recv_from=0
+5 130 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@154] - received buffer of size: 2959935
+5 131 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@160] - deserializing
+5 132 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@163] - recv_database_to finished
+5 133 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@265] - sending...
+5 134 [INFO] Mar 09 12:58:04 PMFI [data_distribution.cpp@116] - serializing database, size=83305
+5 135 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@129] - sending database to processor #0
+5 136 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@132] - sending message of size: 2958068, buffer size: 2959935
+5 137 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@134] - send_database_to finished
+5 138 [INFO] Mar 09 12:58:04 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 139 [INFO] Mar 09 12:58:05 PMFI [data_distribution.cpp@252] - send_to=3, processor_rank=5, processor_number=6, i=1
+5 140 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@260] - receiving...
+5 141 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@152] - should receive: 2956091, receive buffer: 2959935, recv_from=3
+5 142 [INFO] Mar 09 12:58:05 DD [data_distribution.cpp@154] - received buffer of size: 2956091
+5 143 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@160] - deserializing
+5 144 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@163] - recv_database_to finished
+5 145 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@265] - sending...
+5 146 [INFO] Mar 09 12:58:06 PMFI [data_distribution.cpp@116] - serializing database, size=83334
+5 147 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@129] - sending database to processor #3
+5 148 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@132] - sending message of size: 2958633, buffer size: 2959935
+5 149 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@134] - send_database_to finished
+5 150 [INFO] Mar 09 12:58:06 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 151 [INFO] Mar 09 12:58:07 PMFI [data_distribution.cpp@252] - send_to=1, processor_rank=5, processor_number=6, i=2
+5 152 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@260] - receiving...
+5 153 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@152] - should receive: 2958150, receive buffer: 2959935, recv_from=1
+5 154 [INFO] Mar 09 12:58:07 DD [data_distribution.cpp@154] - received buffer of size: 2958150
+5 155 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@160] - deserializing
+5 156 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@163] - recv_database_to finished
+5 157 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@265] - sending...
+5 158 [INFO] Mar 09 12:58:08 PMFI [data_distribution.cpp@116] - serializing database, size=83329
+5 159 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@129] - sending database to processor #1
+5 160 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@132] - sending message of size: 2958572, buffer size: 2959935
+5 161 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@134] - send_database_to finished
+5 162 [INFO] Mar 09 12:58:08 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 163 [INFO] Mar 09 12:58:09 PMFI [data_distribution.cpp@252] - send_to=4, processor_rank=5, processor_number=6, i=3
+5 164 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@260] - receiving...
+5 165 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@152] - should receive: 2958491, receive buffer: 2959935, recv_from=4
+5 166 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@154] - received buffer of size: 2958491
+5 167 [INFO] Mar 09 12:58:09 DD [data_distribution.cpp@160] - deserializing
+5 168 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@163] - recv_database_to finished
+5 169 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@265] - sending...
+5 170 [INFO] Mar 09 12:58:10 PMFI [data_distribution.cpp@116] - serializing database, size=83333
+5 171 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@129] - sending database to processor #4
+5 172 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@132] - sending message of size: 2958632, buffer size: 2959935
+5 173 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@134] - send_database_to finished
+5 174 [INFO] Mar 09 12:58:10 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 175 [INFO] Mar 09 12:58:11 PMFI [data_distribution.cpp@252] - send_to=2, processor_rank=5, processor_number=6, i=4
+5 176 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@260] - receiving...
+5 177 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@152] - should receive: 2958685, receive buffer: 2959935, recv_from=2
+5 178 [INFO] Mar 09 12:58:11 DD [data_distribution.cpp@154] - received buffer of size: 2958685
+5 179 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@160] - deserializing
+5 180 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@163] - recv_database_to finished
+5 181 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@265] - sending...
+5 182 [INFO] Mar 09 12:58:12 PMFI [data_distribution.cpp@116] - serializing database, size=83311
+5 183 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@129] - sending database to processor #2
+5 184 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@132] - sending message of size: 2958226, buffer size: 2959935
+5 185 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@134] - send_database_to finished
+5 186 [INFO] Mar 09 12:58:12 DD [data_distribution.cpp@272] - waiting at BARRIER
+5 187 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@327] - [p3time=9.79516]
+5 188 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@328] - [recv_db_portion_size=416665]
+5 189 [INFO] Mar 09 12:58:13 VAL [cml_new.cpp@329] - [local_db_portion_size=500000]
+5 190 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@332] - output=0x801220
+5 191 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@335] - =================== Phase 4 (Parallel run of a sequential FI method) ===================
+5 192 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@336] - program size(MB): 362.902
+5 193 [INFO] Mar 09 12:58:13 PS [cml_new.cpp@337] - rss usage(MB): 180.527
+5 194 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@344] - generating
+5 195 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@348] - database deleted
+5 196 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@349] - program size(MB): 359.898
+5 197 [INFO] Mar 09 12:58:13 Global [cml_new.cpp@350] - rss usage(MB): 178.617
+5 198 [INFO] Mar 09 12:58:13 Global [cml_support.cpp@121] - Using the Eclat algorithm
+5 199 [INFO] Mar 09 12:58:14 Global [cml_new.cpp@355] - output=0x801220; &output=0x6f91e8
+5 200 [INFO] Mar 09 12:58:14 VAL [cml_new.cpp@356] - [computed_items=0]
+5 201 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@472] - Parallel eclat - generate() begin
+5 202 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@473] - output=0x801220; &output=0x8d3bc8
+5 203 [INFO] Mar 09 12:58:14 Global [parallel_eclat.cpp@510] - min_support=50000; global_absolute_support=50000
+5 204 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@511] - done: 0%
+5 205 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@512] - rss usage(MB): 198.281
+5 206 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=0
+5 207 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 198.281
+5 208 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@524] - done: 0%, computed_items=63
+5 209 [INFO] Mar 09 12:58:14 PF [parallel_eclat.cpp@525] - rss usage(MB): 198.297
+5 210 [INFO] Mar 09 13:02:17 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=38739522
+5 211 [INFO] Mar 09 13:02:17 PF [parallel_eclat.cpp@525] - rss usage(MB): 198.297
+5 212 [INFO] Mar 09 13:02:26 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=39263809
+5 213 [INFO] Mar 09 13:02:26 PF [parallel_eclat.cpp@525] - rss usage(MB): 198.297
+5 214 [INFO] Mar 09 13:02:41 PF [parallel_eclat.cpp@524] - done: 10%, computed_items=40487408
+5 215 [INFO] Mar 09 13:02:41 PF [parallel_eclat.cpp@525] - rss usage(MB): 198.297
+5 216 [INFO] Mar 09 13:04:56 Global [cml_new.cpp@367] - output=0x801220
+5 217 [INFO] Mar 09 13:04:56 Global [cml_new.cpp@369] - deallocating
+5 218 [INFO] Mar 09 13:04:56 VAL [cml_new.cpp@370] - [p4time=403.511]
+5 219 [INFO] Mar 09 13:04:56 VAL [cml_new.cpp@371] - [computed_items=66393227]
+5 220 [INFO] Mar 09 13:04:56 VAL [cml_new.cpp@375] - [this_proc_time=459.718]
+5 221 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@379] - [cmltime=754.448]
+5 222 [INFO] Mar 09 13:09:51 Global [util_mpi.cpp@12] - computing total number of itemsets
+5 223 [INFO] Mar 09 13:09:51 VAL [cml_new.cpp@382] - [exit_status=OK]
+5 224 [INFO] Mar 09 13:09:51 Global [init.cpp@126] - deallocating ...
