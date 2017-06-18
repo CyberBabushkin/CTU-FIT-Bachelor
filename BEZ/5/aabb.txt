@@ -1,0 +1,495 @@
+For text: €Ã (0th symbol has code 1, 1st is 219 and 2nd is 204) the hash text is: 
+	aabb3001a97bf520ba117b415738a7b7a28e009ac3193c2da62bd4d9bde85e67
+For text: FY (0th symbol has code 2, 1st is 70 and 2nd is 89) the hash text is: 
+	aabbd90bde4dd2e54cf7f84461530278e4a31ce8771fd1c2a96e9f160a8746b6
+For text: Öú (0th symbol has code 3, 1st is 133 and 2nd is 156) the hash text is: 
+	aabbd77b412e17a97766cdc802f22155ab7c4dc0fa479a5201fc2f5de6fa56c3
+For text: •Ô (0th symbol has code 5, 1st is 165 and 2nd is 239) the hash text is: 
+	aabb53e150f23df6b301564a878976761bc700480b4488b79972307fe326c48b
+For text: —Â (0th symbol has code 7, 1st is 209 and 2nd is 229) the hash text is: 
+	aabb335329c607b9054eff2c90641a3fa79c2be9ebab9de3d7604ef9a5b0525f
+For text: ©ò (0th symbol has code 8, 1st is 169 and 2nd is 152) the hash text is: 
+	aabb6708daf4c194a62c05eb3ab9d294a206953b2d0050d9e5c2ff3188da7905
+For text: 
+Æ¶ (0th symbol has code 10, 1st is 174 and 2nd is 166) the hash text is: 
+	aabb53b02ac4ce38e31aad32d58998adbbc244442a3abccc0f2812e7ad4cc02b
+For text: ” (0th symbol has code 11, 1st is 16 and 2nd is 211) the hash text is: 
+	aabb75cc418677aea1255881232c22a50e63f679b2c5d3bb3b529907d9816827
+For text: )Â (0th symbol has code 11, 1st is 41 and 2nd is 229) the hash text is: 
+	aabb41c917e69a44cc2600baa608d35c48ee93b0de136861f64912499e0d59a6
+For text: òb (0th symbol has code 11, 1st is 152 and 2nd is 98) the hash text is: 
+	aabbbcafcef0e62da6c5f04d7a8e867ce651783f8858c28363a2231a69cec925
+For text: ∏a (0th symbol has code 11, 1st is 184 and 2nd is 97) the hash text is: 
+	aabb33e84a2bf0a9cc1941634e7f5b4b0d14e882a675907d4654518f1ca1f47d
+For text: …Œ (0th symbol has code 12, 1st is 201 and 2nd is 206) the hash text is: 
+	aabbf1548428d4dbc8c2a135603a802ea05f46d4cb0ca3c8ea6d0cc21ac7863d
+For text: *K (0th symbol has code 14, 1st is 42 and 2nd is 75) the hash text is: 
+	aabbce78b0b92668cc88bf526cb537de422def50729ad772f3b44d418d55bee6
+For text: Ùª (0th symbol has code 15, 1st is 244 and 2nd is 187) the hash text is: 
+	aabba368805747e93b825ecd7ea617d61c6dc196d89bff03a4ba7ae50581e4c3
+For text: Ï- (0th symbol has code 16, 1st is 236 and 2nd is 45) the hash text is: 
+	aabb0ff3b692d1c2165044a0d17d14c165522bc7ddb3c2905654953c2fbaae1b
+For text: O† (0th symbol has code 17, 1st is 79 and 2nd is 160) the hash text is: 
+	aabb5c2af2654f7f35e7464cb5a186afdec2c081d42676e7188f44f2254dc82e
+For text: Üä (0th symbol has code 18, 1st is 134 and 2nd is 138) the hash text is: 
+	aabbf3f5e7c642bef710c0743581d6fcd99d39803e4d10d893615bd8cab326eb
+For text: CÜ (0th symbol has code 19, 1st is 67 and 2nd is 134) the hash text is: 
+	aabb1229136f5c157a9fab4c9252e614c72f0a039fa11fa44382161a6214a770
+For text: Gê (0th symbol has code 19, 1st is 71 and 2nd is 144) the hash text is: 
+	aabb5dc45f7c28e43caa88ddea9530c1b0cb1a5098716f34c1d336675fb75536
+For text: ¥„ (0th symbol has code 19, 1st is 180 and 2nd is 227) the hash text is: 
+	aabbf59db08797aab9885836ab3839135627f4f1eb2e8b66176c5161de970680
+For text: r (0th symbol has code 20, 1st is 114 and 2nd is 1) the hash text is: 
+	aabbd00bdd52447b124fe2c91ec84138635cc8aeebd4cfe5a4aebfd5f1006308
+For text: u> (0th symbol has code 24, 1st is 117 and 2nd is 62) the hash text is: 
+	aabb14145ba01a918230a4e6c31789d2ed95e3adce71149bad722c74c3733412
+For text: cÃ (0th symbol has code 25, 1st is 99 and 2nd is 204) the hash text is: 
+	aabb1c56df5085cafb3bcaadea111d7feb077887b7c1a70fdbd5c8baedb0f179
+For text: ‚É (0th symbol has code 25, 1st is 226 and 2nd is 131) the hash text is: 
+	aabbf72320e09fb6c034da03fa47ea91a141cc53f14ffede2dfa78e63d307a39
+For text: Ò2 (0th symbol has code 26, 1st is 241 and 2nd is 50) the hash text is: 
+	aabb884a7d8738d6cee02ced1476d047f26762b602f898890695d74e7a1b452c
+For text: è< (0th symbol has code 27, 1st is 143 and 2nd is 60) the hash text is: 
+	aabb967db7dffca594047dbfc3a934e19277eb22c32341447cef46029db8d445
+For text: @ (0th symbol has code 31, 1st is 64 and 2nd is 5) the hash text is: 
+	aabb058523fb057d9aac538609e4cd1c4f28e2a92abe280fc5d3a0d2df6b69c2
+For text: «Ω (0th symbol has code 31, 1st is 199 and 2nd is 189) the hash text is: 
+	aabbef8bea11204f7aa711c175a30c4f9898e026b91999b39a2cf0e324fc70a6
+For text: …1 (0th symbol has code 31, 1st is 201 and 2nd is 49) the hash text is: 
+	aabb7768b7db93f8b26ac82d32c3a2604544f06a683024f832f4041c27750873
+For text:  %¯ (0th symbol has code 32, 1st is 37 and 2nd is 248) the hash text is: 
+	aabb1545959da99fef68c0e8852a65aeb67e6bbd28aafe1c6bc121564140af0e
+For text: "{ (0th symbol has code 34, 1st is 8 and 2nd is 123) the hash text is: 
+	aabbd6e230db806fdac20e50bbebe62c53e05a27d131b2f4ae4a575f9e4cc786
+For text: "ly (0th symbol has code 34, 1st is 108 and 2nd is 121) the hash text is: 
+	aabb46dfe5fde8035d7ff3123f4b610cde60f1903b6fcb0e3669eeb06890240d
+For text: %∏; (0th symbol has code 37, 1st is 184 and 2nd is 59) the hash text is: 
+	aabbc362452daedfeefe0735671e2932c8fb89073f5c9dfbf1ac281b17b9202b
+For text: &»2 (0th symbol has code 38, 1st is 200 and 2nd is 50) the hash text is: 
+	aabbd44bc2e7d4cab9b8bec60db30e4ba0833f2e57a02b271120c31516e5a963
+For text: 'ª◊ (0th symbol has code 39, 1st is 187 and 2nd is 215) the hash text is: 
+	aabb440421223aadd3dedaab67fb6df843979576659c5f1e3fd7d6032c853f1a
+For text: *å (0th symbol has code 42, 1st is 22 and 2nd is 140) the hash text is: 
+	aabb13aea65e7a6c9f9653546e11684b4e90be733a2187879fdc12617f29a4e1
+For text: *Q⁄ (0th symbol has code 42, 1st is 81 and 2nd is 218) the hash text is: 
+	aabb13f9f66c15a9b3dffda45b34500a060f2bc0ad1c898bf2d151762cc29553
+For text: +P (0th symbol has code 43, 1st is 80 and 2nd is 19) the hash text is: 
+	aabb74163636fa0f64ac309efe4dad0435aaa8e2a4bc7a67442b733be6dac52a
+For text: -T (0th symbol has code 45, 1st is 84 and 2nd is 1) the hash text is: 
+	aabb198cc456e1658d4d6bea78e42647aeb80d12963c4659248666d304657be0
+For text: /ti (0th symbol has code 47, 1st is 116 and 2nd is 105) the hash text is: 
+	aabb664a85f9061732aa257f9aaa625e4140774a3b891ffd29fdefda34ce3f74
+For text: 0õ (0th symbol has code 48, 1st is 155 and 2nd is 8) the hash text is: 
+	aabb53055c9a486a0b71012f8bfe495df4aeb3c27570d95e34267148ece32dde
+For text: 1ª (0th symbol has code 49, 1st is 28 and 2nd is 187) the hash text is: 
+	aabb514e8153a383b429fad22988a181e2ae3137717dd86c42b25c55c6180021
+For text: 1¬N (0th symbol has code 49, 1st is 194 and 2nd is 78) the hash text is: 
+	aabb76bd1ca45d41f0e818812d726c5b61fd236ead147c5457cff89080ace8f4
+For text: 1∆j (0th symbol has code 49, 1st is 198 and 2nd is 106) the hash text is: 
+	aabba5f2821e49d8ce89b25a0efccce06ddcec614cc865cbe355025738f2bacc
+For text: 2˜ï (0th symbol has code 50, 1st is 247 and 2nd is 149) the hash text is: 
+	aabb39e855acfc3facc37a6ef2ef4b47ba3c6e5d6550dd68723259e7320c36cb
+For text: 5√ (0th symbol has code 53, 1st is 25 and 2nd is 195) the hash text is: 
+	aabbe1a718173d46d4ca5062c5a3e7c24d0cdc88c44f0da20c4aa20316803f83
+For text: 5eR (0th symbol has code 53, 1st is 101 and 2nd is 82) the hash text is: 
+	aabbee9355467776469f3425199f93b78496287d3588368ffd10df4a3f4e8252
+For text: 5≥x (0th symbol has code 53, 1st is 179 and 2nd is 120) the hash text is: 
+	aabbaf5811a638a5ac6dd16823b5351d25a540d6807bfc6395553b7d5a0e007c
+For text: 5ıè (0th symbol has code 53, 1st is 245 and 2nd is 143) the hash text is: 
+	aabbbb51de035c37537f55656dd6bcc9f63ab6ebde3b739630f9b611bb72fb9b
+For text: 7€ç (0th symbol has code 55, 1st is 219 and 2nd is 141) the hash text is: 
+	aabb3333df17a89b115fc171f815a026b98bda7426d5ae7127978169a1e9ab16
+For text: 84â (0th symbol has code 56, 1st is 52 and 2nd is 137) the hash text is: 
+	aabb057e10cf8754b6646ba126dfbf433174f937d834d648d414516ad84b8501
+For text: 9Õr (0th symbol has code 57, 1st is 205 and 2nd is 114) the hash text is: 
+	aabbf1d5f20fd65c03a56734c3de71a3a4b4ab62eca0b0d354efe1b31abf0abd
+For text: :∏ù (0th symbol has code 58, 1st is 184 and 2nd is 157) the hash text is: 
+	aabb133bd915d2670e4670e35598b7ff69bc60dd5b082d18a8a220f508fe80f1
+For text: <r" (0th symbol has code 60, 1st is 114 and 2nd is 34) the hash text is: 
+	aabbdb15ab0799109c8d4da92a049a2e8a5a369a76ffaf8086ccf8ecd528128f
+For text: <ƒ´ (0th symbol has code 60, 1st is 196 and 2nd is 171) the hash text is: 
+	aabb3adb26bf4d3c42df7d940f4826e15fda39f391470292d87d59ef19f93eae
+For text: <‹Ω (0th symbol has code 60, 1st is 220 and 2nd is 189) the hash text is: 
+	aabb1986050e0a575acb462a1882e7954dded10758778775e13f86a8d832cd06
+For text: >
+∂ (0th symbol has code 62, 1st is 10 and 2nd is 182) the hash text is: 
+	aabb3c24fa4084ba1d06dbe563842fb21c93d4b3cc87c20ae574bc0c2d756cac
+For text: >ÙÚ (0th symbol has code 62, 1st is 244 and 2nd is 242) the hash text is: 
+	aabbac80051ccf24bd2e070fc1cb27b166668f2ad9e1b8bb820cbd943b1e5667
+For text: @›° (0th symbol has code 64, 1st is 221 and 2nd is 161) the hash text is: 
+	aabb8312f5cca5eb4802edf332123aabd0685fcc7372e06d5907e8aca04f66dd
+For text: A¡ (0th symbol has code 65, 1st is 193 and 2nd is 11) the hash text is: 
+	aabb9944e2ea900f3f40b7f233f50bcc21efe9141860912522d05cd86437c220
+For text: BãŸ (0th symbol has code 66, 1st is 139 and 2nd is 217) the hash text is: 
+	aabb1bac3843b59c31ea2d01f12108f1037a01d9df1cbbbdf5ec18fdd27471eb
+For text: DˆÛ (0th symbol has code 68, 1st is 246 and 2nd is 243) the hash text is: 
+	aabb9b16fe8c1861b36f7bea2f19c40cd3ce52f86bdea3e1d7814bd8b4352f91
+For text: F“~ (0th symbol has code 70, 1st is 210 and 2nd is 126) the hash text is: 
+	aabb51ffdd0821a6f8a05ff6b4f119b144bdb308997b860a997aa948f2648068
+For text: F”7 (0th symbol has code 70, 1st is 211 and 2nd is 55) the hash text is: 
+	aabba5597124c4477fb5175b330e2f66ddcc3c3986ef8930fe607d81a8e3af1e
+For text: Gc (0th symbol has code 71, 1st is 99 and 2nd is 11) the hash text is: 
+	aabbee0829e62cff4bbba359d70b3068f051f6c9992929b082a0a23d05c42a15
+For text: HoJ (0th symbol has code 72, 1st is 111 and 2nd is 74) the hash text is: 
+	aabb07b95cc594d18f91eeda0f03e253b284108e2f12ac1e696731c6850d7aae
+For text: I∞à (0th symbol has code 73, 1st is 176 and 2nd is 136) the hash text is: 
+	aabbbc8b8146d36304ee16ee92ef92230099d598f9edce3aa10d42e0de48b2d9
+For text: IÙÇ (0th symbol has code 73, 1st is 244 and 2nd is 130) the hash text is: 
+	aabb65dd09d738ef6aa93b5ce4aff9d29378ccdd6aeebec7f6b71318502307c9
+For text: KN( (0th symbol has code 75, 1st is 78 and 2nd is 40) the hash text is: 
+	aabbf65f40859be8b18142bc8e5e841aa6c804df9522a7f37b9b7be45d448b92
+For text: Kã≈ (0th symbol has code 75, 1st is 139 and 2nd is 197) the hash text is: 
+	aabb9a83f911369ce183fc0d047648c96560aff394b570b5a41061594035a1fe
+For text: K∫ˆ (0th symbol has code 75, 1st is 186 and 2nd is 246) the hash text is: 
+	aabb219105f09d1e840d142a36d38b00d1199c6a0c34130db734582f441b587c
+For text: Lù’ (0th symbol has code 76, 1st is 157 and 2nd is 213) the hash text is: 
+	aabb58ee039e04231b3600c4ea9648bc4f0652560098f07009e355322c690bd6
+For text: M (0th symbol has code 77, 1st is 12 and 2nd is 28) the hash text is: 
+	aabbd02fd3dcfdcb11333f0bd02647e1338928d5b19945fff896cd6781cffe1b
+For text: MCk (0th symbol has code 77, 1st is 67 and 2nd is 107) the hash text is: 
+	aabb87b62d401bb3cc1596a702f4d7e27e06d0f6037de91c64977313298cf355
+For text: Ms (0th symbol has code 77, 1st is 115 and 2nd is 27) the hash text is: 
+	aabb0218ab87f88c3515c5c1beda68ebb5c30ef6123c460fc35e6ecb3ca8d904
+For text: Më† (0th symbol has code 77, 1st is 145 and 2nd is 160) the hash text is: 
+	aabbfe4396ea14f8a183ce7460b3c8ce490be2612b37b3348a29759d66156877
+For text: MÕÁ (0th symbol has code 77, 1st is 205 and 2nd is 231) the hash text is: 
+	aabbff94c1a6a663eb9748cdb7c64381f8c791cc7e641c4ca28e9df7384198cc
+For text: NÜ∂ (0th symbol has code 78, 1st is 134 and 2nd is 182) the hash text is: 
+	aabb1a6343ffc1f838025f6d772da51bd7d89994c06831be67fd6d79a3206aa1
+For text: PS7 (0th symbol has code 80, 1st is 83 and 2nd is 55) the hash text is: 
+	aabb85391ef5099d812bda1bc6b015524b6f97e4f05eb16d9ed7c24e7f7058c2
+For text: Pˆ! (0th symbol has code 80, 1st is 246 and 2nd is 33) the hash text is: 
+	aabb8e930f84354e6a2ffd1861de79b111c65cd326d94c4651a62ec212fec379
+For text: S6 (0th symbol has code 83, 1st is 23 and 2nd is 54) the hash text is: 
+	aabbb7bd47e72a5ef894cf771ebc0557edbdfc9592dfc74cf2b399a7284fe469
+For text: S_5 (0th symbol has code 83, 1st is 95 and 2nd is 53) the hash text is: 
+	aabbd2f9e4d841eb9ccc65f576d6d378a18a8c5ad53c975e5b8385f495976b47
+For text: Sª– (0th symbol has code 83, 1st is 187 and 2nd is 208) the hash text is: 
+	aabb8357121f352df0f9d6b62ec14712205598ca6618091bda8b95fd6d79c324
+For text: W;˘ (0th symbol has code 87, 1st is 59 and 2nd is 249) the hash text is: 
+	aabb8179cceb7e793a496b714c89fff8a6c43285c3e2d3b07b82a6492f4c640f
+For text: Wä (0th symbol has code 87, 1st is 138 and 2nd is 7) the hash text is: 
+	aabbfbd1d0bfed3e34528b6cf51a03cc350d4d42680f4d6805c6f26e819354ed
+For text: W∂í (0th symbol has code 87, 1st is 182 and 2nd is 146) the hash text is: 
+	aabbbcb9091597e6087be86a4140d2e332940fda95c49f8305a2edb091ec59a2
+For text: XR° (0th symbol has code 88, 1st is 82 and 2nd is 161) the hash text is: 
+	aabb9beaff07fffb1aa5cebc8da30efddb2d8bcca7d6773520e7980e52e59d22
+For text: YLÁ (0th symbol has code 89, 1st is 76 and 2nd is 231) the hash text is: 
+	aabb198a2828910bf3e93b85a24ab887e7cfefbe58105bdbd998a22620d6a4fc
+For text: Yhö (0th symbol has code 89, 1st is 104 and 2nd is 154) the hash text is: 
+	aabb04c2569d5dedc6df95bab9d23a6d968521f71b68c2ebb2c117f5420ff78e
+For text: Yk¬ (0th symbol has code 89, 1st is 107 and 2nd is 194) the hash text is: 
+	aabbd820e8294cdbbb624c97ef2813eb7a1ed8ed0c31cfe933c5f65beb318dcf
+For text: Z2é (0th symbol has code 90, 1st is 50 and 2nd is 142) the hash text is: 
+	aabbc87481ebae58ceed9657ca5e436b5f92a4f44daf1908163762d7aeb77592
+For text: \(Z (0th symbol has code 92, 1st is 40 and 2nd is 90) the hash text is: 
+	aabbc693230a8e1ae8136880d8525851982516efc35900c8ce68e7f023e66331
+For text: ^˙˜ (0th symbol has code 94, 1st is 250 and 2nd is 247) the hash text is: 
+	aabbee8809f5a02f6350c584a3e3fdf008624ddff3e2aad1e338b9e65f5cb92e
+For text: _6 (0th symbol has code 95, 1st is 27 and 2nd is 54) the hash text is: 
+	aabb18f62f70e57b1a02f213405991fc585ceb291887bc9a35ccfedaf4f78995
+For text: _í∆ (0th symbol has code 95, 1st is 146 and 2nd is 198) the hash text is: 
+	aabbdfc03e6ecde20cb10d482330b4525e646d95a42e913fc5859fba5fe0a3d7
+For text: `*˜ (0th symbol has code 96, 1st is 42 and 2nd is 247) the hash text is: 
+	aabbc88831034e5f828abe0c6bd8934fbed0011b465cd200fb18c666e97e1055
+For text: `{ı (0th symbol has code 96, 1st is 123 and 2nd is 245) the hash text is: 
+	aabbacf6f0fa84334877f7fc3c086590b9eeaedce9645e286070e8a71c403ca7
+For text: aZô (0th symbol has code 97, 1st is 90 and 2nd is 153) the hash text is: 
+	aabb54c190fc9cdf1fdbe683d8a56eb04fe9c9d1a46c9711c56cf9a7f48d0acb
+For text: bÏ (0th symbol has code 98, 1st is 8 and 2nd is 236) the hash text is: 
+	aabb7e100216d51d472e18813b0de3103aec451c2bfef53cd61a6b00480c416e
+For text: bZ1 (0th symbol has code 98, 1st is 90 and 2nd is 49) the hash text is: 
+	aabbc5c89cb966e8741d162fc6a5bbbf69631b380f1340b516a11f5e6406579d
+For text: dT (0th symbol has code 100, 1st is 84 and 2nd is 17) the hash text is: 
+	aabb80f06df35dba6b7e032eef77dd597a412be3ada2eca2be1f5b880d6834d7
+For text: dñ1 (0th symbol has code 100, 1st is 150 and 2nd is 49) the hash text is: 
+	aabbcee313f52aaa3679eef47e78e3cab4bea8929ea1796a4710baee5d031e66
+For text: dó≤ (0th symbol has code 100, 1st is 151 and 2nd is 178) the hash text is: 
+	aabb4c2370df5510cade726f75eed7ae8c117e0d8964fb16567139e33e18c4d6
+For text: dÓï (0th symbol has code 100, 1st is 238 and 2nd is 149) the hash text is: 
+	aabb9253d275fb3651c29cfdfd6154abc68c8bbc319d320eed2f8671b3e68044
+For text: e§p (0th symbol has code 101, 1st is 164 and 2nd is 112) the hash text is: 
+	aabbcc3607d3c95744069413d19f2453dd937536c98049fe0b1276af7fb10ac6
+For text: fê (0th symbol has code 102, 1st is 31 and 2nd is 144) the hash text is: 
+	aabbf934989e1b2ca421d7343c34297c3c63b9fbafbb5ddbb8ad454ea450b3dd
+For text: h%‚ (0th symbol has code 104, 1st is 37 and 2nd is 226) the hash text is: 
+	aabbc47eb8d5243c40c341db8e33b42a55316cb7a0e45d7ae23dcca70259751a
+For text: h§T (0th symbol has code 104, 1st is 164 and 2nd is 84) the hash text is: 
+	aabbd1dbb03421b89e40969c82a257445e1c520459129c1cf65e142fbfb85f10
+For text: j	 (0th symbol has code 106, 1st is 19 and 2nd is 9) the hash text is: 
+	aabb40bbd65279638dc8fd22329c6836d46ceacc0cbac91fe8145a8bec184669
+For text: j¢Z (0th symbol has code 106, 1st is 162 and 2nd is 90) the hash text is: 
+	aabbdec2648cebbe2647a87fa9e119bba86c326fd919967e5dfedcf1924a09a6
+For text: mò: (0th symbol has code 109, 1st is 152 and 2nd is 58) the hash text is: 
+	aabb98e5c3196c87f87f01ec34958c7d9bc86cbdcb02a8b41d4f2b9db3ad5f29
+For text: p^“ (0th symbol has code 112, 1st is 94 and 2nd is 210) the hash text is: 
+	aabb7972b1be489cf1089df9a143e3676b955da14d0a6a17639296751ab275b5
+For text: qQ4 (0th symbol has code 113, 1st is 81 and 2nd is 52) the hash text is: 
+	aabbb7fac2455356341561bf86a63e2bc2b225d1329d2011404038727b685ebb
+For text: u|= (0th symbol has code 117, 1st is 124 and 2nd is 61) the hash text is: 
+	aabb16be3f2e47e4ef82b89d515bab5c7ae12d97a3bd15c4fb63f69a2b301c02
+For text: uÀœ (0th symbol has code 117, 1st is 203 and 2nd is 207) the hash text is: 
+	aabbab184bdbddbf2ea06f438f20c2604675c4f57a1f524e74574d0b524b466e
+For text: uÃ (0th symbol has code 117, 1st is 204 and 2nd is 27) the hash text is: 
+	aabbc862e6afd5db51dffc4adebfa4671a1356ac1700627c663a286d25641bf7
+For text: yc (0th symbol has code 121, 1st is 99 and 2nd is 19) the hash text is: 
+	aabb50c98aec7622122bdb1d4a0e0b6c13b218f20a4141ba326e7ebfc0e0ba43
+For text: yí— (0th symbol has code 121, 1st is 146 and 2nd is 209) the hash text is: 
+	aabb29aa990f2134eecbec3640d14b90d73d60d4c4506ca14d284ac700be83a0
+For text: zâ (0th symbol has code 122, 1st is 3 and 2nd is 137) the hash text is: 
+	aabb1c98fbb5cfec0a044a26e9208076ef0e98c4bcd9506397866a35bf5625b2
+For text: zv9 (0th symbol has code 122, 1st is 118 and 2nd is 57) the hash text is: 
+	aabba91cf87aab17ca4da7996dcf3e20a862fd2844684ed5c561e653648f922c
+For text: zÖ% (0th symbol has code 122, 1st is 133 and 2nd is 37) the hash text is: 
+	aabb2ed004c7fd6fca929fe560baf529334d2f480abbbed5eec402e3d4bb93bb
+For text: z˚– (0th symbol has code 122, 1st is 251 and 2nd is 208) the hash text is: 
+	aabb6a050eca3ca23549e8122118455e872ff9a5d1f46d135f8cb88bacdfcb8c
+For text: |f) (0th symbol has code 124, 1st is 102 and 2nd is 41) the hash text is: 
+	aabb007919cb431f014911e60973a078a039d64e55e6ee1e579fd2fb5d801134
+For text: ~# (0th symbol has code 126, 1st is 16 and 2nd is 35) the hash text is: 
+	aabbf071efa3d7d0f3f34fc7a38f5a3d57e9818f3a7c49e0ba66441248ac6a5a
+For text: ßg (0th symbol has code 127, 1st is 167 and 2nd is 103) the hash text is: 
+	aabbbcf3ef74907af045674ffb2131194e62cc09022345c5d99617f52e32ec18
+For text: ÅVé (0th symbol has code 129, 1st is 86 and 2nd is 142) the hash text is: 
+	aabbb26e6c539cd37fd3effe362c31f47d4faeaa9f6c0214a7de690dddc21645
+For text: ÅÒ (0th symbol has code 129, 1st is 241 and 2nd is 127) the hash text is: 
+	aabbdf2a8a522a867648104ae076d6f2ef4e25fc084d4257341fa92505de08ec
+For text: Çˆ® (0th symbol has code 130, 1st is 246 and 2nd is 168) the hash text is: 
+	aabb6ca4d3cf02cc6c8609790ff985818561689486888b3e6f62a33cf84f9884
+For text: ÖMÙ (0th symbol has code 133, 1st is 77 and 2nd is 244) the hash text is: 
+	aabb838a1729516cf5825022c191c413850bb7415fb44f74dc01ea838b661084
+For text: ÖÎ (0th symbol has code 133, 1st is 235 and 2nd is 30) the hash text is: 
+	aabb8e47eeb8bada2a614bdfbd86db8e7a4921707f6f944e95f95e609f459e0a
+For text: áº¿ (0th symbol has code 135, 1st is 188 and 2nd is 192) the hash text is: 
+	aabbbbf46b57ff45ae77c4c37cc4c9f74979e90fd668fbf19ee1cc7967eac966
+For text: à+ (0th symbol has code 136, 1st is 43 and 2nd is 20) the hash text is: 
+	aabba48ed2230e045c7afdc12f0c451451e7c85c38d6df9123a335da493e0290
+For text: àSR (0th symbol has code 136, 1st is 83 and 2nd is 82) the hash text is: 
+	aabb744dc2382e7b2acaaa1fefa150afcbeed28cc92566d589a76cbedb47376e
+For text: ä«√ (0th symbol has code 138, 1st is 199 and 2nd is 195) the hash text is: 
+	aabbf639a251ef7154bbdacde9f4f46f559edfb41b601bf3e79d3b26f36a852a
+For text: ä¯, (0th symbol has code 138, 1st is 248 and 2nd is 44) the hash text is: 
+	aabb81c20eb9d311f2b643aa14ac11fc2e4d2526f3eb4471191566e1ed260d62
+For text: å4 (0th symbol has code 140, 1st is 7 and 2nd is 52) the hash text is: 
+	aabbb490a03f671e63095be299384a1d0a5561b0953f1c584f4e84b81df311e0
+For text: åY (0th symbol has code 140, 1st is 24 and 2nd is 89) the hash text is: 
+	aabb1e1973fd40af519f9f9102f51556268dc02e0bdaf01dd414fa6215c50e18
+For text: éµ (0th symbol has code 142, 1st is 181 and 2nd is 13) the hash text is: 
+	aabb9fd97766807df2d4fb513e0c41f26a220095c21cb408d5fa153d30287f62
+For text: è8y (0th symbol has code 143, 1st is 56 and 2nd is 121) the hash text is: 
+	aabb4c72e213e3eae034e56d9af05aa03547c2e7eacf07a052a1677023fd88b0
+For text: ë> (0th symbol has code 145, 1st is 62 and 2nd is 11) the hash text is: 
+	aabb24f7fc03a03d259cfc4013b9c6fbbab6fd681ea2ba6445177a9e55c78400
+For text: íß! (0th symbol has code 146, 1st is 167 and 2nd is 33) the hash text is: 
+	aabbef02c250d6354faf1bc94b3b58514a0d821ce90b2fb61e0be6f393c566fc
+For text: ì*Î (0th symbol has code 147, 1st is 42 and 2nd is 235) the hash text is: 
+	aabbcdd72950c17076a6ff9970db542c082a822ba1cd7bc8607de74f120e85ff
+For text: ìıÏ (0th symbol has code 147, 1st is 245 and 2nd is 236) the hash text is: 
+	aabb1fd2548ecfa29eef88c0ae7644c7ee00c2b62659751243a42c47dd8d5a5d
+For text: î¯ (0th symbol has code 148, 1st is 248 and 2nd is 14) the hash text is: 
+	aabb0155304040d4dc038bb8467041134dcfda97b5fc9a61a2f7506a72125d3b
+For text: ïÀ} (0th symbol has code 149, 1st is 203 and 2nd is 125) the hash text is: 
+	aabbba4fd5ecfc1ad88b312d608c51883cc870051b61bf86857276606ccbdbf0
+For text: ó$‰ (0th symbol has code 151, 1st is 36 and 2nd is 228) the hash text is: 
+	aabb4203666d1cb340c4d149327c4c36798a447e4bb227ccb2f95b91f9789c26
+For text: òçf (0th symbol has code 152, 1st is 141 and 2nd is 102) the hash text is: 
+	aabb793a0203d4e51f10f89e82adb4441be2471114fe6a12f200aa41a9633564
+For text: òﬁø (0th symbol has code 152, 1st is 222 and 2nd is 191) the hash text is: 
+	aabb4239060159577aa3346b7a85145caa3dd41c49173b657d915b1f44e5cb99
+For text: ò‡ (0th symbol has code 152, 1st is 224 and 2nd is 3) the hash text is: 
+	aabbe2cd2ca59435105d4112eee2859a687a534fadf918966ef067e001bd2bbd
+For text: õm‡ (0th symbol has code 155, 1st is 109 and 2nd is 224) the hash text is: 
+	aabbf2eb5240b4c7ae1137c0f5548f7ed9434afc193278670093c6377c4c94bf
+For text: úCﬂ (0th symbol has code 156, 1st is 67 and 2nd is 223) the hash text is: 
+	aabb55a55308286a190ee25fd7cce9d13712656756e457a5ec71848a1beef3da
+For text: útb (0th symbol has code 156, 1st is 116 and 2nd is 98) the hash text is: 
+	aabbffe39d5329acd34c4aee9e4edfaccc2555e3667ee75f0708ca72022e596a
+For text: ú•H (0th symbol has code 156, 1st is 165 and 2nd is 72) the hash text is: 
+	aabb9a9480ec3b2ca66986a0c981bd315d836782214a135cc1cdadf6f9d375bc
+For text: ù∑v (0th symbol has code 157, 1st is 183 and 2nd is 118) the hash text is: 
+	aabbc2f56f3844a7a31230eaa73dbdfa8cbb4bbc0182c1544b787e56a6003986
+For text: ù¿F (0th symbol has code 157, 1st is 192 and 2nd is 70) the hash text is: 
+	aabbc1c186612dbc2fd7d1ae3387d96d14661b3cb41fcc72b133914710369c93
+For text: ûß/ (0th symbol has code 158, 1st is 167 and 2nd is 47) the hash text is: 
+	aabb173f6160691437034d9bc9fd9f2f375b1121f6020ee51dd456123af497d8
+For text: ü
+ (0th symbol has code 159, 1st is 127 and 2nd is 10) the hash text is: 
+	aabb5fd26c41e7782530487092c2d740bb065050dec35c29530ed14837bd8055
+For text: †¢ (0th symbol has code 160, 1st is 16 and 2nd is 162) the hash text is: 
+	aabb12978176bf82255367e73ed2a6f39c2614ccd68059cdf90eaca57a969cea
+For text: †Ä_ (0th symbol has code 160, 1st is 128 and 2nd is 95) the hash text is: 
+	aabb130da5807dcb05d089ddcfb39b1c5638cf6aeca65ca1a1c5e90b26a2a8a0
+For text: °ì (0th symbol has code 161, 1st is 127 and 2nd is 147) the hash text is: 
+	aabb7bd956d30571a0113b7f73fd3add01135f484e8988b29a3f23060f2716b2
+For text: °ó¯ (0th symbol has code 161, 1st is 151 and 2nd is 248) the hash text is: 
+	aabbff529fca3e7cbdfd384ea8b450c6088bb4eb01cc4d9151b6cafd94d4dab8
+For text: °Î© (0th symbol has code 161, 1st is 235 and 2nd is 169) the hash text is: 
+	aabbe9b3bac1f9d1cec34268d97b7a46632ec91e15797c8dbfd25c8f201bd6b5
+For text: °˛Ä (0th symbol has code 161, 1st is 254 and 2nd is 128) the hash text is: 
+	aabbd7c71b87d44f1a5cf93c8360fbf54ba1e6cb0396403bdc9ace212bfa5dcf
+For text: ¢œ® (0th symbol has code 162, 1st is 207 and 2nd is 168) the hash text is: 
+	aabba2d838f596a50c286d95179a95f7fc077651778e6ed32796c09afd1c4ddc
+For text: £P (0th symbol has code 163, 1st is 14 and 2nd is 80) the hash text is: 
+	aabb18cddea7fa6819bfce67ea13dd5452415f8b8a39c245fec1cabe809a3b2a
+For text: £öF (0th symbol has code 163, 1st is 154 and 2nd is 70) the hash text is: 
+	aabb1217401ead0924c7c33f5f89a33a1e50db5ac7d79c372d2aae1844828d05
+For text: £ÒΩ (0th symbol has code 163, 1st is 241 and 2nd is 189) the hash text is: 
+	aabbd02593c87b7ce04b8ae8787df187fae4ab0f9d08c00e79e64e74255ba8a4
+For text: §Áé (0th symbol has code 164, 1st is 231 and 2nd is 142) the hash text is: 
+	aabb0c1786c4094852d2f80d9bc7b442755c3710c835b11fd454df0a4590f475
+For text: ™ª (0th symbol has code 170, 1st is 2 and 2nd is 187) the hash text is: 
+	aabbd93da6ba0aba538f36109cbe38a10ba7fd46e08b0749a58674d90c2cbad8
+For text: ™/K (0th symbol has code 170, 1st is 47 and 2nd is 75) the hash text is: 
+	aabb46a99eb7074b65fa440142c5500060e6a3fd577596274fd1d5ea1656c2ea
+For text: ´6˙ (0th symbol has code 171, 1st is 54 and 2nd is 250) the hash text is: 
+	aabb43953e6ed1450dc082dfa0067c02b7e451924f63ea59cb4b842c1e0acf14
+For text: ≠+ª (0th symbol has code 173, 1st is 43 and 2nd is 187) the hash text is: 
+	aabb372f6aaca42750ca25a7349237bafc4ce2cc38423a709e5891c5ded6da6c
+For text: ≠x¸ (0th symbol has code 173, 1st is 120 and 2nd is 252) the hash text is: 
+	aabbf2faa9d071c899e1d93e1bde51c51cd1563f330e31a08d1ba33f7645ec9b
+For text: ≠Ê= (0th symbol has code 173, 1st is 230 and 2nd is 61) the hash text is: 
+	aabb53cd888f78557d8a6cb0611256af7399a023be1304ed97ef75f366f63d8a
+For text: Ø% (0th symbol has code 175, 1st is 37 and 2nd is 13) the hash text is: 
+	aabbcffda2a0a1eaaf9d63e71df2af5a843289015abebbc8d3c9360e443e8189
+For text: ∞ªÈ (0th symbol has code 176, 1st is 187 and 2nd is 233) the hash text is: 
+	aabbb8c3973e85498d9c1a89c96962226a74321333b740366ec3fb1e59bfe260
+For text: ±bÂ (0th symbol has code 177, 1st is 98 and 2nd is 229) the hash text is: 
+	aabb7f669a1c1825abbc874e2437c316c110a0e0e14923c61d31691b45e48349
+For text: ≤S¥ (0th symbol has code 178, 1st is 83 and 2nd is 180) the hash text is: 
+	aabb8deb1fce2edcb4e51306d77c1e92ab11b8c024b8b56e8a4d488cce5fa19c
+For text: ≥]√ (0th symbol has code 179, 1st is 93 and 2nd is 195) the hash text is: 
+	aabb234e9716c9c3a35df85f226915bb33e83108df197b5798ecfbbf862e42d6
+For text: ≥˘Ã (0th symbol has code 179, 1st is 249 and 2nd is 204) the hash text is: 
+	aabb4a268009dd10264892408c0b42c5969996e004d2c647438ab1b612376804
+For text: ≥˝∆ (0th symbol has code 179, 1st is 253 and 2nd is 198) the hash text is: 
+	aabbbeac71ee9dbeb77b5aecee668dd17e81f2d728c8b04463b9ece8cd547323
+For text: ¥B£ (0th symbol has code 180, 1st is 66 and 2nd is 163) the hash text is: 
+	aabb2a5c97bdd6a55667b783d6f8bf502c59e1385ad18ec7faeb007b4b09f9c1
+For text: ¥€‡ (0th symbol has code 180, 1st is 219 and 2nd is 224) the hash text is: 
+	aabbd6c1b984fb1834352310e1fc8b1d445292dde32e3d020086d00fead06bc9
+For text: ∂~ü (0th symbol has code 182, 1st is 126 and 2nd is 159) the hash text is: 
+	aabbbc4f9b0e8f8d59ab497a9f80905614de30780bdebc9eb014a86a892c9c97
+For text: ∏õï (0th symbol has code 184, 1st is 155 and 2nd is 149) the hash text is: 
+	aabb00f573525e05e6f500949be59e26ab9600277b3cd43dfb6486d6c7060efa
+For text: ∏ÁÓ (0th symbol has code 184, 1st is 231 and 2nd is 238) the hash text is: 
+	aabba06f19322fdcf83ad9bae4b2ed92572e75e42bf78c237dee990c702c1316
+For text: πS (0th symbol has code 185, 1st is 27 and 2nd is 83) the hash text is: 
+	aabbaa40d251516c5bce9db595b3afc43a0634ccb19fb7d52803b2a2b0a9c907
+For text: π⁄˜ (0th symbol has code 185, 1st is 218 and 2nd is 247) the hash text is: 
+	aabb8cdb08f425d635a7c1e0151045e85fd6332a192fed2f0ce2e8078537436d
+For text: πÌ (0th symbol has code 185, 1st is 237 and 2nd is 18) the hash text is: 
+	aabbd2dc414eae4be6be639364abf07628471e18013249bd52731ac8e24388a9
+For text: ª [ (0th symbol has code 187, 1st is 202 and 2nd is 91) the hash text is: 
+	aabb942ebed1b23f7fc0e69beba89b463ad989d25afa2c64d958c20f7a538932
+For text: ª“– (0th symbol has code 187, 1st is 210 and 2nd is 208) the hash text is: 
+	aabb1d804f38f4dd5b84080363896684073aac3a5eef3f19e547e95694ae08fd
+For text: ºdË (0th symbol has code 188, 1st is 100 and 2nd is 232) the hash text is: 
+	aabbabd66b67cd827e5760d7bb9b090295f25eace56423ac627ee4b8757a5f5f
+For text: Ωáw (0th symbol has code 189, 1st is 135 and 2nd is 119) the hash text is: 
+	aabb8a28188e0adc8014bdac665a1044de7b985518704cbcc04ba1e0bce2e5b1
+For text: æ∆ (0th symbol has code 190, 1st is 198 and 2nd is 127) the hash text is: 
+	aabbf15c2fcee8b2c8414119e01da9b9364edda7a6f87e0896abd35b161373b1
+For text: æ÷» (0th symbol has code 190, 1st is 214 and 2nd is 200) the hash text is: 
+	aabbbd7d12b38a407d99661ebffcbc72e83a5484043287ff0aae22a26a10228a
+For text: ¡⁄& (0th symbol has code 193, 1st is 218 and 2nd is 38) the hash text is: 
+	aabb144fd6f0a5811ff8aa89b3c6c7326d5f3927544c329447581292935ae9d5
+For text: ƒ≈ (0th symbol has code 196, 1st is 3 and 2nd is 197) the hash text is: 
+	aabbe13348297d3feb984dab898406d769e5466649a6247274ab8bb612640a8c
+For text: «cı (0th symbol has code 199, 1st is 99 and 2nd is 245) the hash text is: 
+	aabbc84549ed7ce21a3f4ac7f30ffae0ec641638accb20c11da3ae2e728e9283
+For text: «Ô (0th symbol has code 199, 1st is 240 and 2nd is 239) the hash text is: 
+	aabbaffc61840ba8875be85d6c4dcdf3c3b78710d8bef996af94059140f0d91d
+For text:  â∏ (0th symbol has code 202, 1st is 137 and 2nd is 184) the hash text is: 
+	aabb115e729477cdc0c67724700a2dfd1f67e49a87ea4adaab520afc570e616e
+For text: Ãu (0th symbol has code 204, 1st is 23 and 2nd is 117) the hash text is: 
+	aabbffbf93ad8a620d49466f5e1e3133ec07eebf19600d14f3260f938d8c8eb5
+For text: Ã!l (0th symbol has code 204, 1st is 33 and 2nd is 108) the hash text is: 
+	aabbdf886efcd95a327f75e2e8cc46449d87bd6a251b7f759c0f4515621d50a8
+For text: ÃA2 (0th symbol has code 204, 1st is 65 and 2nd is 50) the hash text is: 
+	aabb5ba61b6b0649d9f7740cdd1847a4346ef1c01450a4da5ba97cfe7f57d357
+For text: Õä[ (0th symbol has code 205, 1st is 138 and 2nd is 91) the hash text is: 
+	aabb051ee5e5292db902576939ebba91fe4d0c0d5d3f8937f6f0c08ed934a5b4
+For text: Œ¢~ (0th symbol has code 206, 1st is 162 and 2nd is 126) the hash text is: 
+	aabb2f03582923556d30e5dcc549a4282c949adc066ada19bac1fc5fddf1a80e
+For text: Œ∞G (0th symbol has code 206, 1st is 176 and 2nd is 71) the hash text is: 
+	aabbee1cdf03ef8188b4dc2ae6159a0670a31209d40e9803c4bb03b84964650e
+For text: œA (0th symbol has code 207, 1st is 15 and 2nd is 65) the hash text is: 
+	aabb6d87daab40a32633dfb88d91bc6d4ae7b4b40666422d13cdf0d02020753e
+For text: œË (0th symbol has code 207, 1st is 15 and 2nd is 232) the hash text is: 
+	aabb720a3225df4bdb6cbd1d2dc89e672e310e30b04f8ab474ae53a9d95a815c
+For text: œ¿A (0th symbol has code 207, 1st is 192 and 2nd is 65) the hash text is: 
+	aabbc216eaff7558d87d310e85a696193d9341ef119d22691c4bb1b5efb7dd5c
+For text: œ⁄≠ (0th symbol has code 207, 1st is 218 and 2nd is 173) the hash text is: 
+	aabbe5543459c8f041879b0585d2e5cf7b2a36a298b843bac0986997d43f93e8
+For text: –Àâ (0th symbol has code 208, 1st is 203 and 2nd is 137) the hash text is: 
+	aabbb0a3e0555de37fdba1a09ca1d27b6e411cd5f513d6eb53bf00e6b1b747e7
+For text: ”ã (0th symbol has code 211, 1st is 20 and 2nd is 139) the hash text is: 
+	aabb43ab57881d09fd1f4f91261e9bbb24791678179f8232be90117e00149613
+For text: ÷’ÿ (0th symbol has code 214, 1st is 213 and 2nd is 216) the hash text is: 
+	aabb397a7b182e7c65e44b32f5200ffd20ab76594dff8f818129cc714f7a76fa
+For text: ◊¢’ (0th symbol has code 215, 1st is 162 and 2nd is 213) the hash text is: 
+	aabb677f63509314911895be5b9599ec5c704174b1a030b201d31b7815a3aed0
+For text: ⁄Él (0th symbol has code 218, 1st is 131 and 2nd is 108) the hash text is: 
+	aabb71cd52251e2775949cead15169a32c27a76ff104383e3343f05c450871a8
+For text: €n’ (0th symbol has code 219, 1st is 110 and 2nd is 213) the hash text is: 
+	aabb0f1479cd13ecda57b3ced3a641413ab4a7e6ce27146ac29fd0a08fbabce1
+For text: €π≤ (0th symbol has code 219, 1st is 185 and 2nd is 178) the hash text is: 
+	aabb37500df7601db98ca9322227f68de4e8147f24146da35ead4b3897ace020
+For text: ﬁcÁ (0th symbol has code 222, 1st is 99 and 2nd is 231) the hash text is: 
+	aabb72ac8a1ad7f6d61252a1e3ca6f2aa196ff61de36334bb3d25ee10ce557a9
+For text: ﬂ¯A (0th symbol has code 223, 1st is 248 and 2nd is 65) the hash text is: 
+	aabbdca4a0086747505edff84892f5926719234156ed4dcc84cf6085bbedab89
+For text: ‡4F (0th symbol has code 224, 1st is 52 and 2nd is 70) the hash text is: 
+	aabb8f4e28d99a48b37dd230626e91a1b11e21db210728586f765bcc67c222e5
+For text: ·	Ω (0th symbol has code 225, 1st is 9 and 2nd is 189) the hash text is: 
+	aabbfc9618a688aca372569f18277d5bfcdee6e0cfc175156eabb2e6a9080aff
+For text: ·c‡ (0th symbol has code 225, 1st is 99 and 2nd is 224) the hash text is: 
+	aabb06bffea7ea8d05c86536bba916d2fd5a7147f065ec09d96e7769b4d11da5
+For text: ‚˘ (0th symbol has code 226, 1st is 249 and 2nd is 13) the hash text is: 
+	aabb946daee218b35d6a35ed606eefbc3732faeb0c8d5c1a139270abf46cdc99
+For text: ÊÉ (0th symbol has code 230, 1st is 23 and 2nd is 131) the hash text is: 
+	aabbe17d404db5c0b5890c6cf814681759f3cceb8a045b0b273df3358e28aa51
+For text: ÁQõ (0th symbol has code 231, 1st is 81 and 2nd is 155) the hash text is: 
+	aabb8f8762d3d1b8736beb9604618625a2285dcf07c22a1971db6abf8091cc14
+For text: È}« (0th symbol has code 233, 1st is 125 and 2nd is 199) the hash text is: 
+	aabbf448c3b0f47925c083feade403f8da09bdb6f79ae969f87ef94a93356835
+For text: ÈÅµ (0th symbol has code 233, 1st is 129 and 2nd is 181) the hash text is: 
+	aabb7c3821c86b0ce8d06a21f439c8ad4a23fe9b1f991502f4f5f47e3dac5aba
+For text: Í	E (0th symbol has code 234, 1st is 9 and 2nd is 69) the hash text is: 
+	aabbd2721cbf0e64e7b582e96dc13b7a16bf9391b4f6fb34a92ee938a2d8d232
+For text: Ítp (0th symbol has code 234, 1st is 116 and 2nd is 112) the hash text is: 
+	aabbfba104800d535a5b58a4e8d436287f95325970174d6cca5f1b46189dcb30
+For text: ÏÃ” (0th symbol has code 236, 1st is 204 and 2nd is 211) the hash text is: 
+	aabb9c51e04ffbe08feb337c06c2e59a83462ccee789c35138ded9127ee0842f
+For text: ÌXµ (0th symbol has code 237, 1st is 88 and 2nd is 181) the hash text is: 
+	aabbfeeefbe89a706958dcb9b5ae04029ffb33c1026c1707b7b37e046425d129
+For text: Ìf” (0th symbol has code 237, 1st is 102 and 2nd is 211) the hash text is: 
+	aabb455b49b85e9d285847b775e3c1f10db99eb50f2f80dc85165b35db91a6af
+For text: Ó] (0th symbol has code 238, 1st is 93 and 2nd is 8) the hash text is: 
+	aabbd9c929ea8169dcdffef44618d040ae632c8f81ebca3ad808c81fb48199f5
+For text: Ôm¬ (0th symbol has code 239, 1st is 109 and 2nd is 194) the hash text is: 
+	aabb4740fb8136ef01577476cf4d8b66d6d757a30807b6a0eaf71f392e34f9ea
+For text: Ú¢ (0th symbol has code 242, 1st is 7 and 2nd is 162) the hash text is: 
+	aabb73ffb0f035bc1627fc810919485aedd53e8d9f581594e10411a135b09d62
+For text: Ú¿" (0th symbol has code 242, 1st is 192 and 2nd is 34) the hash text is: 
+	aabb9306d73d98ef0d9e0208f870e61696a35cfa6744462a5becb3eeed9f9614
+For text: Ù7* (0th symbol has code 244, 1st is 55 and 2nd is 42) the hash text is: 
+	aabba7379b482782ef09fcafe6ff4554da1ba50acf084394c43a1582cdfc681f
+For text: Ù~˝ (0th symbol has code 244, 1st is 126 and 2nd is 253) the hash text is: 
+	aabb1458fc14e76433c7fcd00939b7499e9a57276b80a22ad6d2bae2dc706d97
+For text: Ùˆj (0th symbol has code 244, 1st is 246 and 2nd is 106) the hash text is: 
+	aabb9bc9ca3822bdf0dabac7c00d05ddfc30c986507d18018336469439f2c2d9
+For text: ˜‰ (0th symbol has code 247, 1st is 11 and 2nd is 228) the hash text is: 
+	aabbb49698f058179e95f11dfd1c6a5f29f5ba89322700d77143198d6f9de0a6
+For text: ˜¥¬ (0th symbol has code 247, 1st is 180 and 2nd is 194) the hash text is: 
+	aabb4903454d142a167e5cf013d4f40fbeb803d53ab4a712f91a373db69bfc79
+For text: ˙I (0th symbol has code 250, 1st is 73 and 2nd is 1) the hash text is: 
+	aabb25d57e8ff9ca7cb0bd7e75c5052e4aa11d12efeca60cf8ee02a90f722738
+For text: ˙ﬁ> (0th symbol has code 250, 1st is 222 and 2nd is 62) the hash text is: 
+	aabb76707f5548c1782a676dbf544cbec14e9722428da0b42349b70051563a19
+For text: ˚˙ (0th symbol has code 251, 1st is 250 and 2nd is 29) the hash text is: 
+	aabbaf0924bf46b450435a86bb8a430990ee64ecebe4adb4a7f3a6191d30b857
+For text: ˝y (0th symbol has code 253, 1st is 121 and 2nd is 5) the hash text is: 
+	aabbdc95831dd439ffe6a3e97aeebcd853c58cc0d56efeb1162e0b329df274a6
+For text: ˛óﬂ (0th symbol has code 254, 1st is 151 and 2nd is 223) the hash text is: 
+	aabb17cf2f7481e49b7a1c25ce81df579a556f1cb75e29975fa64b22e11ef383
