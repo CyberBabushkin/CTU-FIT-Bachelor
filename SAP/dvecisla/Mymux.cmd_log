@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym Mymux H:/SAP/dvecisla/Mymux.sch H:/SAP/dvecisla/Mymux.sym 

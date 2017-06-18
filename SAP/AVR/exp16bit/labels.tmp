@@ -1,0 +1,40 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Users\babusand\AppData\Local\Temp</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\print.inc</FILE>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\print.inc</FILE><LINE>18</LINE></show_char>
+  <nemezera><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\print.inc</FILE><LINE>35</LINE></nemezera>
+  <znaky><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\print.inc</FILE><LINE>55</LINE></zobzc>
+  <start><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>9</LINE></start>
+  <noMove><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>37</LINE></noMove>
+  <printNum><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>85</LINE></printNum>
+  <cont1><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>75</LINE></cont1>
+  <cont2><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>79</LINE></cont2>
+  <firstCond><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>97</LINE></firstCond>
+  <ifA><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>124</LINE></ifA>
+  <if0><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>128</LINE></if0>
+  <secondCond><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>103</LINE></secondCond>
+  <continue><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\exp16bit\exp16bit.asm</FILE><LINE>110</LINE></continue>
+ </LABELS>
+</ASSEMBLER_INFO>

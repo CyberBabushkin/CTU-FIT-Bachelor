@@ -1,0 +1,20 @@
+V3 13
+FL //ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd 2016/03/30.15:22:23 P.20131013
+EN work/algebra 1459344694 FL //ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/algebra/Behavioral 1459344695 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd EN work/algebra 1459344694
+FL //ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd 2016/03/16.16:17:52 P.20131013
+EN work/debounce 1459344692 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debounce/arch 1459344693 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd EN work/debounce 1459344692
+FL //ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf 2016/03/30.15:30:11 P.20131013
+EN work/modulo6 1459344696 FL //ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/modulo6/BEHAVIORAL 1459344697 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf EN work/modulo6 1459344696 \
+      CP debounce CP FDC CP algebra

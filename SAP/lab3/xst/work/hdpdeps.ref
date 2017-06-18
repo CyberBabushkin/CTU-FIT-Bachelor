@@ -1,0 +1,14 @@
+V3 10
+FL //ucebnyfile/home/b/babusand/SAP/lab3/a.vhd 2016/03/14.15:59:48 P.20131013
+EN work/algebra 1457967624 FL //ucebnyfile/home/b/babusand/SAP/lab3/a.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/algebra/Behavioral 1457967625 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab3/a.vhd EN work/algebra 1457967624
+FL //ucebnyfile/home/b/babusand/SAP/lab3/schema.vhf 2016/03/14.15:34:14 P.20131013
+EN work/schema 1457967626 FL //ucebnyfile/home/b/babusand/SAP/lab3/schema.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/schema/BEHAVIORAL 1457967627 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab3/schema.vhf EN work/schema 1457967626 \
+      CP algebra CP GND CP VCC

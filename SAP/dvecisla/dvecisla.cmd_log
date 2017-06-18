@@ -1,0 +1,21 @@
+xst -intstyle ise -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -ifn "H:/SAP/dvecisla/dvecisla.xst" -ofn "H:/SAP/dvecisla/dvecisla.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 dvecisla.ngc dvecisla.ngd  
+map -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o dvecisla_map.ncd dvecisla.ngd dvecisla.pcf 
+par -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 dvecisla_map.ncd dvecisla.ncd dvecisla.pcf 
+trce -filter H:/SAP/dvecisla/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dvecisla.twx dvecisla.ncd -o dvecisla.twr dvecisla.pcf -ucf schema.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f dvecisla.ut dvecisla.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 dvecisla.ngc dvecisla.ngd  
+map -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o dvecisla_map.ncd dvecisla.ngd dvecisla.pcf 
+par -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 dvecisla_map.ncd dvecisla.ncd dvecisla.pcf 
+trce -filter H:/SAP/dvecisla/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dvecisla.twx dvecisla.ncd -o dvecisla.twr dvecisla.pcf -ucf schema.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f dvecisla.ut dvecisla.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 dvecisla.ngc dvecisla.ngd  
+map -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o dvecisla_map.ncd dvecisla.ngd dvecisla.pcf 
+par -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 dvecisla_map.ncd dvecisla.ncd dvecisla.pcf 
+trce -filter H:/SAP/dvecisla/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dvecisla.twx dvecisla.ncd -o dvecisla.twr dvecisla.pcf -ucf schema.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f dvecisla.ut dvecisla.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc schema.ucf -p xc3s100e-cp132-4 dvecisla.ngc dvecisla.ngd  
+map -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o dvecisla_map.ncd dvecisla.ngd dvecisla.pcf 
+par -filter "H:/SAP/dvecisla/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 dvecisla_map.ncd dvecisla.ncd dvecisla.pcf 
+trce -filter H:/SAP/dvecisla/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dvecisla.twx dvecisla.ncd -o dvecisla.twr dvecisla.pcf -ucf schema.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f dvecisla.ut dvecisla.ncd 

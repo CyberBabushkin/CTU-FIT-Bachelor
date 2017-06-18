@@ -1,0 +1,3 @@
+MODULE modulo6
+	SUBMODULE debounce
+		INSTANCE XLXI_1

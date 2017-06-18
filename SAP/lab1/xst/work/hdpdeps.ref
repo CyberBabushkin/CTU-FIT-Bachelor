@@ -1,0 +1,23 @@
+V3 12
+FL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf 2016/02/26.20:54:40 P.20131013
+EN work/gates_MUSER_fourbits 1456516486 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/gates_MUSER_fourbits/BEHAVIORAL 1456516487 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf \
+      EN work/gates_MUSER_fourbits 1456516486 CP XOR2 CP NAND2
+EN work/fourbits 1456516488 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/fourbits/BEHAVIORAL 1456516489 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf EN work/fourbits 1456516488 \
+      CP gates_MUSER_fourbits
+FL //ucebnyfile/home/b/babusand/SAP/lab1/gates.vhf 2016/02/26.20:29:22 P.20131013
+EN work/gates 1456516490 FL //ucebnyfile/home/b/babusand/SAP/lab1/gates.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/gates/BEHAVIORAL 1456516491 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab1/gates.vhf EN work/gates 1456516490 \
+      CP XOR2 CP NAND2

@@ -1,0 +1,4 @@
+vhdl work "onebitadder.vhf"
+vhdl work "decoder_7seg.vhd"
+vhdl work "fourbitadder.vhf"
+vhdl work "adderwithdisplay.vhf"

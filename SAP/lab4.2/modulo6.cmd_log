@@ -1,0 +1,31 @@
+sch2sym -intstyle ise -family spartan3e -refsym modulo6 H:/SAP/lab4.2/modulo6.sch H:/SAP/lab4.2/modulo6.sym 
+xst -intstyle ise -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -ifn "H:/SAP/lab4.2/modulo6.xst" -ofn "H:/SAP/lab4.2/modulo6.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc modulo6.ucf -p xc3s100e-cp132-4 modulo6.ngc modulo6.ngd  
+map -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o modulo6_map.ncd modulo6.ngd modulo6.pcf 
+par -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 modulo6_map.ncd modulo6.ncd modulo6.pcf 
+trce -filter H:/SAP/lab4.2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modulo6.twx modulo6.ncd -o modulo6.twr modulo6.pcf -ucf modulo6.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f modulo6.ut modulo6.ncd 
+xst -intstyle ise -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -ifn "H:/SAP/lab4.2/modulo6.xst" -ofn "H:/SAP/lab4.2/modulo6.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc modulo6.ucf -p xc3s100e-cp132-4 modulo6.ngc modulo6.ngd  
+map -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o modulo6_map.ncd modulo6.ngd modulo6.pcf 
+par -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 modulo6_map.ncd modulo6.ncd modulo6.pcf 
+trce -filter H:/SAP/lab4.2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modulo6.twx modulo6.ncd -o modulo6.twr modulo6.pcf -ucf modulo6.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f modulo6.ut modulo6.ncd 
+xst -intstyle ise -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -ifn "H:/SAP/lab4.2/modulo6.xst" -ofn "H:/SAP/lab4.2/modulo6.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc modulo6.ucf -p xc3s100e-cp132-4 modulo6.ngc modulo6.ngd  
+map -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o modulo6_map.ncd modulo6.ngd modulo6.pcf 
+par -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 modulo6_map.ncd modulo6.ncd modulo6.pcf 
+trce -filter H:/SAP/lab4.2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modulo6.twx modulo6.ncd -o modulo6.twr modulo6.pcf -ucf modulo6.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f modulo6.ut modulo6.ncd 
+xst -intstyle ise -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -ifn "H:/SAP/lab4.2/modulo6.xst" -ofn "H:/SAP/lab4.2/modulo6.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc modulo6.ucf -p xc3s100e-cp132-4 modulo6.ngc modulo6.ngd  
+map -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o modulo6_map.ncd modulo6.ngd modulo6.pcf 
+par -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 modulo6_map.ncd modulo6.ncd modulo6.pcf 
+trce -filter H:/SAP/lab4.2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modulo6.twx modulo6.ncd -o modulo6.twr modulo6.pcf -ucf modulo6.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f modulo6.ut modulo6.ncd 
+xst -intstyle ise -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -ifn "H:/SAP/lab4.2/modulo6.xst" -ofn "H:/SAP/lab4.2/modulo6.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc modulo6.ucf -p xc3s100e-cp132-4 modulo6.ngc modulo6.ngd  
+map -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o modulo6_map.ncd modulo6.ngd modulo6.pcf 
+par -filter "H:/SAP/lab4.2/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 modulo6_map.ncd modulo6.ncd modulo6.pcf 
+trce -filter H:/SAP/lab4.2/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modulo6.twx modulo6.ncd -o modulo6.twr modulo6.pcf -ucf modulo6.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f modulo6.ut modulo6.ncd 

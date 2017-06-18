@@ -1,0 +1,50 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'modulo6'
+
+Design Information
+------------------
+Command Line   : map -filter H:/SAP/lab5/iseconfig/filter.filter -intstyle ise
+-p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o modulo6_map.ncd
+modulo6.ngd modulo6.pcf 
+Target Device  : xc3s100e
+Target Package : cp132
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Wed Mar 30 14:49:28 2016
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Pack:1107 - Pack was unable to combine the symbols listed below into a
+   single IOB component because the site type selected is not compatible. The
+   component type is determined by the types of logic and the properties and
+   configuration of the logic it contains. In this case an IO component of type
+   IOB was chosen because the IO contains symbols and/or properties consistent
+   with output or bi-directional usage and contains no other symbols or
+   properties that require a more specific IO component type. Please double
+   check that the types of logic elements and all of their relevant properties
+   and configuration options are compatible with the physical site type of the
+   constraint.
+
+   Summary:
+   Symbols involved:
+   	BUF symbol "EN_OBUF" (Output Signal = EN)
+   	PAD symbol "EN" (Pad Signal = EN)
+   Component type involved: IOB
+   Site Location involved: P11
+   Site Type involved: IBUF
+
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work nasob.vhd -prj lab3.1 -o nasob.spl -module nasob -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e nasob.spl H:/SAP/lab3.1/nasob.sym 

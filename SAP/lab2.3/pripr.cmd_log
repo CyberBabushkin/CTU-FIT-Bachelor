@@ -1,0 +1,15 @@
+xst -intstyle ise -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -ifn "H:/SAP/lab2.3/pripr.xst" -ofn "H:/SAP/lab2.3/pripr.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 pripr.ngc pripr.ngd  
+map -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pripr_map.ncd pripr.ngd pripr.pcf 
+par -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 pripr_map.ncd pripr.ncd pripr.pcf 
+trce -filter H:/SAP/lab2.3/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pripr.twx pripr.ncd -o pripr.twr pripr.pcf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc pripr.ucf -p xc3s100e-cp132-4 pripr.ngc pripr.ngd  
+map -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pripr_map.ncd pripr.ngd pripr.pcf 
+par -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 pripr_map.ncd pripr.ncd pripr.pcf 
+trce -filter H:/SAP/lab2.3/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pripr.twx pripr.ncd -o pripr.twr pripr.pcf -ucf pripr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f pripr.ut pripr.ncd 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc pripr.ucf -p xc3s100e-cp132-4 pripr.ngc pripr.ngd  
+map -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o pripr_map.ncd pripr.ngd pripr.pcf 
+par -filter "H:/SAP/lab2.3/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 pripr_map.ncd pripr.ncd pripr.pcf 
+trce -filter H:/SAP/lab2.3/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pripr.twx pripr.ncd -o pripr.twr pripr.pcf -ucf pripr.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f pripr.ut pripr.ncd 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work a.vhd -prj lab4 -o algebra.spl -module algebra -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e algebra.spl H:/SAP/lab4/algebra.sym 

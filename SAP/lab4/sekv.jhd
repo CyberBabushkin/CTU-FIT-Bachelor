@@ -1,0 +1,5 @@
+MODULE sekv
+	SUBMODULE algebra
+		INSTANCE XLXI_5
+	SUBMODULE debounce
+		INSTANCE XLXI_6

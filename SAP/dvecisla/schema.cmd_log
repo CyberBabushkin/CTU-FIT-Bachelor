@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan3e -refsym schema H:/SAP/dvecisla/schema.sch H:/SAP/dvecisla/schema.sym 

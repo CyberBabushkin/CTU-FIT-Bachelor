@@ -1,0 +1,450 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: dvecisla.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "dvecisla.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "dvecisla"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : dvecisla
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//ucebnyfile/home/b/babusand/SAP/dvecisla/a.vhd" in Library work.
+Entity <algebra> compiled.
+Entity <algebra> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf" in Library work.
+Entity <FTCE_MXILINX_dvecisla> compiled.
+Entity <FTCE_MXILINX_dvecisla> (Architecture <BEHAVIORAL>) compiled.
+Entity <CB16CE_MXILINX_dvecisla> compiled.
+Entity <CB16CE_MXILINX_dvecisla> (Architecture <BEHAVIORAL>) compiled.
+Entity <Mymux_MUSER_dvecisla> compiled.
+Entity <Mymux_MUSER_dvecisla> (Architecture <BEHAVIORAL>) compiled.
+Entity <dvecisla> compiled.
+Entity <dvecisla> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "//ucebnyfile/home/b/babusand/SAP/dvecisla/Mymux.vhf" in Library work.
+Entity <Mymux> compiled.
+Entity <Mymux> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <dvecisla> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Mymux_MUSER_dvecisla> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <algebra> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <CB16CE_MXILINX_dvecisla> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_dvecisla> in library <work> (architecture <BEHAVIORAL>) with generics.
+	INIT = '0'
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <dvecisla> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf" line 592: Unconnected output port 'Q' of component 'CB16CE_MXILINX_dvecisla'.
+WARNING:Xst:753 - "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf" line 592: Unconnected output port 'TC' of component 'CB16CE_MXILINX_dvecisla'.
+    Set user-defined property "HU_SET =  XLXI_4_16" for instance <XLXI_4> in unit <dvecisla>.
+WARNING:Xst:753 - "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf" line 600: Unconnected output port 'CEO' of component 'CB16CE_MXILINX_dvecisla'.
+WARNING:Xst:753 - "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf" line 600: Unconnected output port 'TC' of component 'CB16CE_MXILINX_dvecisla'.
+    Set user-defined property "HU_SET =  XLXI_5_17" for instance <XLXI_5> in unit <dvecisla>.
+Entity <dvecisla> analyzed. Unit <dvecisla> generated.
+
+Analyzing Entity <Mymux_MUSER_dvecisla> in library <work> (Architecture <BEHAVIORAL>).
+Entity <Mymux_MUSER_dvecisla> analyzed. Unit <Mymux_MUSER_dvecisla> generated.
+
+Analyzing Entity <algebra> in library <work> (Architecture <Behavioral>).
+Entity <algebra> analyzed. Unit <algebra> generated.
+
+Analyzing Entity <CB16CE_MXILINX_dvecisla> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  I_Q0_1" for instance <I_Q0> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q1_0" for instance <I_Q1> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q2_3" for instance <I_Q2> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q3_2" for instance <I_Q3> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q4_7" for instance <I_Q4> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q5_6" for instance <I_Q5> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q6_5" for instance <I_Q6> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q7_4" for instance <I_Q7> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q8_8" for instance <I_Q8> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q9_9" for instance <I_Q9> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q10_10" for instance <I_Q10> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q11_11" for instance <I_Q11> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q12_12" for instance <I_Q12> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q13_13" for instance <I_Q13> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q14_14" for instance <I_Q14> in unit <CB16CE_MXILINX_dvecisla>.
+    Set user-defined property "HU_SET =  I_Q15_15" for instance <I_Q15> in unit <CB16CE_MXILINX_dvecisla>.
+Entity <CB16CE_MXILINX_dvecisla> analyzed. Unit <CB16CE_MXILINX_dvecisla> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_dvecisla> in library <work> (Architecture <BEHAVIORAL>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_dvecisla>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_dvecisla>.
+Entity <FTCE_MXILINX_dvecisla> analyzed. Unit <FTCE_MXILINX_dvecisla> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <algebra>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/dvecisla/a.vhd".
+Unit <algebra> synthesized.
+
+
+Synthesizing Unit <Mymux_MUSER_dvecisla>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf".
+Unit <Mymux_MUSER_dvecisla> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_dvecisla>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf".
+Unit <FTCE_MXILINX_dvecisla> synthesized.
+
+
+Synthesizing Unit <CB16CE_MXILINX_dvecisla>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf".
+Unit <CB16CE_MXILINX_dvecisla> synthesized.
+
+
+Synthesizing Unit <dvecisla>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/dvecisla/dvecisla.vhf".
+WARNING:Xst:646 - Signal <XLXN_32<15:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <XLXN_32<2:0>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <dvecisla> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <dvecisla> ...
+
+Optimizing unit <FTCE_MXILINX_dvecisla> ...
+
+Optimizing unit <CB16CE_MXILINX_dvecisla> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block dvecisla, actual ratio is 4.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : dvecisla.ngr
+Top Level Output File Name         : dvecisla
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 21
+
+Cell Usage :
+# BELS                             : 88
+#      AND2                        : 10
+#      AND3                        : 8
+#      AND4                        : 8
+#      AND5                        : 6
+#      BUF                         : 1
+#      INV                         : 1
+#      LUT1                        : 8
+#      LUT4                        : 7
+#      MUXF5                       : 4
+#      VCC                         : 3
+#      XOR2                        : 32
+# FlipFlops/Latches                : 32
+#      FDCE                        : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 9
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       16  out of    960     1%  
+ Number of Slice Flip Flops:             32  out of   1920     1%  
+ Number of 4 input LUTs:                 16  out of   1920     0%  
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of     83    25%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 32    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLR                                | IBUF                   | 32    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.669ns (Maximum Frequency: 115.354MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.366ns
+   Maximum combinational path delay: 8.117ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 8.669ns (frequency: 115.354MHz)
+  Total number of paths / destination ports: 528 / 48
+-------------------------------------------------------------------------
+Delay:               8.669ns (Levels of Logic = 7)
+  Source:            XLXI_4/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_5/I_Q15/I_36_35 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_4/I_Q0/I_36_35 to XLXI_5/I_Q15/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.591   0.633  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND4:I3->O            5   0.704   0.633  I_36_10 (T4)
+     AND5:I4->O            5   0.704   0.633  I_36_14 (T8)
+     AND5:I4->O            5   0.704   0.633  I_36_29 (T12)
+     AND5:I4->O            1   0.704   0.420  I_36_22 (TC)
+     AND2:I1->O           17   0.704   1.051  I_36_54 (CEO)
+     end scope: 'XLXI_4'
+     begin scope: 'XLXI_5'
+     begin scope: 'I_Q15'
+     FDCE:CE                   0.555          I_36_35
+    ----------------------------------------
+    Total                      8.669ns (4.666ns logic, 4.003ns route)
+                                       (53.8% logic, 46.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 30 / 9
+-------------------------------------------------------------------------
+Offset:              7.366ns (Levels of Logic = 4)
+  Source:            XLXI_5/I_Q3/I_36_35 (FF)
+  Destination:       A (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_5/I_Q3/I_36_35 to A
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.591   0.757  I_36_35 (Q)
+     end scope: 'I_Q3'
+     end scope: 'XLXI_5'
+     MUXF5:S->O            7   0.739   0.883  XLXI_1/XLXI_4 (XLXN_15)
+     LUT4:I0->O            1   0.704   0.420  XLXI_2/c1 (C_OBUF)
+     OBUF:I->O                 3.272          C_OBUF (C)
+    ----------------------------------------
+    Total                      7.366ns (5.306ns logic, 2.060ns route)
+                                       (72.0% logic, 28.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 56 / 7
+-------------------------------------------------------------------------
+Delay:               8.117ns (Levels of Logic = 5)
+  Source:            S1 (PAD)
+  Destination:       A (PAD)
+
+  Data Path: S1 to A
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  S1_IBUF (S1_IBUF)
+     LUT1:I0->O            1   0.704   0.000  XLXI_1/XLXI_2_rt (XLXI_1/XLXI_2_rt)
+     MUXF5:I0->O           7   0.321   0.883  XLXI_1/XLXI_2 (XLXN_13)
+     LUT4:I0->O            1   0.704   0.420  XLXI_2/e1 (E_OBUF)
+     OBUF:I->O                 3.272          E_OBUF (E)
+    ----------------------------------------
+    Total                      8.117ns (6.219ns logic, 1.898ns route)
+                                       (76.6% logic, 23.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.64 secs
+ 
+--> 
+
+Total memory usage is 268676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="dvecisla.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Mymux.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Mymux.vhf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="algebra.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="dvecisla.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="dvecisla.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="dvecisla.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="dvecisla.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="dvecisla.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="dvecisla.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="dvecisla.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="dvecisla.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="dvecisla.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="dvecisla.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="dvecisla.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="dvecisla.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="dvecisla.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="dvecisla.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dvecisla.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="dvecisla.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="dvecisla.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="dvecisla.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="dvecisla.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="dvecisla.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="dvecisla.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="dvecisla.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="dvecisla.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="dvecisla.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="dvecisla.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="dvecisla_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="dvecisla_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="dvecisla_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="dvecisla_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="dvecisla_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dvecisla_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dvecisla_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="dvecisla_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="dvecisla_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dvecisla_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="dvecisla_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="dvecisla_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="dvecisla_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dvecisla_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="dvecisla_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="schema.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="schema.vhf"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1459346577" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1459346577">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459937888" xil_pn:in_ck="-1421966800109524416" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-5004638926055141286" xil_pn:start_ts="1459937884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Mymux.vhf"/>
+      <outfile xil_pn:name="dvecisla.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1459937888" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1130388169710910435" xil_pn:start_ts="1459937888">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459937888" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1459937888">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459937888" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6901080495251505624" xil_pn:start_ts="1459937888">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938112" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1459938112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938112" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6534783826688056019" xil_pn:start_ts="1459938112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938125" xil_pn:in_ck="-1194911945628531069" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-257934963725982208" xil_pn:start_ts="1459938112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="dvecisla.jhd"/>
+      <outfile xil_pn:name="dvecisla.lso"/>
+      <outfile xil_pn:name="dvecisla.ngc"/>
+      <outfile xil_pn:name="dvecisla.ngr"/>
+      <outfile xil_pn:name="dvecisla.prj"/>
+      <outfile xil_pn:name="dvecisla.stx"/>
+      <outfile xil_pn:name="dvecisla.syr"/>
+      <outfile xil_pn:name="dvecisla.xst"/>
+      <outfile xil_pn:name="dvecisla_vhdl.prj"/>
+      <outfile xil_pn:name="dvecisla_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938634" xil_pn:in_ck="5481122298340989" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784893559081799437" xil_pn:start_ts="1459938634">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938641" xil_pn:in_ck="-610555182029615666" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1488065548974611984" xil_pn:start_ts="1459938634">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="dvecisla.bld"/>
+      <outfile xil_pn:name="dvecisla.ngd"/>
+      <outfile xil_pn:name="dvecisla_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938649" xil_pn:in_ck="-609023603044351217" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1459938641">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="dvecisla.pcf"/>
+      <outfile xil_pn:name="dvecisla_map.map"/>
+      <outfile xil_pn:name="dvecisla_map.mrp"/>
+      <outfile xil_pn:name="dvecisla_map.ncd"/>
+      <outfile xil_pn:name="dvecisla_map.ngm"/>
+      <outfile xil_pn:name="dvecisla_map.xrpt"/>
+      <outfile xil_pn:name="dvecisla_summary.xml"/>
+      <outfile xil_pn:name="dvecisla_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938669" xil_pn:in_ck="5733652870491258472" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1459938649">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="dvecisla.ncd"/>
+      <outfile xil_pn:name="dvecisla.pad"/>
+      <outfile xil_pn:name="dvecisla.par"/>
+      <outfile xil_pn:name="dvecisla.ptwx"/>
+      <outfile xil_pn:name="dvecisla.unroutes"/>
+      <outfile xil_pn:name="dvecisla.xpi"/>
+      <outfile xil_pn:name="dvecisla_pad.csv"/>
+      <outfile xil_pn:name="dvecisla_pad.txt"/>
+      <outfile xil_pn:name="dvecisla_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938684" xil_pn:in_ck="5239768393810451854" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1459938674">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="dvecisla.bgn"/>
+      <outfile xil_pn:name="dvecisla.bit"/>
+      <outfile xil_pn:name="dvecisla.drc"/>
+      <outfile xil_pn:name="dvecisla.ut"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1459938669" xil_pn:in_ck="-811192029099258485" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1459938665">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="dvecisla.twr"/>
+      <outfile xil_pn:name="dvecisla.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

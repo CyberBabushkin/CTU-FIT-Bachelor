@@ -1,0 +1,133 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -filter
+H:/BI-SAP/Red/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths
+-xml adderwithdisplay.twx adderwithdisplay.ncd -o adderwithdisplay.twr
+adderwithdisplay.pcf -ucf adderwithdisplay.ucf
+
+Design file:              adderwithdisplay.ncd
+Physical constraint file: adderwithdisplay.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A0             |CA             |   12.169|
+A0             |CB             |   12.639|
+A0             |CC             |   13.061|
+A0             |CD             |   12.089|
+A0             |CE             |   12.090|
+A0             |CF             |   12.221|
+A0             |CG             |   12.728|
+A0             |COUT           |   10.921|
+A1             |CA             |   12.122|
+A1             |CB             |   12.592|
+A1             |CC             |   13.014|
+A1             |CD             |   12.042|
+A1             |CE             |   12.043|
+A1             |CF             |   12.174|
+A1             |CG             |   12.681|
+A1             |COUT           |   10.874|
+A2             |CA             |   10.396|
+A2             |CB             |   10.866|
+A2             |CC             |   11.288|
+A2             |CD             |   10.270|
+A2             |CE             |   10.317|
+A2             |CF             |   10.397|
+A2             |CG             |   10.955|
+A2             |COUT           |    9.148|
+A3             |CA             |    9.874|
+A3             |CB             |   10.344|
+A3             |CC             |   10.766|
+A3             |CD             |    9.748|
+A3             |CE             |    9.795|
+A3             |CF             |    9.875|
+A3             |CG             |   10.433|
+A3             |COUT           |    8.506|
+B0             |CA             |   11.642|
+B0             |CB             |   12.112|
+B0             |CC             |   12.534|
+B0             |CD             |   11.562|
+B0             |CE             |   11.563|
+B0             |CF             |   11.694|
+B0             |CG             |   12.201|
+B0             |COUT           |   10.394|
+B1             |CA             |   11.082|
+B1             |CB             |   11.552|
+B1             |CC             |   11.974|
+B1             |CD             |   11.002|
+B1             |CE             |   11.003|
+B1             |CF             |   11.134|
+B1             |CG             |   11.641|
+B1             |COUT           |    9.834|
+B2             |CA             |   10.031|
+B2             |CB             |   10.501|
+B2             |CC             |   10.923|
+B2             |CD             |    9.937|
+B2             |CE             |    9.952|
+B2             |CF             |   10.069|
+B2             |CG             |   10.590|
+B2             |COUT           |    8.783|
+B3             |CA             |    9.657|
+B3             |CB             |   10.127|
+B3             |CC             |   10.549|
+B3             |CD             |    9.531|
+B3             |CE             |    9.578|
+B3             |CF             |    9.658|
+B3             |CG             |   10.216|
+B3             |COUT           |    8.142|
+CIN            |CA             |   11.864|
+CIN            |CB             |   12.334|
+CIN            |CC             |   12.756|
+CIN            |CD             |   11.784|
+CIN            |CE             |   11.785|
+CIN            |CF             |   11.916|
+CIN            |CG             |   12.423|
+CIN            |COUT           |   10.616|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Mar 06 09:21:32 2015 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 153 MB
+
+
+

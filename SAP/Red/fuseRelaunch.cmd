@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/GLEB/Desktop/XilinxProjects/Red/decoder_7seg_test_isim_beh.exe" -prj "C:/Users/GLEB/Desktop/XilinxProjects/Red/decoder_7seg_test_beh.prj" "work.decoder_7seg_test" 

@@ -1,0 +1,5 @@
+MODULE adderwithdisplay
+	SUBMODULE fourbitadder
+		INSTANCE XLXI_2
+	SUBMODULE decoder_7seg
+		INSTANCE XLXI_5

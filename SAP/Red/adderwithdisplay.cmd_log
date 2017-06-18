@@ -1,0 +1,13 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adderwithdisplay_drc.vhf -w C:/Users/GLEB/Desktop/XilinxProjects/Red/adderwithdisplay.sch 
+xst -intstyle ise -filter "C:/Users/GLEB/Desktop/XilinxProjects/Red/iseconfig/filter.filter" -ifn "C:/Users/GLEB/Desktop/XilinxProjects/Red/adderwithdisplay.xst" -ofn "C:/Users/GLEB/Desktop/XilinxProjects/Red/adderwithdisplay.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 adderwithdisplay.ngc adderwithdisplay.ngd  
+map -filter "C:/Users/GLEB/Desktop/XilinxProjects/Red/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o adderwithdisplay_map.ncd adderwithdisplay.ngd adderwithdisplay.pcf 
+par -filter "C:/Users/GLEB/Desktop/XilinxProjects/Red/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 adderwithdisplay_map.ncd adderwithdisplay.ncd adderwithdisplay.pcf 
+trce -filter C:/Users/GLEB/Desktop/XilinxProjects/Red/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adderwithdisplay.twx adderwithdisplay.ncd -o adderwithdisplay.twr adderwithdisplay.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f adderwithdisplay.ut adderwithdisplay.ncd 
+xst -intstyle ise -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -ifn "H:/BI-SAP/Red/adderwithdisplay.xst" -ofn "H:/BI-SAP/Red/adderwithdisplay.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc adderwithdisplay.ucf -p xc3s100e-cp132-4 adderwithdisplay.ngc adderwithdisplay.ngd  
+map -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o adderwithdisplay_map.ncd adderwithdisplay.ngd adderwithdisplay.pcf 
+par -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 adderwithdisplay_map.ncd adderwithdisplay.ncd adderwithdisplay.pcf 
+trce -filter H:/BI-SAP/Red/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml adderwithdisplay.twx adderwithdisplay.ncd -o adderwithdisplay.twr adderwithdisplay.pcf -ucf adderwithdisplay.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f adderwithdisplay.ut adderwithdisplay.ncd 

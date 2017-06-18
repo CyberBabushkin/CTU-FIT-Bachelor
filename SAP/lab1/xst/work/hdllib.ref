@@ -1,0 +1,6 @@
+AR gates_muser_fourbits behavioral //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf sub00/vhpl01 1456516487
+EN fourbits NULL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf sub00/vhpl02 1456516488
+AR gates behavioral //ucebnyfile/home/b/babusand/SAP/lab1/gates.vhf sub00/vhpl05 1456516491
+AR fourbits behavioral //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf sub00/vhpl03 1456516489
+EN gates NULL //ucebnyfile/home/b/babusand/SAP/lab1/gates.vhf sub00/vhpl04 1456516490
+EN gates_muser_fourbits NULL //ucebnyfile/home/b/babusand/SAP/lab1/fourbits.vhf sub00/vhpl00 1456516486

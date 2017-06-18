@@ -1,0 +1,2 @@
+vhdtdtfi -lib work decoder_7seg.vhd -prj Red -o decoder_7seg.spl -module decoder_7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e decoder_7seg.spl C:/Users/GLEB/Desktop/XilinxProjects/Red/decoder_7seg.sym 

@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Fri Mar 06 09:17:10 2015
+# Process ID: 3360
+# Log file: H:/BI-SAP/Red/planAhead_run_1/planAhead.log
+# Journal file: H:/BI-SAP/Red/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/BI-SAP/Red/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P11 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports A2]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports A3]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports B1]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports B2]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports B3]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports CIN]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports COUT]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports CA]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports CB]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports CC]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports CD]
+endgroup
+set_property package_pin "" [get_ports [list  CF]]
+startgroup
+set_property package_pin P12 [get_ports CE]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports CF]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports CG]
+endgroup
+startgroup
+set_property package_pin N13 [get_ports DP]
+endgroup
+save_constraints

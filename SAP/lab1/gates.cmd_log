@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym gates H:/SAP/lab1/gates.sch H:/SAP/lab1/gates.sym 
+sch2sym -intstyle ise -family spartan3e -refsym gates H:/SAP/lab1/gates.sch H:/SAP/lab1/gates.sym 
+sch2sym -intstyle ise -family spartan3e -refsym gates H:/SAP/lab1/gates.sch H:/SAP/lab1/gates.sym 

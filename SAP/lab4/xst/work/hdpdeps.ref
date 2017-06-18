@@ -1,0 +1,19 @@
+V3 13
+FL //ucebnyfile/home/b/babusand/SAP/lab4/a.vhd 2016/03/16.15:14:18 P.20131013
+EN work/algebra 1458738303 FL //ucebnyfile/home/b/babusand/SAP/lab4/a.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/algebra/Behavioral 1458738304 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab4/a.vhd EN work/algebra 1458738303
+FL //ucebnyfile/home/b/babusand/SAP/lab4/debounce.vhd 2016/03/16.15:17:52 P.20131013
+EN work/debounce 1458738305 FL //ucebnyfile/home/b/babusand/SAP/lab4/debounce.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/debounce/arch 1458738306 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab4/debounce.vhd EN work/debounce 1458738305
+FL //ucebnyfile/home/b/babusand/SAP/lab4/sekv.vhf 2016/03/23.14:02:19 P.20131013
+EN work/sekv 1458738149 FL //ucebnyfile/home/b/babusand/SAP/lab4/sekv.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/sekv/BEHAVIORAL 1458738150 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab4/sekv.vhf EN work/sekv 1458738149 \
+      CP FDC CP algebra CP debounce

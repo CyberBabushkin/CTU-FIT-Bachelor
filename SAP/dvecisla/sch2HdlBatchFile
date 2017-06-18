@@ -1,0 +1,2 @@
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,H:/SAP/dvecisla/dvecisla.vhf,-w,H:/SAP/dvecisla/dvecisla.sch
+sch2hdl,-intstyle,ise,-family,spartan3e,-flat,-suppress,-vhdl,H:/SAP/dvecisla/Mymux.vhf,-w,H:/SAP/dvecisla/Mymux.sch

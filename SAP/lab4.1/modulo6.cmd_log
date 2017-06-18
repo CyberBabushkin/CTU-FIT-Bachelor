@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "H:/SAP/lab4.1/iseconfig/filter.filter" -ifn "H:/SAP/lab4.1/mod.xst" -ofn "H:/SAP/lab4.1/mod.syr" 

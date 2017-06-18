@@ -1,0 +1,14 @@
+select figure at 38 403 8
+select figure at 160 335 8
+select figure at 202 185 8
+select figure at 14 403 8
+BeginGroup
+add pin 16 400 Input pin
+add pawin -72 400 pin PinName 16 RIGHT -withpin
+EndGroup
+select figure at 33 403 8
+delete selection
+select figure at 18 399 8
+delete selection
+select figure at 217 415 8
+select figure at 205 414 8

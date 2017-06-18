@@ -1,0 +1,22 @@
+
+
+NET "m0_c0" LOC = P11;
+NET "m1_c0" LOC = L3;
+NET "m2_c0" LOC = K3;
+NET "m3_c0" LOC = B4;
+NET "a0" LOC = L14;
+NET "b0" LOC = H12;
+NET "c0" LOC = N14;
+NET "d0" LOC = N11;
+NET "e0" LOC = P12;
+NET "f0" LOC = L13;
+NET "g0" LOC = M12;
+
+
+
+# PlanAhead Generated physical constraints 
+
+NET "an1" LOC = M13;
+NET "an2" LOC = J12;
+NET "an3" LOC = K14;
+NET "an0" LOC = F12;

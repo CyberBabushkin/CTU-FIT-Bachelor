@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 30 16:03:03 2016
+# Process ID: 3940
+# Log file: H:/SAP/dvecisla/planAhead_run_1/planAhead.log
+# Journal file: H:/SAP/dvecisla/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/SAP/dvecisla/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin L14 [get_ports a0]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports b0]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports c0]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports d0]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports e0]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports f0]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports g0]
+endgroup

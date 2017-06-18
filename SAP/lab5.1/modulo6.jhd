@@ -1,0 +1,5 @@
+MODULE modulo6
+	SUBMODULE debounce
+		INSTANCE XLXI_1
+	SUBMODULE algebra
+		INSTANCE XLXI_6

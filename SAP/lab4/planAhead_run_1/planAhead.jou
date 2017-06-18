@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 16 15:23:07 2016
+# Process ID: 3892
+# Log file: H:/SAP/lab4/planAhead_run_1/planAhead.log
+# Journal file: H:/SAP/lab4/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/SAP/lab4/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin A7 [get_ports BTN]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports CLOCK]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports Q0]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports Q1]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports Q2]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports RESET]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports BTN]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports SW]
+endgroup
+save_constraints
+refresh_design
+startgroup
+set_property package_pin P11 [get_ports SW]
+endgroup
+save_constraints
+startgroup
+set_property package_pin A7 [get_ports CLOCK]
+endgroup
+save_constraints

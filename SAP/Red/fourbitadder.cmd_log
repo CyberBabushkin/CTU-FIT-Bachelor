@@ -1,0 +1,1 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl fourbitadder.vhf -w C:/Users/GLEB/Desktop/XilinxProjects/fourbitadder/fourbitadder.sch 

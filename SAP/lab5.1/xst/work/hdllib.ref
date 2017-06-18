@@ -1,0 +1,6 @@
+AR debounce arch //ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd sub00/vhpl01 1459344693
+AR modulo6 behavioral //ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf sub00/vhpl05 1459344697
+AR algebra behavioral //ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd sub00/vhpl03 1459344695
+EN debounce NULL //ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd sub00/vhpl00 1459344692
+EN modulo6 NULL //ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf sub00/vhpl04 1459344696
+EN algebra NULL //ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd sub00/vhpl02 1459344694

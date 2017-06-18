@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 09 15:01:25 2016
+# Process ID: 3792
+# Log file: H:/SAP/lab3/planAhead_run_1/planAhead.log
+# Journal file: H:/SAP/lab3/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/SAP/lab3/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin G12 [get_ports m0_c0]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports m1_c0]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports m0_c0]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports m1_c0]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports m2_c0]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports m3_c0]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports a0]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports an0]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports an1]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports b0]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports c0]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports d0]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports e0]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports f0]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports g0]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports b1]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports c1]
+endgroup
+save_constraints

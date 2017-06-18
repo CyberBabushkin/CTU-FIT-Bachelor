@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Mar 16 15:51:17 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "BTN" LOCATE = SITE "M4" LEVEL 1;
+COMP "Q0" LOCATE = SITE "N4" LEVEL 1;
+COMP "Q1" LOCATE = SITE "P4" LEVEL 1;
+COMP "Q2" LOCATE = SITE "G1" LEVEL 1;
+COMP "SW" LOCATE = SITE "P11" LEVEL 1;
+COMP "CLOCK" LOCATE = SITE "A7" LEVEL 1;
+COMP "RESET" LOCATE = SITE "G12" LEVEL 1;
+NET "CLOCK_BUFGP/IBUFG" BEL "CLOCK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

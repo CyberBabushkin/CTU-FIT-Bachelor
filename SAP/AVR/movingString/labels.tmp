@@ -1,0 +1,55 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Users\babusand\AppData\Local\Temp</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\print.inc</FILE>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\print.inc</FILE><LINE>18</LINE></show_char>
+  <nemezera><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\print.inc</FILE><LINE>35</LINE></nemezera>
+  <znaky><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\print.inc</FILE><LINE>55</LINE></zobzc>
+  <str><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>7</LINE></str>
+  <ctr><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>10</LINE></ctr>
+  <start><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>179</LINE></start>
+  <clock><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>17</LINE></clock>
+  <incr0><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>23</LINE></incr0>
+  <incr1><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>31</LINE></incr1>
+  <incr2><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>39</LINE></incr2>
+  <showString><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>48</LINE></showString>
+  <a1><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>105</LINE></a1>
+  <a0><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>108</LINE></a0>
+  <getLen><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>113</LINE></getLen>
+  <moveSym><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>118</LINE></moveSym>
+  <mainLoop><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>127</LINE></mainLoop>
+  <mL18><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>159</LINE></mL18>
+  <mL0><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>140</LINE></mL0>
+  <mL19><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>162</LINE></mL19>
+  <mL1><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>143</LINE></mL1>
+  <mL20><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>165</LINE></mL20>
+  <mL2><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>146</LINE></mL2>
+  <mL21><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>168</LINE></mL21>
+  <mL3><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>149</LINE></mL3>
+  <mL22><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>171</LINE></mL22>
+  <mL4><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>152</LINE></mL4>
+  <mL23><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>174</LINE></mL23>
+  <mL5><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\movingString\movingString.asm</FILE><LINE>155</LINE></mL5>
+ </LABELS>
+</ASSEMBLER_INFO>

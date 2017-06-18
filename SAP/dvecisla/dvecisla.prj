@@ -1,0 +1,3 @@
+vhdl work "Mymux.vhf"
+vhdl work "a.vhd"
+vhdl work "dvecisla.vhf"

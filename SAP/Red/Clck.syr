@@ -1,0 +1,491 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Clck.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Clck.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Clck"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : Clck
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/fourbitadder.vhf" in Library work.
+Architecture behavioral of Entity onebitadder_muser_fourbitadder is up to date.
+Architecture behavioral of Entity fourbitadder is up to date.
+Compiling vhdl file "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/decoder_7seg.vhd" in Library work.
+Architecture decoder_7seg_arch of Entity decoder_7seg is up to date.
+Compiling vhdl file "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" in Library work.
+Architecture behavioral of Entity mymux_muser_clck is up to date.
+Architecture behavioral of Entity ftce_mxilinx_clck is up to date.
+Architecture behavioral of Entity cb4ce_mxilinx_clck is up to date.
+Architecture behavioral of Entity clck is up to date.
+Compiling vhdl file "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Mymux.vhf" in Library work.
+Architecture behavioral of Entity mymux is up to date.
+Compiling vhdl file "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/onebitadder.vhf" in Library work.
+Architecture behavioral of Entity onebitadder is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Clck> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB4CE_MXILINX_Clck> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <fourbitadder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <decoder_7seg> in library <work> (architecture <decoder_7seg_arch>).
+
+Analyzing hierarchy for entity <Mymux_MUSER_Clck> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_Clck> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <onebitadder_MUSER_fourbitadder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Clck> in library <work> (Architecture <behavioral>).
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 405: Unconnected output port 'Q0' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 405: Unconnected output port 'Q1' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 405: Unconnected output port 'Q2' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 405: Unconnected output port 'Q3' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 405: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Clck'.
+    Set user-defined property "HU_SET =  XLXI_1_4" for instance <XLXI_1> in unit <Clck>.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 416: Unconnected output port 'Q0' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 416: Unconnected output port 'Q1' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 416: Unconnected output port 'Q2' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 416: Unconnected output port 'Q3' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 416: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Clck'.
+    Set user-defined property "HU_SET =  XLXI_2_5" for instance <XLXI_2> in unit <Clck>.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 427: Unconnected output port 'Q0' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 427: Unconnected output port 'Q1' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 427: Unconnected output port 'Q2' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 427: Unconnected output port 'Q3' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 427: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Clck'.
+    Set user-defined property "HU_SET =  XLXI_3_6" for instance <XLXI_3> in unit <Clck>.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 438: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 438: Unconnected output port 'Q0' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 438: Unconnected output port 'Q1' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 438: Unconnected output port 'Q2' of component 'CB4CE_MXILINX_Clck'.
+WARNING:Xst:753 - "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf" line 438: Unconnected output port 'TC' of component 'CB4CE_MXILINX_Clck'.
+    Set user-defined property "HU_SET =  XLXI_4_7" for instance <XLXI_4> in unit <Clck>.
+Entity <Clck> analyzed. Unit <Clck> generated.
+
+Analyzing Entity <CB4CE_MXILINX_Clck> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_0" for instance <I_Q0> in unit <CB4CE_MXILINX_Clck>.
+    Set user-defined property "HU_SET =  I_Q1_1" for instance <I_Q1> in unit <CB4CE_MXILINX_Clck>.
+    Set user-defined property "HU_SET =  I_Q2_2" for instance <I_Q2> in unit <CB4CE_MXILINX_Clck>.
+    Set user-defined property "HU_SET =  I_Q3_3" for instance <I_Q3> in unit <CB4CE_MXILINX_Clck>.
+Entity <CB4CE_MXILINX_Clck> analyzed. Unit <CB4CE_MXILINX_Clck> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_Clck> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_Clck>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_Clck>.
+Entity <FTCE_MXILINX_Clck> analyzed. Unit <FTCE_MXILINX_Clck> generated.
+
+Analyzing Entity <fourbitadder> in library <work> (Architecture <behavioral>).
+Entity <fourbitadder> analyzed. Unit <fourbitadder> generated.
+
+Analyzing Entity <onebitadder_MUSER_fourbitadder> in library <work> (Architecture <behavioral>).
+Entity <onebitadder_MUSER_fourbitadder> analyzed. Unit <onebitadder_MUSER_fourbitadder> generated.
+
+Analyzing Entity <decoder_7seg> in library <work> (Architecture <decoder_7seg_arch>).
+Entity <decoder_7seg> analyzed. Unit <decoder_7seg> generated.
+
+Analyzing Entity <Mymux_MUSER_Clck> in library <work> (Architecture <behavioral>).
+Entity <Mymux_MUSER_Clck> analyzed. Unit <Mymux_MUSER_Clck> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <decoder_7seg>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/decoder_7seg.vhd".
+    Found 16x4-bit ROM for signal <input$rom0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <decoder_7seg> synthesized.
+
+
+Synthesizing Unit <Mymux_MUSER_Clck>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf".
+Unit <Mymux_MUSER_Clck> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_Clck>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf".
+Unit <FTCE_MXILINX_Clck> synthesized.
+
+
+Synthesizing Unit <onebitadder_MUSER_fourbitadder>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/fourbitadder.vhf".
+Unit <onebitadder_MUSER_fourbitadder> synthesized.
+
+
+Synthesizing Unit <CB4CE_MXILINX_Clck>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf".
+Unit <CB4CE_MXILINX_Clck> synthesized.
+
+
+Synthesizing Unit <fourbitadder>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/fourbitadder.vhf".
+Unit <fourbitadder> synthesized.
+
+
+Synthesizing Unit <Clck>.
+    Related source file is "//ucebnyfile.ucebny.adfit.fit.cvut.cz/home/a/arkhigle/BI-SAP/Red/Clck.vhf".
+Unit <Clck> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x4-bit ROM                                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x4-bit ROM                                          : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Clck> ...
+
+Optimizing unit <FTCE_MXILINX_Clck> ...
+
+Optimizing unit <CB4CE_MXILINX_Clck> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Clck, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Clck.ngr
+Top Level Output File Name         : Clck
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 21
+
+Cell Usage :
+# BELS                             : 70
+#      AND2                        : 16
+#      AND3                        : 4
+#      AND4                        : 4
+#      GND                         : 1
+#      INV                         : 1
+#      LUT4                        : 7
+#      MUXF5                       : 4
+#      OR2                         : 4
+#      VCC                         : 5
+#      XOR2                        : 24
+# FlipFlops/Latches                : 16
+#      FDCE                        : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 10
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                        8  out of    960     0%  
+ Number of Slice Flip Flops:             16  out of   1920     0%  
+ Number of 4 input LUTs:                  8  out of   1920     0%  
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of     83    25%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 16    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLR                                | IBUF                   | 16    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.914ns (Maximum Frequency: 144.634MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 7.366ns
+   Maximum combinational path delay: 17.069ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.914ns (frequency: 144.634MHz)
+  Total number of paths / destination ports: 136 / 28
+-------------------------------------------------------------------------
+Delay:               6.914ns (Levels of Logic = 8)
+  Source:            XLXI_1/I_Q0/I_36_35 (FF)
+  Destination:       XLXI_4/I_Q3/I_36_35 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_1/I_Q0/I_36_35 to XLXI_4/I_Q3/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.591   0.633  I_36_35 (Q)
+     end scope: 'I_Q0'
+     AND4:I3->O            1   0.704   0.420  I_36_31 (TC)
+     AND2:I1->O            5   0.704   0.633  I_36_67 (CEO)
+     end scope: 'XLXI_1'
+     begin scope: 'XLXI_2'
+     AND2:I0->O            5   0.704   0.633  I_36_67 (CEO)
+     end scope: 'XLXI_2'
+     begin scope: 'XLXI_3'
+     AND2:I0->O            5   0.704   0.633  I_36_67 (CEO)
+     end scope: 'XLXI_3'
+     begin scope: 'XLXI_4'
+     begin scope: 'I_Q3'
+     FDCE:CE                   0.555          I_36_35
+    ----------------------------------------
+    Total                      6.914ns (3.962ns logic, 2.952ns route)
+                                       (57.3% logic, 42.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 30 / 9
+-------------------------------------------------------------------------
+Offset:              7.366ns (Levels of Logic = 4)
+  Source:            XLXI_4/I_Q3/I_36_35 (FF)
+  Destination:       CA (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_4/I_Q3/I_36_35 to CA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             8   0.591   0.757  I_36_35 (Q)
+     end scope: 'I_Q3'
+     end scope: 'XLXI_4'
+     MUXF5:S->O            7   0.739   0.883  XLXI_12/XLXI_4 (XLXN_31)
+     LUT4:I0->O            1   0.704   0.420  XLXI_8/Mrom_input_rom000021 (CE_OBUF)
+     OBUF:I->O                 3.272          CE_OBUF (CE)
+    ----------------------------------------
+    Total                      7.366ns (5.306ns logic, 2.060ns route)
+                                       (72.0% logic, 28.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 371 / 7
+-------------------------------------------------------------------------
+Delay:               17.069ns (Levels of Logic = 13)
+  Source:            B0 (PAD)
+  Destination:       CA (PAD)
+
+  Data Path: B0 to CA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.447  B0_IBUF (B0_IBUF)
+     XOR2:I0->O            2   0.704   0.447  XLXI_6/XLXI_8/XLXI_6 (XLXI_6/XLXI_8/XLXN_8)
+     AND2:I1->O            1   0.704   0.420  XLXI_6/XLXI_8/XLXI_3 (XLXI_6/XLXI_8/XLXN_9)
+     OR2:I1->O             2   0.704   0.447  XLXI_6/XLXI_8/XLXI_5 (XLXI_6/XLXN_34)
+     AND2:I0->O            1   0.704   0.420  XLXI_6/XLXI_7/XLXI_3 (XLXI_6/XLXI_7/XLXN_9)
+     OR2:I1->O             2   0.704   0.447  XLXI_6/XLXI_7/XLXI_5 (XLXI_6/XLXN_33)
+     AND2:I0->O            1   0.704   0.420  XLXI_6/XLXI_6/XLXI_3 (XLXI_6/XLXI_6/XLXN_9)
+     OR2:I1->O             2   0.704   0.447  XLXI_6/XLXI_6/XLXI_5 (XLXI_6/XLXN_88)
+     AND2:I0->O            1   0.704   0.420  XLXI_6/XLXI_9/XLXI_3 (XLXI_6/XLXI_9/XLXN_9)
+     OR2:I1->O             1   0.704   0.000  XLXI_6/XLXI_9/XLXI_5 (XLXN_36)
+     MUXF5:I1->O           7   0.321   0.883  XLXI_12/XLXI_1 (XLXN_28)
+     LUT4:I0->O            1   0.704   0.420  XLXI_8/Mrom_input_rom000031 (CD_OBUF)
+     OBUF:I->O                 3.272          CD_OBUF (CD)
+    ----------------------------------------
+    Total                     17.069ns (11.851ns logic, 5.218ns route)
+                                       (69.4% logic, 30.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.96 secs
+ 
+--> 
+
+Total memory usage is 273488 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

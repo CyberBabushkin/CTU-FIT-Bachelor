@@ -1,0 +1,15 @@
+[Inputs]
+d
+c
+b
+a
+[Outputs]
+ca
+cb
+cc
+cd
+ce
+cf
+cg
+dp
+[BiDir]

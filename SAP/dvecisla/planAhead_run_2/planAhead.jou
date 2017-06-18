@@ -1,0 +1,164 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Apr 06 12:18:14 2016
+# Process ID: 2760
+# Log file: H:/SAP/dvecisla/planAhead_run_2/planAhead.log
+# Journal file: H:/SAP/dvecisla/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/SAP/dvecisla/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin B8 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports CLR]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports P0]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports P1]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports P2]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports P3]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports S0]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports S1]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports S2]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports S3]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports A]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports B]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports C]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports D]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports E]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports F]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports G]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports dioda0]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports dioda1]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports dioda2]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports dioda3]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  dioda3]]
+startgroup
+set_property package_pin F12 [get_ports dioda0]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports dioda3]
+endgroup
+set_property package_pin "" [get_ports [list  dioda1]]
+startgroup
+set_property package_pin M13 [get_ports dioda2]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports dioda1]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  P0]]
+set_property package_pin "" [get_ports [list  P1]]
+set_property package_pin "" [get_ports [list  P2]]
+set_property package_pin "" [get_ports [list  P3]]
+set_property package_pin "" [get_ports [list  S0]]
+set_property package_pin "" [get_ports [list  S1]]
+set_property package_pin "" [get_ports [list  S2]]
+set_property package_pin "" [get_ports [list  S3]]
+set_property package_pin "" [get_ports [list  P3]]
+startgroup
+set_property package_pin P11 [get_ports P0]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports P0]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports P0]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports P1]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports P2]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports P3]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports S0]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports S1]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports S2]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports S3]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  P0]]
+set_property package_pin "" [get_ports [list  P1]]
+set_property package_pin "" [get_ports [list  P2]]
+startgroup
+set_property package_pin P11 [get_ports P3]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports P2]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports P1]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports P0]
+endgroup
+set_property package_pin "" [get_ports [list  S0]]
+set_property package_pin "" [get_ports [list  S1]]
+set_property package_pin "" [get_ports [list  S2]]
+startgroup
+set_property package_pin G3 [get_ports S3]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports S2]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports S1]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports P3]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports S0]
+endgroup
+save_constraints

@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Users\babusand\AppData\Local\Temp</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\print.inc</FILE>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\print.inc</FILE><LINE>18</LINE></show_char>
+  <nemezera><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\print.inc</FILE><LINE>35</LINE></nemezera>
+  <znaky><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\print.inc</FILE><LINE>55</LINE></zobzc>
+  <start><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</FILE><LINE>13</LINE></start>
+  <firstCond><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</FILE><LINE>35</LINE></firstCond>
+  <ifA><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</FILE><LINE>60</LINE></ifA>
+  <if0><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</FILE><LINE>64</LINE></if0>
+  <secondCond><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</FILE><LINE>41</LINE></secondCond>
+  <continue><FILE>\\ucebnyfile.ucebny.adfit.fit.cvut.cz\home\b\babusand\SAP\AVR\HexNumber\HexNumber.asm</FILE><LINE>48</LINE></continue>
+ </LABELS>
+</ASSEMBLER_INFO>

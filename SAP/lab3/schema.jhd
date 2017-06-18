@@ -1,0 +1,3 @@
+MODULE schema
+	SUBMODULE algebra
+		INSTANCE XLXI_1

@@ -1,0 +1,121 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Feb 24 15:35:41 2016
+# Process ID: 4700
+# Log file: H:/SAP/lab1/planAhead_run_2/planAhead.log
+# Journal file: H:/SAP/lab1/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/SAP/lab1/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  A0]]
+set_property package_pin "" [get_ports [list  A2]]
+startgroup
+set_property package_pin G1 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports A1]
+endgroup
+set_property package_pin "" [get_ports [list  A2]]
+startgroup
+set_property package_pin P4 [get_ports A1]
+endgroup
+set_property package_pin "" [get_ports [list  A2]]
+startgroup
+set_property package_pin P4 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports A2]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports A3]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports A3]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports A1]
+endgroup
+set_property package_pin "" [get_ports [list  A2]]
+set_property package_pin "" [get_ports [list  A3]]
+set_property package_pin "" [get_ports [list  A2]]
+startgroup
+set_property package_pin N4 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports A2]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports A3]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports B1]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports B2]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports B3]
+endgroup
+set_property package_pin "" [get_ports [list  CIN]]
+set_property package_pin "" [get_ports [list  CIN]]
+set_property package_pin "" [get_ports [list  COUT]]
+set_property package_pin "" [get_ports [list  S0]]
+set_property package_pin "" [get_ports [list  COUT]]
+startgroup
+set_property package_pin N3 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin G3 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin F3 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin E2 [get_ports A2]
+endgroup
+startgroup
+set_property package_pin N3 [get_ports A3]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports B0]
+endgroup
+startgroup
+set_property package_pin L3 [get_ports B1]
+endgroup
+startgroup
+set_property package_pin K3 [get_ports B2]
+endgroup
+startgroup
+set_property package_pin B4 [get_ports B3]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports S0]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports S1]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports S2]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports S3]
+endgroup
+set_property package_pin "" [get_ports [list  CIN]]
+startgroup
+set_property package_pin G1 [get_ports COUT]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports CIN]
+endgroup
+save_constraints

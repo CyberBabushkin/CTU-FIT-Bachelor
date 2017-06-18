@@ -1,0 +1,8 @@
+V3 7
+FL //ucebnyfile/home/b/babusand/SAP/lab2.3/pripr.vhf 2016/03/02.15:27:17 P.20131013
+EN work/pripr 1456928841 FL //ucebnyfile/home/b/babusand/SAP/lab2.3/pripr.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/pripr/BEHAVIORAL 1456928842 \
+      FL //ucebnyfile/home/b/babusand/SAP/lab2.3/pripr.vhf EN work/pripr 1456928841 \
+      CP NOR2 CP OR3 CP AND3

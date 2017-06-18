@@ -1,0 +1,486 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: modulo6.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "modulo6.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "modulo6"
+Output Format                      : NGC
+Target Device                      : xc3s100e-4-cp132
+
+---- Source Options
+Top Module Name                    : modulo6
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "//ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd" in Library work.
+Entity <debounce> compiled.
+Entity <debounce> (Architecture <arch>) compiled.
+Compiling vhdl file "//ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd" in Library work.
+Entity <algebra> compiled.
+Entity <algebra> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "//ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf" in Library work.
+Entity <modulo6> compiled.
+Entity <modulo6> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <modulo6> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <algebra> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <modulo6> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <modulo6>.
+    Set user-defined property "INIT =  0" for instance <XLXI_4> in unit <modulo6>.
+    Set user-defined property "INIT =  0" for instance <XLXI_5> in unit <modulo6>.
+Entity <modulo6> analyzed. Unit <modulo6> generated.
+
+Analyzing Entity <debounce> in library <work> (Architecture <arch>).
+Entity <debounce> analyzed. Unit <debounce> generated.
+
+Analyzing Entity <algebra> in library <work> (Architecture <Behavioral>).
+Entity <algebra> analyzed. Unit <algebra> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <debounce>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/lab5.1/debounce.vhd".
+    Found 1-bit register for signal <tl_out>.
+    Found 20-bit down counter for signal <cnt>.
+    Found 1-bit register for signal <tl_prev>.
+    Found 1-bit xor2 for signal <tl_prev$xor0000> created at line 32.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <algebra>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/lab5.1/a.vhd".
+Unit <algebra> synthesized.
+
+
+Synthesizing Unit <modulo6>.
+    Related source file is "//ucebnyfile/home/b/babusand/SAP/lab5.1/modulo6.vhf".
+Unit <modulo6> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 20-bit down counter                                   : 1
+# Registers                                            : 2
+ 1-bit register                                        : 2
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 20-bit down counter                                   : 1
+# Registers                                            : 5
+ Flip-Flops                                            : 5
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <modulo6> ...
+
+Optimizing unit <debounce> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block modulo6, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : modulo6.ngr
+Top Level Output File Name         : modulo6
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 86
+#      GND                         : 1
+#      INV                         : 19
+#      LUT1                        : 1
+#      LUT2                        : 1
+#      LUT4                        : 14
+#      MUXCY                       : 29
+#      VCC                         : 1
+#      XORCY                       : 20
+# FlipFlops/Latches                : 25
+#      FDC                         : 3
+#      FDE                         : 2
+#      FDRE                        : 13
+#      FDSE                        : 7
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-4 
+
+ Number of Slices:                       21  out of    960     2%  
+ Number of Slice Flip Flops:             25  out of   1920     1%  
+ Number of 4 input LUTs:                 35  out of   1920     1%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of     83     9%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+XLXI_1/tl_out                      | NONE(XLXI_3)           | 3     |
+CLK                                | BUFGP                  | 22    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLR                                | IBUF                   | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.639ns (Maximum Frequency: 215.564MHz)
+   Minimum input arrival time before clock: 4.583ns
+   Maximum output required time after clock: 5.776ns
+   Maximum combinational path delay: 6.403ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/tl_out'
+  Clock period: 2.365ns (frequency: 422.833MHz)
+  Total number of paths / destination ports: 9 / 3
+-------------------------------------------------------------------------
+Delay:               2.365ns (Levels of Logic = 1)
+  Source:            XLXI_5 (FF)
+  Destination:       XLXI_3 (FF)
+  Source Clock:      XLXI_1/tl_out rising
+  Destination Clock: XLXI_1/tl_out rising
+
+  Data Path: XLXI_5 to XLXI_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.762  XLXI_5 (XLXN_11)
+     LUT4:I0->O            2   0.704   0.000  XLXI_6/s21 (Q2_1_OBUF)
+     FDC:D                     0.308          XLXI_3
+    ----------------------------------------
+    Total                      2.365ns (1.603ns logic, 0.762ns route)
+                                       (67.8% logic, 32.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.639ns (frequency: 215.564MHz)
+  Total number of paths / destination ports: 652 / 63
+-------------------------------------------------------------------------
+Delay:               4.639ns (Levels of Logic = 21)
+  Source:            XLXI_1/cnt_0 (FF)
+  Destination:       XLXI_1/cnt_19 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_1/cnt_0 to XLXI_1/cnt_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.591   0.706  XLXI_1/cnt_0 (XLXI_1/cnt_0)
+     LUT1:I0->O            1   0.704   0.000  XLXI_1/Mcount_cnt_cy<0>_rt (XLXI_1/Mcount_cnt_cy<0>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_1/Mcount_cnt_cy<0> (XLXI_1/Mcount_cnt_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<1> (XLXI_1/Mcount_cnt_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<2> (XLXI_1/Mcount_cnt_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<3> (XLXI_1/Mcount_cnt_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<4> (XLXI_1/Mcount_cnt_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<5> (XLXI_1/Mcount_cnt_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<6> (XLXI_1/Mcount_cnt_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<7> (XLXI_1/Mcount_cnt_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<8> (XLXI_1/Mcount_cnt_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<9> (XLXI_1/Mcount_cnt_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<10> (XLXI_1/Mcount_cnt_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<11> (XLXI_1/Mcount_cnt_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<12> (XLXI_1/Mcount_cnt_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<13> (XLXI_1/Mcount_cnt_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<14> (XLXI_1/Mcount_cnt_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<15> (XLXI_1/Mcount_cnt_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<16> (XLXI_1/Mcount_cnt_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Mcount_cnt_cy<17> (XLXI_1/Mcount_cnt_cy<17>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_1/Mcount_cnt_cy<18> (XLXI_1/Mcount_cnt_cy<18>)
+     XORCY:CI->O           1   0.804   0.000  XLXI_1/Mcount_cnt_xor<19> (XLXI_1/Result<19>)
+     FDSE:D                    0.308          XLXI_1/cnt_19
+    ----------------------------------------
+    Total                      4.639ns (3.933ns logic, 0.706ns route)
+                                       (84.8% logic, 15.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'XLXI_1/tl_out'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.992ns (Levels of Logic = 2)
+  Source:            EN (PAD)
+  Destination:       XLXI_5 (FF)
+  Destination Clock: XLXI_1/tl_out rising
+
+  Data Path: EN to XLXI_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  EN_IBUF (EN_IBUF)
+     LUT4:I0->O            2   0.704   0.000  XLXI_6/s01 (Q0_1_OBUF)
+     FDC:D                     0.308          XLXI_5
+    ----------------------------------------
+    Total                      2.992ns (2.230ns logic, 0.762ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              4.583ns (Levels of Logic = 2)
+  Source:            CLK_BTN (PAD)
+  Destination:       XLXI_1/cnt_19 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: CLK_BTN to XLXI_1/cnt_19
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  CLK_BTN_IBUF (CLK_BTN_IBUF)
+     LUT2:I0->O           21   0.704   1.128  XLXI_1/Mxor_tl_prev_xor0000_Result1 (XLXI_1/tl_prev_not0001_inv)
+     FDRE:R                    0.911          XLXI_1/cnt_1
+    ----------------------------------------
+    Total                      4.583ns (2.833ns logic, 1.750ns route)
+                                       (61.8% logic, 38.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/tl_out'
+  Total number of paths / destination ports: 12 / 4
+-------------------------------------------------------------------------
+Offset:              5.776ns (Levels of Logic = 2)
+  Source:            XLXI_3 (FF)
+  Destination:       Q1_1 (PAD)
+  Source Clock:      XLXI_1/tl_out rising
+
+  Data Path: XLXI_3 to Q1_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.762  XLXI_3 (XLXN_9)
+     LUT4:I0->O            2   0.704   0.447  XLXI_6/s11 (Q1_1_OBUF)
+     OBUF:I->O                 3.272          Q1_1_OBUF (Q1_1)
+    ----------------------------------------
+    Total                      5.776ns (4.567ns logic, 1.209ns route)
+                                       (79.1% logic, 20.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               6.403ns (Levels of Logic = 3)
+  Source:            EN (PAD)
+  Destination:       Q0_1 (PAD)
+
+  Data Path: EN to Q0_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  EN_IBUF (EN_IBUF)
+     LUT4:I0->O            2   0.704   0.447  XLXI_6/s01 (Q0_1_OBUF)
+     OBUF:I->O                 3.272          Q0_1_OBUF (Q0_1)
+    ----------------------------------------
+    Total                      6.403ns (5.194ns logic, 1.209ns route)
+                                       (81.1% logic, 18.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.52 secs
+ 
+--> 
+
+Total memory usage is 270772 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

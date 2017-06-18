@@ -1,0 +1,3 @@
+vhdl work "Multiplier2x2.vhf"
+vhdl work "decoder_7seg.vhd"
+vhdl work "Multi.vhf"

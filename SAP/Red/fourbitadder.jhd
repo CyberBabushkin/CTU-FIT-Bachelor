@@ -1,0 +1,9 @@
+MODULE fourbitadder
+	SUBMODULE onebitadder
+		INSTANCE XLXI_6
+	SUBMODULE onebitadder
+		INSTANCE XLXI_7
+	SUBMODULE onebitadder
+		INSTANCE XLXI_8
+	SUBMODULE onebitadder
+		INSTANCE XLXI_9

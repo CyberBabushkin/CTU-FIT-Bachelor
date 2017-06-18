@@ -1,0 +1,11 @@
+xst -intstyle ise -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -ifn "H:/BI-SAP/Red/Clck.xst" -ofn "H:/BI-SAP/Red/Clck.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Clck.ucf -p xc3s100e-cp132-4 Clck.ngc Clck.ngd  
+map -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Clck_map.ncd Clck.ngd Clck.pcf 
+par -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 Clck_map.ncd Clck.ncd Clck.pcf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Clck.ut Clck.ncd 
+xst -intstyle ise -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -ifn "H:/BI-SAP/Red/Clck.xst" -ofn "H:/BI-SAP/Red/Clck.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Clck.ucf -p xc3s100e-cp132-4 Clck.ngc Clck.ngd  
+map -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Clck_map.ncd Clck.ngd Clck.pcf 
+par -filter "H:/BI-SAP/Red/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 Clck_map.ncd Clck.ncd Clck.pcf 
+trce -filter H:/BI-SAP/Red/iseconfig/filter.filter -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Clck.twx Clck.ncd -o Clck.twr Clck.pcf -ucf Clck.ucf 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f Clck.ut Clck.ncd 

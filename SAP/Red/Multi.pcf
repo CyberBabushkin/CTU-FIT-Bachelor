@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 06 10:26:00 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CD" LOCATE = SITE "N11" LEVEL 1;
+COMP "CE" LOCATE = SITE "P12" LEVEL 1;
+COMP "CF" LOCATE = SITE "L13" LEVEL 1;
+COMP "CG" LOCATE = SITE "M12" LEVEL 1;
+COMP "DP" LOCATE = SITE "N13" LEVEL 1;
+COMP "A0" LOCATE = SITE "P11" LEVEL 1;
+COMP "A1" LOCATE = SITE "L3" LEVEL 1;
+COMP "B0" LOCATE = SITE "G3" LEVEL 1;
+COMP "B1" LOCATE = SITE "F3" LEVEL 1;
+COMP "CA" LOCATE = SITE "L14" LEVEL 1;
+COMP "CB" LOCATE = SITE "H12" LEVEL 1;
+COMP "CC" LOCATE = SITE "N14" LEVEL 1;
+SCHEMATIC END;
+

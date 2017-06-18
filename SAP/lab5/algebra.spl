@@ -1,0 +1,11 @@
+[Inputs]
+en
+q2
+q1
+q0
+[Outputs]
+s2
+s1
+s0
+y
+[BiDir]
