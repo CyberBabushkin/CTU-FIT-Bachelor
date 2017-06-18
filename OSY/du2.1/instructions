@@ -1,0 +1,51 @@
+create :
+
+
+start :
+	1) Load the first overhead
+		a) Failed? Okay, write a failed device and change state.
+		b) Failed the second time? Okay, stop everything and clean up.
+		c) Success? Okay, store the first in an oh1 variable.
+	2) Continue doing (1):
+		a) oh1 != read one? Store it in an oh2 var. 
+		b) oh1 == read one? Give a vote.
+		c) Failed? 1.a or 1.b
+	3) Compare votes and write down a failed drive to MainRAID. 
+	4) Set caches for all non-broken devices.
+	5) Read from good overheads FirstFreeSector.
+	6) For every Overhead set mainRAID as a config field.
+	7) Set Overheads for all Workers.
+	8) Clean up.
+
+read:
+	1) 
+
+write :
+	1) Calculate a line the starting sector is in.
+	2) Calculate how many lines the data will engage.
+	3) Crop a number if it's higher than the available space.
+	4) Read from disks a padding (if needed).
+	5) Store data in buffers.
+	6) Calculate parity.
+	7) Write buffers to disks.
+	8) Repeat (5) until all the data is written.
+	9) When the last block is reached, read a tail from disks.
+	10) Calculate parity.
+	11) Write the last block.
+	12) Return a number of bytes written.
+
+	writeToCache:
+		1) Read first line
+		2) While written lines != (linesCount - 1)
+			a) Compute pos0 (== 0 if not the first line)
+			b) Compute pos1 (== (DEVS - 1) if not the last line)
+			c) Write data to cache line from pos0 to pos1
+			d) Compute parity
+			e) If chunk is full then write to disks
+			f) Check the status
+		3) Read the last line
+		4) Write data from 0 to pos1
+		5) Compute parity
+		6) Write to disks
+		7) Check the status
+		8) Return number of bytes written
