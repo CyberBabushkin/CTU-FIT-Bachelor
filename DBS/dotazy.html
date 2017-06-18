@@ -1,0 +1,2920 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "BAND_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>BAND_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>AC/DC                                             </td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "FAM_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>FAM_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Andrey                        </td>
+<td>Babushkin                     </td>
+	</tr>
+	<tr>
+<td>Luna                          </td>
+<td>Mure                          </td>
+	</tr>
+	<tr>
+<td>Sansa                         </td>
+<td>Stark                         </td>
+	</tr>
+	<tr>
+<td>Andrej                        </td>
+<td>Malinnikov                    </td>
+	</tr>
+	<tr>
+<td>Hanna                         </td>
+<td>Isomaki                       </td>
+	</tr>
+	<tr>
+<td>Martina                       </td>
+<td>Deuringer                     </td>
+	</tr>
+	<tr>
+<td>Jeff                          </td>
+<td>Abel                          </td>
+	</tr>
+	<tr>
+<td>Eric                          </td>
+<td>Adams                         </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 8 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Mozart                                            </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "ADDRESS"; }
+td:nth-of-type(2):before { content: "BANDS"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>ADDRESS</th>
+	<th>BANDS</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>A Club              </td>
+<td>Broadway 12, NY                                                                                     </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>The Biggest Fest    </td>
+<td>Festival Village, Germany                                                                           </td>
+<td align="right">4</td>
+	</tr>
+	<tr>
+<td>Guatemala Club      </td>
+<td>Gig St, 54, Guatemala                                                                               </td>
+<td align="right">0</td>
+	</tr>
+	<tr>
+<td>Wacken Open Air     </td>
+<td>Hauptstraße, 47, Wacken, Deutschland                                                                </td>
+<td align="right">4</td>
+	</tr>
+	<tr>
+<td>Hofburg             </td>
+<td>Hofburg Vienna, Heldenplatz, 1010 Wien                                                              </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Demolish and Conquer</td>
+<td>Slovenska, 1888/88, Praha                                                                           </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Exit-US             </td>
+<td>Sokolovska, 195, Praha                                                                              </td>
+<td align="right">1</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 7 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "Name"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>Name</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Mozart                                            </td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "Name"; }
+td:nth-of-type(1):before { content: "Type"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>Name</th>
+	<th>Type</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>DrumKit Professional          </td>
+<td>PERCUSSION</td>
+	</tr>
+	<tr>
+<td>Fender Solo                   </td>
+<td>STRINGED</td>
+	</tr>
+	<tr>
+<td>Line6                         </td>
+<td>OTHER</td>
+	</tr>
+	<tr>
+<td>Ibanez Black                  </td>
+<td>STRINGED</td>
+	</tr>
+	<tr>
+<td>Shure SM57                    </td>
+<td>MIC</td>
+	</tr>
+	<tr>
+<td>Fender Guitar                 </td>
+<td>STRINGED</td>
+	</tr>
+	<tr>
+<td>Ibanez Heavy                  </td>
+<td>STRINGED</td>
+	</tr>
+	<tr>
+<td>Vargan                        </td>
+<td>OTHER</td>
+	</tr>
+	<tr>
+<td>Cool Bass Guitar              </td>
+<td>STRINGED</td>
+	</tr>
+	<tr>
+<td>Ibanez Solo                   </td>
+<td>STRINGED</td>
+	</tr>
+	<tr>
+<td>Fender XCort                  </td>
+<td>STRINGED</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 11 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Robbie Williams                                   </td>
+	</tr>
+	<tr>
+<td>AC/DC                                             </td>
+	</tr>
+	<tr>
+<td>Manowar                                           </td>
+	</tr>
+	<tr>
+<td>Excision                                          </td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+	</tr>
+	<tr>
+<td>Mozart                                            </td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 7 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "BAND_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>BAND_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>AC/DC                                             </td>
+	</tr>
+	<tr>
+<td>Manowar                                           </td>
+	</tr>
+	<tr>
+<td>Excision                                          </td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "FAM_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>FAM_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Gregory                       </td>
+<td>Trubchanin                    </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "FAM_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>FAM_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>The First                     </td>
+<td>King of Metal                 </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "FAM_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>FAM_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Angus                         </td>
+<td>Young                         </td>
+	</tr>
+	<tr>
+<td>Robbie                        </td>
+<td>Williams                      </td>
+	</tr>
+	<tr>
+<td>Jeff                          </td>
+<td>Abel                          </td>
+	</tr>
+	<tr>
+<td>Karel                         </td>
+<td>Halla                         </td>
+	</tr>
+	<tr>
+<td>Andrey                        </td>
+<td>Babushkin                     </td>
+	</tr>
+	<tr>
+<td>Wolfgang Amadeus              </td>
+<td>Mozart                        </td>
+	</tr>
+	<tr>
+<td>Gregory                       </td>
+<td>Trubchanin                    </td>
+	</tr>
+	<tr>
+<td>Eric                          </td>
+<td>Adams                         </td>
+	</tr>
+	<tr>
+<td>Cliff                         </td>
+<td>Williams                      </td>
+	</tr>
+	<tr>
+<td>Radek                         </td>
+<td>Storc                         </td>
+	</tr>
+	<tr>
+<td>Tomas                         </td>
+<td>Kasprzik                      </td>
+	</tr>
+	<tr>
+<td>The First                     </td>
+<td>King of Metal                 </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 12 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "FAM_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>FAM_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Wolfgang Amadeus              </td>
+<td>Mozart                        </td>
+	</tr>
+	<tr>
+<td>Cliff                         </td>
+<td>Williams                      </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "ADDRESS"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>ADDRESS</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Guatemala Club      </td>
+<td>Gig St, 54, Guatemala                                                                               </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "MUSICIAN_FAN_ID"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>MUSICIAN_FAN_ID</th>
+</tr></thead>
+<tbody id="data">
+
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "NUM"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>NUM</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Robbie Williams                                   </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>AC/DC                                             </td>
+<td align="right">4</td>
+	</tr>
+	<tr>
+<td>Manowar                                           </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Excision                                          </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+<td align="right">4</td>
+	</tr>
+	<tr>
+<td>Mozart                                            </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+<td align="right">6</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 7 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "BAND_NAME"; }
+td:nth-of-type(2):before { content: "NUMBEROFCONCERTS"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>BAND_NAME</th>
+	<th>NUMBEROFCONCERTS</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Abdulla                       </td>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Abdulla                       </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Abdulla                       </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Andrej                        </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Andrej                        </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Andrej                        </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Andrey                        </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">4</td>
+	</tr>
+	<tr>
+<td>Andrey                        </td>
+<td>Manowar                                           </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Andrey                        </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Andrey                        </td>
+<td>Robbie Williams                                   </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Angus                         </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Angus                         </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Angus                         </td>
+<td>RAW                                               </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Aria                          </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Eric                          </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Gregory                       </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Gregory                       </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Hanna                         </td>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Hanna                         </td>
+<td>Robbie Williams                                   </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Ibragim                       </td>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Ibragim                       </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Ifca                          </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Ifca                          </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Ifca                          </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Jeff                          </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Jeff                          </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Jeff                          </td>
+<td>RAW                                               </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Karel                         </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Karel                         </td>
+<td>Manowar                                           </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Karel                         </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Luna                          </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Luna                          </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Mana                          </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Mana                          </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Martina                       </td>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Martina                       </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Martina                       </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Martina                       </td>
+<td>RAW                                               </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Radek                         </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Radek                         </td>
+<td>Manowar                                           </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Radek                         </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Sansa                         </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">2</td>
+	</tr>
+	<tr>
+<td>Tomas                         </td>
+<td>Kings Of Metal                                    </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Tomas                         </td>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Tomas                         </td>
+<td>RAW                                               </td>
+<td align="right">1</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 45 rows selected 
+
+View TATTOO_VIEW created.
+
+
+2 rows updated.
+
+
+Commit complete.
+
+
+0 rows deleted.
+
+
+Commit complete.
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "SONGS"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>SONGS</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>AC/DC                                             </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Mozart                                            </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Robbie Williams                                   </td>
+<td align="right">1</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 7 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "BAND_NAME"; }
+td:nth-of-type(1):before { content: "SONGS"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>BAND_NAME</th>
+	<th>SONGS</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>AC/DC                                             </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Mozart                                            </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Robbie Williams                                   </td>
+<td align="right">1</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 7 rows selected 
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "SONGS"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>SONGS</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>AC/DC                                             </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Excision                                          </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Kings Of Metal                                    </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Manowar                                           </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>Mozart                                            </td>
+<td align="right">1</td>
+	</tr>
+	<tr>
+<td>RAW                                               </td>
+<td align="right">3</td>
+	</tr>
+	<tr>
+<td>Robbie Williams                                   </td>
+<td align="right">1</td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+ 7 rows selected 
+
+
+View ALL_FANS created.
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "Name"; }
+td:nth-of-type(1):before { content: "Family name"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>Name</th>
+	<th>Family name</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Andrej                        </td>
+<td>Malinnikov                    </td>
+	</tr>
+	<tr>
+<td>Ifca                          </td>
+<td>Frauendinova                  </td>
+	</tr>
+	<tr>
+<td>Luna                          </td>
+<td>Mure                          </td>
+	</tr>
+	<tr>
+<td>Martina                       </td>
+<td>Deuringer                     </td>
+	</tr>
+	<tr>
+<td>Tomas                         </td>
+<td>Lajsky                        </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+
+
+4 rows deleted.
+
+
+Commit complete.
+
+
+4 rows inserted.
+
+
+Commit complete.
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF8'>
+  
+  <title>Responsive Table</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <style>
+  * { 
+    margin: 0; 
+    padding: 0; 
+  }
+  body { 
+    font: 14px/1.4 Georgia, Serif; 
+  }
+  
+  /* 
+  Generic Styling, for Desktops/Laptops 
+  */
+  table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #9B9B9B; 
+    text-align: left; 
+  }
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+    table, thead, tbody, th, td, tr { display: block; }
+    thead tr { position: absolute;top: -9999px;left: -9999px;}
+    tr { border: 1px solid #9B9B9B; }
+    td { border: none;border-bottom: 1px solid #9B9B9B; position: relative;padding-left: 50%; }
+    
+    td:before { position: absolute;top: 6px;left: 6px;width: 45%; padding-right: 10px; white-space: nowrap;}
+    
+    /*
+    Label the data
+    */
+td:nth-of-type(0):before { content: "NAME"; }
+td:nth-of-type(1):before { content: "FAM_NAME"; }
+  }
+  
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+    body { 
+      padding: 0; 
+      margin: 0; 
+      width: 320px; }
+    }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body { 
+      width: 495px; 
+    }
+  }
+  
+  </style>
+  <!--<![endif]-->
+<script type="text/javascript">
+
+lsearch = function(){
+  //this.term = document.getElementById('S').value.toUpperCase();
+  var s = document.getElementById('search').value.toLowerCase();
+  rows = document.getElementById('data').getElementsByTagName('TR');
+  for(var i=0;i<rows.length;i++){
+    if (s =="" ){
+      rows[i].style.display ='';
+    } else if ( rows[i].innerText.toLowerCase().indexOf(s) != -1 ) {
+      rows[i].style.display ='';
+    } else {
+      rows[i].style.display ='none';
+    }
+  }
+  this.time = false;
+}
+
+</script>
+</head>
+
+<body>
+<div><input type="text" size="30" maxlength="1000" value="" id="search" onkeyup="lsearch();" /><input type="button" value="Go" onclick="lsearch();"/> </div>
+<table><thead><tr>	<th>NAME</th>
+	<th>FAM_NAME</th>
+</tr></thead>
+<tbody id="data">
+
+	<tr>
+<td>Jeff                          </td>
+<td>Abel                          </td>
+	</tr>
+</tbody></table><!-- SQL:
+null--></body></html>
+

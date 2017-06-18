@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sproject_html.xsl"?>
+<!DOCTYPE sproject SYSTEM "sproject.dtd">
+<sproject>
+  <course database="Oracle" version="11">
+    <cname>Databázové systémy</cname>
+    <code>BI-DBS</code>
+    <semester>B152</semester>
+    <seminar>Středa 12:45, Lichý týden, paralelka 722248013205</seminar>
+  </course>
+  <author>
+    <aname>Andrey Babushkin</aname>
+    <uname>babusand</uname>
+    <email>babusand@fit.cvut.cz</email>
+  </author>
+  <content>
+    <declaration>Prohlašuji, že jsem svou semestrální práci vypracoval samostatně. Všechny zdroje, ze kterých jsem čerpal, jsou uvedeny v části Odkazy.</declaration>
+    <title>Hudební svět</title>
+    <description>
+      <title>Popis</title>
+      <para>Jako téma svojí semestrání práce jsem zvolil databázi hudebních kapel, hudebníků, jejich uměleckých činností, různých koncertů, míst konání koncertů a samozřejmě jejich fanoušků.</para>
+      <para/>
+      <para>Fanoušek, který je v podstatě obyčejný člověk, má své jméno, přijmení. Od sebe, jako metalisty, přidám ještě barvu vlasů a přítomnost tetování, ale ty údaje nejsou určitě  nutné. :)</para>
+      <para/>
+      <para>Každý hudebník je automaticky fanouškem alespoň jedné kapely, tj. hudebníci jsou podmnožinou velké množiny všech možných a nemožných fanoušků. Hudebník sám a nebo s jinými hudebníky, může vytvořit kapelu. Navíc každý hudebník musí používat nějaký hudební nástroj: jeden, dva nebo dvacet.</para>
+      <para/>
+      <para>Hudební nástroj se zařazuje do své rodiny instrumentů (dechové, strunné, bicí atd.), dále se eviduje název (kytara, akordeon, balalajka). Pro jednoduchost řekneme, že mikrofon je také nástrojem. Brát v úvahu všechny ostatní specifikace (jako počet strun kytary nebo dřevo, ze kterého byla vyrobena) je dost náročné a proto se tím nechci zabývat.</para>
+      <para/>
+      <para>Kapela nemůže existovat bez hudebníků! Kapela má své jméno, rok, ve kterém vznikla, rok, ve kterém skončila své působení a zařazuje se do určitého stylu (metal, pop, jazz, power a capela atd.). Může mít své písně, může hrávat na koncertech a dálé může mít své fanoušky. Fanoušek, který je zároveň členem své kapely, se nebere jako fanoušek této konkrétní kapely.</para>
+      <para/>
+      <para>Píseň má povinně svůj název, název alba, délku ve vteřinách, rok vydání a název kapely, která ji nahrála.</para>
+      <para/>
+      <para>Celý svět by dávno zhynul bez pořádku a nikdo by… Okay, bez filozofie. Libovolný koncert se koná na určitém místě a v určitý čas. Tj. povinné podmínky pro konání koncertu jsou: místo, datum a čas začátku, datum a čas konce (to má smysl, pokud se jedná o velký festival, který se může konat několik dní). Koncert je jenom dav lidí bez alespoň jedné kapely. A naopak, když na koncertě není žádný fanoušek, tak se taková akce bere jako veřejná zkouška. A proto, aby se akce dala považovat za koncert, musí být přítomen alespoň jeden človek, který by cítil štěstí, že přišel (nebo ne. Ale objektivně se to nepodaří ohodnotit). Odsud vyplývá ještě jedna vlastnost - počet diváků. Koncert ma nezápornou cenu lístku, kterou fanoušek musí zaplatit za vstup.</para>
+      <para/>
+      <para>Poslední část je místo konání. Musí mít adresu, telefonní číslo a kapacitu: kolik lidí se může bezpečně žúčastnit "the wall of death” a vrátit se domů. Jedno místo může mít 0 až ∞ koncertů.</para>
+      <para/>
+    </description>
+    <data_model>
+      <title>Konceptuální model</title>
+      <dm_picture>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="conceptual_schema.png"/>
+          </imageobject>
+        </mediaobject>
+      </dm_picture>
+      <dm_discussion>
+        <para>Diskuze: </para>
+        <para>Diskuse: 
+      Schéma obsahuje 3 smyčky: 
+1) FAN - IS_FAN - BAND - IN_BAND - MUSICIAN - FAN;
+2) FAN - HAVING_FUN - CONCERT - PERFORMANCE - BAND - IS_FUN - FAN. 
+3) FAN - HAVING_FUN - CONCERT - PERFORMANCE - BAND - IN_BAND - MUSICIAN - FAN.
+
+První muže znamenat riziko existence kapely bez hudebníků, ale kapela musí mít alespoň jednoho hudebníka, co lze uvidět ve spojce BAND - IN_BAND. Kromě toho IO2 říka, že hudebník nemůže být fanoškem své kapely.
+
+Druhá smyčka se řesí IO7. 
+
+Třetí smyčka je "podmnožinou" druhé. Rizikem je to, že navštívit koncert může hudebník, člen nějaké kapely, což není možné díky IO7. </para>
+      </dm_discussion>
+    </data_model>
+    <relational_model>
+      <title>Relační model</title>
+      <rm_picture>
+        <mediaobject>
+          <imageobject>
+            <imagedata fileref="relational_schema.png"/>
+          </imageobject>
+        </mediaobject>
+      </rm_picture>
+    </relational_model>
+  </content>
+  <queries>
+    <title>Dotazy</title>
+    <dotazy>
+      <dotaz dotaz_id="d1">
+        <popis_dotazu>
+          <para>Jména kapel s kytaristou</para>
+        </popis_dotazu>
+        <relacni_algebra>{ {in_band [musician_fan_id = fan_id] fan} [band_name, fan_id] [fan_id = fan_fan_id] musician} (role = 'Guitar') [band_name]</relacni_algebra>
+        <sql>SELECT DISTINCT band_name
+FROM
+  (SELECT DISTINCT *
+   FROM
+     (SELECT DISTINCT band_name,
+                      fan_id
+      FROM
+        (SELECT DISTINCT *
+         FROM in_band
+         JOIN fan ON musician_fan_id = fan_id))
+   JOIN musician ON fan_id = fan_fan_id)
+WHERE role = 'Guitar';</sql>
+      </dotaz>
+      <dotaz dotaz_id="d2">
+        <popis_dotazu>
+          <para>Jména a příjmení lidí, kteří jsou fanouškami aspoň dvou kapel</para>
+        </popis_dotazu>
+        <sql>SELECT name, fam_name 
+FROM 
+(SELECT 
+  name, 
+  fam_name, 
+  (SELECT count(*)
+  FROM IS_FAN
+  WHERE fan_fan_id = fan_id) as Bands
+FROM FAN)
+WHERE Bands &gt;= 2;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d3">
+        <popis_dotazu>
+          <para>Kapely, které ukončily svou činnost.</para>
+        </popis_dotazu>
+        <sql>SELECT DISTINCT name
+FROM BAND
+WHERE DEATHDAY IS NOT NULL;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d4">
+        <popis_dotazu>
+          <para>Seznam míst s počtem kapel, které v jednotlivém místě hrály.</para>
+        </popis_dotazu>
+        <sql>SELECT name, address, COALESCE(Bands, 0) as Bands
+FROM PLACE
+LEFT OUTER JOIN
+  (SELECT concert_address, COUNT(*) as Bands
+  FROM
+    (SELECT DISTINCT concert_address, band_name
+    FROM PERFORMANCE)
+  GROUP BY concert_address)
+ON PLACE.ADDRESS = concert_address;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d5">
+        <popis_dotazu>
+          <para>Kapely s klavírem, na němž počet oktáv je více než 5.</para>
+        </popis_dotazu>
+        <sql>SELECT DISTINCT band_name AS "Name"
+FROM IN_BAND
+INNER JOIN MUS_INST
+ON MUS_INST.MUSICIAN_FAN_ID = IN_BAND.MUSICIAN_FAN_ID
+INNER JOIN KEYBOARD
+ON MUS_INST.INSTRUMENT_INS_ID = KEYBOARD.INSTRUMENT_INS_ID
+WHERE KEYBOARD.NUM_OF_OCTAVES &gt; 5;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d6">
+        <popis_dotazu>
+          <para>Instrumenty hudebníků kapely RAW.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ MUS_INST * IN_BAND (band_name = 'RAW') } [ INSTRUMENT_NAME, INST_DESC_ID ]</relacni_algebra>
+        <sql>SELECT DISTINCT MUS_INST.INSTRUMENT_NAME AS "Name", MUS_INST.INST_DESC_ID AS "Type" 
+FROM IN_BAND
+INNER JOIN MUS_INST
+ON MUS_INST.MUSICIAN_FAN_ID = IN_BAND.MUSICIAN_FAN_ID
+WHERE IN_BAND.BAND_NAME = 'RAW';</sql>
+      </dotaz>
+      <dotaz dotaz_id="d7">
+        <popis_dotazu>
+          <para>Kapely, které už měli nějaký koncert.</para>
+        </popis_dotazu>
+        <sql>SELECT DISTINCT name
+FROM
+(SELECT name, PERFORMANCE.CONCERT_DATETIME_START
+FROM BAND
+LEFT OUTER JOIN PERFORMANCE
+ON PERFORMANCE.BAND_NAME = BAND.NAME)
+WHERE CONCERT_DATETIME_START IS NOT NULL;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d8">
+        <popis_dotazu>
+          <para>Seznam kapel, které hraly v letě.</para>
+        </popis_dotazu>
+        <sql>SELECT DISTINCT band_name 
+FROM PERFORMANCE
+WHERE
+  (to_date(to_char(concert_datetime_start, 'DD.MM') || '.2016', 'DD.MM.YYYY') &gt;= to_date('1.6.2016', 'DD.MM.YYYY'))
+  AND
+  (to_date(to_char(concert_datetime_start, 'DD.MM') || '.2016', 'DD.MM.YYYY') &lt;= to_date('31.8.2016', 'DD.MM.YYYY'));</sql>
+      </dotaz>
+      <dotaz dotaz_id="d9">
+        <popis_dotazu>
+          <para>Jména fanoušků, kterým se líbí jen kapela AC/DC.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ FAN &lt;fan_id=fan_fan_id] { { IS_FAN( band_name = 'AC/DC' )[fan_fan_id]  \  IS_FAN( band_name != 'AC/DC' )[fan_fan_id] } } } [ name, fam_name ] </relacni_algebra>
+        <sql>SELECT name, fam_name
+FROM FAN 
+NATURAL JOIN
+  ((SELECT fan_fan_id AS fan_id
+    FROM IS_FAN
+    WHERE band_name = 'AC/DC')
+  MINUS
+    (SELECT fan_fan_id AS fan_id
+    FROM IS_FAN
+    WHERE band_name != 'AC/DC'));</sql>
+      </dotaz>
+      <dotaz dotaz_id="d10">
+        <popis_dotazu>
+          <para>Jména hudebníků, kteří hrají na všechny druhy instrumentů.</para>
+        </popis_dotazu>
+        <relacni_algebra>{FAN[ name, fam_name ]}  \  { { { {FAN[ fan_id, name, fam_name ]} × {MUS_INST[ inst_desc_id ]} } 
+        \ 
+         { {FAN[fan_id=musician_fan_id]MUS_INST}[ fan_id, name, fam_name, inst_desc_id ] } }[ name, fam_name ] }</relacni_algebra>
+        <sql>(SELECT DISTINCT *
+   FROM
+     (SELECT DISTINCT name,
+                      fam_name
+      FROM FAN)) MINUS
+  (SELECT DISTINCT *
+   FROM
+     (SELECT DISTINCT name, fam_name
+      FROM (
+              (SELECT DISTINCT *
+               FROM
+                 (SELECT DISTINCT *
+                  FROM
+                    (SELECT DISTINCT fan_id, name, fam_name
+                     FROM FAN)
+                  CROSS JOIN
+                    (SELECT DISTINCT inst_desc_id
+                     FROM MUS_INST))) MINUS
+              (SELECT DISTINCT *
+               FROM
+                 (SELECT DISTINCT fan_id, name, fam_name, inst_desc_id
+                  FROM
+                    (SELECT DISTINCT *
+                     FROM FAN
+                     JOIN MUS_INST ON fan_id = musician_fan_id))))));</sql>
+      </dotaz>
+      <dotaz dotaz_id="d11">
+        <popis_dotazu>
+          <para>Všichni hudebníci (jméno, příjmení).</para>
+        </popis_dotazu>
+        <relacni_algebra>{ fan [fan_id = fan_fan_id] musician } [name, fam_name]</relacni_algebra>
+        <sql>SELECT DISTINCT NAME, FAM_NAME
+FROM FAN JOIN MUSICIAN ON (FAN_ID = FAN_FAN_ID);</sql>
+      </dotaz>
+      <dotaz dotaz_id="d12">
+        <popis_dotazu>
+          <para>Fanoušci, kterým se nelíbí žádná kapela.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ fan \ { fan &lt;fan_id = fan_fan_id] is_fan } } [ name, fam_name ]</relacni_algebra>
+        <sql>SELECT DISTINCT name,
+                fam_name
+FROM
+  (SELECT DISTINCT *
+   FROM fan MINUS
+     (SELECT DISTINCT *
+      FROM
+        (SELECT DISTINCT *
+         FROM fan
+         WHERE EXISTS
+             (SELECT 1
+              FROM is_fan
+              WHERE fan_id = fan_fan_id))));</sql>
+      </dotaz>
+      <dotaz dotaz_id="d13">
+        <popis_dotazu>
+          <para>Místa, která neměla žádný koncert.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ PLACE \ { PLACE &lt;address = concert_address] PERFORMANCE } } [ name, address ]</relacni_algebra>
+        <sql>SELECT  name, address
+FROM PLACE
+WHERE PLACE.address NOT IN (SELECT concert_address AS address
+                      FROM PERFORMANCE);</sql>
+      </dotaz>
+      <dotaz dotaz_id="d14">
+        <popis_dotazu>
+          <para>Průnik množin majitelů všech druhů instrumentů minus d10.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ { MUS_INST(inst_desc_id='MIC')[musician_fan_id] }
+ ∩ 
+{ MUS_INST(inst_desc_id='ELECTRONIC')[musician_fan_id] }
+ ∩ 
+{ MUS_INST(inst_desc_id='KEYBOARD')[musician_fan_id] }
+ ∩ 
+{ MUS_INST(inst_desc_id='OTHER')[musician_fan_id] }
+ ∩ 
+{ MUS_INST(inst_desc_id='PERCUSSION')[musician_fan_id] }
+ ∩ 
+{ MUS_INST(inst_desc_id='STRINGED')[musician_fan_id] }
+ ∩
+{ MUS_INST(inst_desc_id='WIND')[musician_fan_id] } }
+
+\
+
+{
+{FAN[ fan_id ]}  \  { { { {FAN[ fan_id ]} × {MUS_INST[ inst_desc_id ]} } 
+        \ 
+         { {FAN[fan_id=musician_fan_id]MUS_INST}[ fan_id, inst_desc_id ] } }[ fan_id ] }
+}</relacni_algebra>
+        <sql>(SELECT DISTINCT *
+   FROM ((((((
+                (SELECT DISTINCT *
+                 FROM
+                   (SELECT DISTINCT musician_fan_id
+                    FROM MUS_INST
+                    WHERE inst_desc_id = 'MIC')) INTERSECT
+                (SELECT DISTINCT *
+                 FROM
+                   (SELECT DISTINCT musician_fan_id
+                    FROM MUS_INST
+                    WHERE inst_desc_id = 'ELECTRONIC'))) INTERSECT
+               (SELECT DISTINCT *
+                FROM
+                  (SELECT DISTINCT musician_fan_id
+                   FROM MUS_INST
+                   WHERE inst_desc_id = 'KEYBOARD'))) INTERSECT
+              (SELECT DISTINCT *
+               FROM
+                 (SELECT DISTINCT musician_fan_id
+                  FROM MUS_INST
+                  WHERE inst_desc_id = 'OTHER'))) INTERSECT
+             (SELECT DISTINCT *
+              FROM
+                (SELECT DISTINCT musician_fan_id
+                 FROM MUS_INST
+                 WHERE inst_desc_id = 'PERCUSSION'))) INTERSECT
+            (SELECT DISTINCT *
+             FROM
+               (SELECT DISTINCT musician_fan_id
+                FROM MUS_INST
+                WHERE inst_desc_id = 'STRINGED'))) INTERSECT
+           (SELECT DISTINCT *
+            FROM
+              (SELECT DISTINCT musician_fan_id
+               FROM MUS_INST
+               WHERE inst_desc_id = 'WIND')))) MINUS
+  (SELECT DISTINCT *
+   FROM (
+           (SELECT DISTINCT *
+            FROM
+              (SELECT DISTINCT fan_id
+               FROM FAN)) MINUS
+           (SELECT DISTINCT *
+            FROM
+              (SELECT DISTINCT fan_id
+               FROM (
+                       (SELECT DISTINCT *
+                        FROM
+                          (SELECT DISTINCT *
+                           FROM
+                             (SELECT DISTINCT fan_id
+                              FROM FAN)
+                           CROSS JOIN
+                             (SELECT DISTINCT inst_desc_id
+                              FROM MUS_INST))) MINUS
+                       (SELECT DISTINCT *
+                        FROM
+                          (SELECT DISTINCT fan_id, inst_desc_id
+                           FROM
+                             (SELECT DISTINCT *
+                              FROM FAN
+                              JOIN MUS_INST ON fan_id = musician_fan_id))))))));</sql>
+      </dotaz>
+      <dotaz dotaz_id="d15">
+        <popis_dotazu>
+          <para>Seznam všech kapel s počtem koncertů každé jednotlivé kapely.</para>
+        </popis_dotazu>
+        <sql>SELECT BAND.name, COUNT(*) AS num
+FROM PERFORMANCE
+LEFT OUTER JOIN BAND
+ON BAND.name = PERFORMANCE.band_name
+GROUP BY name;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d16">
+        <popis_dotazu>
+          <para>Jména všech fanoušků s počtem navštívených koncertů každé kapely. Ale bez kapely AC/DC.</para>
+        </popis_dotazu>
+        <sql>SELECT FAN.name, PERFORMANCE.band_name, COUNT(*) AS NumberOfConcerts
+FROM ((PERFORMANCE
+INNER JOIN HAVING_FUN
+ON PERFORMANCE.CONCERT_ADDRESS = HAVING_FUN.CONCERT_ADDRESS
+  AND PERFORMANCE.CONCERT_DATETIME_START = HAVING_FUN.CONCERT_DATETIME_START)
+INNER JOIN FAN
+ON FAN.fan_id = HAVING_FUN.fan_fan_id)
+WHERE PERFORMANCE.band_name != 'AC/DC'
+GROUP BY FAN.name, PERFORMANCE.band_name
+HAVING COUNT(*) &gt; 0
+ORDER BY FAN.name, PERFORMANCE.band_name;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d17">
+        <popis_dotazu>
+          <para>Vsichni lidi s tetovanim (pohled).</para>
+        </popis_dotazu>
+        <relacni_algebra>FAN( TATTOO = '1' )[name, fam_name] </relacni_algebra>
+        <sql>CREATE OR REPLACE VIEW Tattoo_View AS 
+SELECT name, fam_name
+FROM FAN
+WHERE TATTOO = '1'
+ORDER BY name, fam_name;
+
+</sql>
+      </dotaz>
+      <dotaz dotaz_id="d18">
+        <popis_dotazu>
+          <para>Zvýšit cenu všech festivalů WOA o 15%, na kterých hraje víc než 2 kapely.</para>
+        </popis_dotazu>
+        <sql>UPDATE CONCERT
+SET ticket_price = ticket_price * 1.15
+WHERE 
+    (SELECT count(*)  
+    FROM PERFORMANCE
+    WHERE datetime_start = concert_datetime_start
+      AND
+    place_address = concert_address) &gt; 2
+  AND
+    NAME = 'WOA';
+COMMIT;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d19">
+        <popis_dotazu>
+          <para>Smazat všechny vystoupení kapel, která se budou konat po ukončení činnosti kapely.</para>
+        </popis_dotazu>
+        <sql>DELETE FROM PERFORMANCE
+WHERE band_name IN
+    (SELECT name  
+    FROM BAND
+    INNER JOIN PERFORMANCE
+    ON PERFORMANCE.BAND_NAME = BAND.NAME
+    WHERE deathday is not null
+      AND
+      deathday &lt; PERFORMANCE.CONCERT_DATETIME_START);
+COMMIT;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d20">
+        <popis_dotazu>
+          <para>Seznam všech kapel, které mají 1 nebo 3 písně (varianta 1).</para>
+        </popis_dotazu>
+        <sql>SELECT *
+FROM
+(SELECT 
+  name, 
+  (SELECT COUNT(*)
+  FROM SONG
+  WHERE name = band_name) as Songs
+FROM BAND)
+WHERE Songs = 1
+UNION
+SELECT *
+FROM
+(SELECT 
+  name, 
+  (SELECT COUNT(*)
+  FROM SONG
+  WHERE name = band_name) as Songs
+FROM BAND)
+WHERE Songs = 3;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d21">
+        <popis_dotazu>
+          <para>Seznam všech kapel, které mají 1 nebo 3 písně (varianta 2).</para>
+        </popis_dotazu>
+        <sql>SELECT *
+FROM
+(
+  SELECT DISTINCT band_name, COUNT(*) AS Songs
+  FROM SONG
+  LEFT OUTER JOIN BAND
+  ON BAND.name = SONG.band_name
+  GROUP BY band_name
+)
+WHERE Songs = 1 OR Songs = 3;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d22">
+        <popis_dotazu>
+          <para>Seznam všech kapel, které mají 1 nebo 3 písně (varianta 3).</para>
+        </popis_dotazu>
+        <sql>SELECT *
+FROM
+(SELECT 
+  name, 
+  (SELECT COUNT(*)
+  FROM SONG
+  WHERE name = band_name) as Songs
+FROM BAND)
+WHERE Songs in (1,3);</sql>
+      </dotaz>
+      <dotaz dotaz_id="d23">
+        <popis_dotazu>
+          <para>Všichni fanoušci kapely RAW.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ { IS_FAN [ fan_fan_id = fan_id ] FAN } ( band_name = 'RAW' ) } [ name, fam_name ]</relacni_algebra>
+        <sql>CREATE OR REPLACE VIEW ALL_FANS
+AS
+SELECT name, fam_name, band_name
+FROM FAN
+FULL OUTER JOIN IS_FAN
+ON FAN.FAN_ID = IS_FAN.FAN_FAN_ID;
+
+SELECT name as "Name", fam_name as "Family name"
+FROM ALL_FANS
+WHERE BAND_NAME = 'RAW'
+ORDER BY name, fam_name;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d24">
+        <popis_dotazu>
+          <para>Přidat všechny metal kapely do seznamu účastníků The Biggest Fest, který se bude konat 28. května 2016.</para>
+        </popis_dotazu>
+        <sql>DELETE FROM PERFORMANCE
+WHERE CONCERT_ADDRESS = 'Festival Village, Germany'
+      AND CONCERT_DATETIME_START = '28.05.2016'
+      AND band_name IN
+        (SELECT name  
+        FROM BAND
+        WHERE STYLE LIKE '%Metal%');
+COMMIT;
+
+INSERT INTO PERFORMANCE( CONCERT_ADDRESS, CONCERT_DATETIME_START, BAND_NAME )
+SELECT 'Festival Village, Germany', '28.05.2016', name
+FROM BAND
+WHERE BAND.STYLE LIKE '%Metal%';
+COMMIT;</sql>
+      </dotaz>
+      <dotaz dotaz_id="d25">
+        <popis_dotazu>
+          <para>Hudebníci, kteří mají syntezátor.</para>
+        </popis_dotazu>
+        <relacni_algebra>{ ELECTRONIC * MUS_INST [ musician_fan_id = fan_id ] FAN } (synthesizer = '1') [ name, fam_name ]</relacni_algebra>
+        <sql>SELECT name, fam_name
+FROM FAN
+INNER JOIN MUS_INST
+ON MUS_INST.MUSICIAN_FAN_ID = FAN.FAN_ID
+INNER JOIN ELECTRONIC
+ON MUS_INST.INSTRUMENT_INS_ID = ELECTRONIC.INSTRUMENT_INS_ID 
+WHERE synthesizer = '1';</sql>
+      </dotaz>
+    </dotazy>
+    <pokryti_dotazu>
+      <radek>
+        <kategorie>A</kategorie>
+        <odkazy>
+          <link url="#d11">d11</link>
+        </odkazy>
+        <kategorie_popis>pozitivní dotaz nad spojením alespoň dvou tabulek (Seznam kateder - id, název, jejichž učitelé učil/učili v předmětech, které garantuje katedra KKKK), („vyber seznam se jmény a adresami pacientů, kteří byli vyšetřováni Mudr. Čermákem“ )</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>B</kategorie>
+        <odkazy>
+          <link url="#d13">d13</link>
+        </odkazy>
+        <kategorie_popis>negativní dotaz nad spojením alespoň dvou tabulek (seznam semestrů - id, název, ve kterých NEzkoušel nikdo z katedry Zubních trhaček), („seznam se jmény a adresami pacientů, kteří nenavštívili lékaře Mudr. Čermáka“ )</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>C</kategorie>
+        <odkazy>
+          <link url="#d8">d8</link>
+          <link url="#d9">d9</link>
+        </odkazy>
+        <kategorie_popis>Vyber ty, kteří mají vztah POUZE k …(vyber seznam kateder učitelů, kteří učí/učili POUZE v letních semestrech), (# „seznam se jmény a adresami pacientů, kteří navštívili pouze Mudr. Čermáka ~ navštívili doktora Čermáka a nenavštívili žádného jiného lékaře)</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>D1</kategorie>
+        <odkazy>
+          <link url="#d10">d10</link>
+        </odkazy>
+        <kategorie_popis>Vyber ty, kteří/které jsou ve vztahu se všemi - dotaz s univerzální kvantifikací (seznam učitelů - id, jmeno, prijmeni, titul, kteří přednášeli ve VŠECH semestrech počínaje zimním semestrem 2001/2002 až do letního semestru 2007/2008 včetně),(„seznam se jmény a adresami lékařů, které navštívíli VŠICHNI pacienti, kteří někdy navštívili Mudr. Čermáka“)</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>D2</kategorie>
+        <odkazy>
+          <link url="#d14">d14</link>
+        </odkazy>
+        <kategorie_popis>kontrola výsledku dotazu z kategorie D1, například jestliže dotaz {seznam učitelů, kteří přednášeli ve VŠECH semestrech počínaje zimním semestrem 2001/2002 až do letního semestru 2007/2008 včetně} vybere učitele „123 Michal Valenta“, tak kontrolní dotaz bude {{Seznam semestrů ze zadaného obodobí, ve kterých přednášel Michal Valenta} \\ {Seznam všech semestrů ze zadaného období}} a ten musí vrátit prázdnou množinu</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>F1</kategorie>
+        <odkazy>
+          <link url="#d1">d1</link>
+          <link url="#d4">d4</link>
+          <link url="#d5">d5</link>
+          <link url="#d6">d6</link>
+          <link url="#d7">d7</link>
+          <link url="#d10">d10</link>
+          <link url="#d11">d11</link>
+          <link url="#d14">d14</link>
+          <link url="#d15">d15</link>
+          <link url="#d16">d16</link>
+          <link url="#d19">d19</link>
+          <link url="#d21">d21</link>
+          <link url="#d23">d23</link>
+          <link url="#d25">d25</link>
+        </odkazy>
+        <kategorie_popis>spojení - JOIN ON</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>F2</kategorie>
+        <odkazy>
+          <link url="#d9">d9</link>
+        </odkazy>
+        <kategorie_popis>spojení - NATURAL JOIN | JOIN USING</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>F3</kategorie>
+        <odkazy>
+          <link url="#d10">d10</link>
+          <link url="#d14">d14</link>
+        </odkazy>
+        <kategorie_popis>spojení - CROSS JOIN</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>F4</kategorie>
+        <odkazy>
+          <link url="#d4">d4</link>
+          <link url="#d7">d7</link>
+          <link url="#d15">d15</link>
+          <link url="#d21">d21</link>
+        </odkazy>
+        <kategorie_popis>polospojení (vnější) - LEFT | RIGHT OUTER JOIN</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>F5</kategorie>
+        <odkazy>
+          <link url="#d23">d23</link>
+        </odkazy>
+        <kategorie_popis>plné (vnější) spojení - FULL (OUTER) JOIN</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>G1</kategorie>
+        <odkazy>
+          <link url="#d12">d12</link>
+          <link url="#d13">d13</link>
+          <link url="#d18">d18</link>
+          <link url="#d19">d19</link>
+        </odkazy>
+        <kategorie_popis>vnořený dotaz v klauzuli WHERE</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>G2</kategorie>
+        <odkazy>
+          <link url="#d1">d1</link>
+          <link url="#d2">d2</link>
+          <link url="#d4">d4</link>
+          <link url="#d7">d7</link>
+          <link url="#d10">d10</link>
+          <link url="#d12">d12</link>
+          <link url="#d14">d14</link>
+          <link url="#d20">d20</link>
+          <link url="#d21">d21</link>
+          <link url="#d22">d22</link>
+        </odkazy>
+        <kategorie_popis>vnořený dotaz v klauzuli FROM</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>G3</kategorie>
+        <odkazy>
+          <link url="#d2">d2</link>
+          <link url="#d20">d20</link>
+          <link url="#d22">d22</link>
+        </odkazy>
+        <kategorie_popis>vnořený dotaz v klauzuli SELECT</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>G4</kategorie>
+        <odkazy>
+          <link url="#d12">d12</link>
+        </odkazy>
+        <kategorie_popis>vztažený vnořený dotaz (EXISTS | NOT EXISTS)</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>H1</kategorie>
+        <odkazy>
+          <link url="#d20">d20</link>
+        </odkazy>
+        <kategorie_popis>množinové sjednocení - UNION</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>H2</kategorie>
+        <odkazy>
+          <link url="#d9">d9</link>
+          <link url="#d10">d10</link>
+          <link url="#d12">d12</link>
+          <link url="#d14">d14</link>
+        </odkazy>
+        <kategorie_popis>množinový rozdíl - MINUS (v Oracle)</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>H3</kategorie>
+        <odkazy>
+          <link url="#d14">d14</link>
+        </odkazy>
+        <kategorie_popis>množinový průnik - INTERSECT</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>I1</kategorie>
+        <odkazy>
+          <link url="#d2">d2</link>
+          <link url="#d4">d4</link>
+          <link url="#d15">d15</link>
+          <link url="#d16">d16</link>
+          <link url="#d18">d18</link>
+          <link url="#d20">d20</link>
+          <link url="#d21">d21</link>
+          <link url="#d22">d22</link>
+        </odkazy>
+        <kategorie_popis>agregační funkce (count | sum | min | max| avg)</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>I2</kategorie>
+        <odkazy>
+          <link url="#d16">d16</link>
+        </odkazy>
+        <kategorie_popis>agregační funkce nad seskupenými řádky - GROUP BY (HAVING)</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>J</kategorie>
+        <odkazy>
+          <link url="#d20">d20</link>
+          <link url="#d21">d21</link>
+          <link url="#d22">d22</link>
+        </odkazy>
+        <kategorie_popis>stejný dotaz ve třech různých formulacích SQL</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>K</kategorie>
+        <odkazy>
+          <link url="#d16">d16</link>
+        </odkazy>
+        <kategorie_popis>všechny klauzule - SELECT FROM WHERE GROUP BY HAVING ORDER BY</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>L</kategorie>
+        <odkazy>
+          <link url="#d17">d17</link>
+          <link url="#d23">d23</link>
+        </odkazy>
+        <kategorie_popis>pohled VIEW</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>M</kategorie>
+        <odkazy>
+          <link url="#d23">d23</link>
+        </odkazy>
+        <kategorie_popis>dotaz nad pohledem</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>N</kategorie>
+        <odkazy>
+          <link url="#d24">d24</link>
+        </odkazy>
+        <kategorie_popis>Příkaz pro vložení množiny řádků - INSERT bez klauzule VALUES, např. Rezervuj zákazníkovi č. 6 v různých časech všechny zelené lodě</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>O</kategorie>
+        <odkazy>
+          <link url="#d18">d18</link>
+        </odkazy>
+        <kategorie_popis>UPDATE s vnořeným SELECT příkazem</kategorie_popis>
+      </radek>
+      <radek>
+        <kategorie>P</kategorie>
+        <odkazy>
+          <link url="#d19">d19</link>
+        </odkazy>
+        <kategorie_popis>DELETE s vnořeným SELECT příkazem</kategorie_popis>
+      </radek>
+    </pokryti_dotazu>
+  </queries>
+  <scripts>
+    <title>Skripty</title>
+    <para>
+      <link url="create.sql">create</link>
+    </para>
+    <para>
+      <link url="insert.sql">insert</link>
+    </para>
+  </scripts>
+  <conclusions>
+    <title>Závěr</title>
+    <para>Na svém prvním databázovém projektu jsem si osvojil základy práce s datovým modelářem, relační algebrou a SQL databází. Vzhledem k tomu, že se</para>
+    <para>jednalo o první pokus v tomto oboru, není výsledek optimální, ale snažil jsem se zoptimalizovat svůj výsledek.</para>
+    <para>Pokud bych měl stejný  projekt dělat znovu udělal bych víc různých vztahů a entit, předělal bych relační model, aby byl jednodušší.</para>
+    <para>Cílem semestrální práce však bylo zejména vyzkoušet si návrh struktury datového úložiště od specifikace až po implementaci v relačním databázovém stroji. </para>
+    <para>Tento cíl byl rozhodně splněn a jsem rád, že mám zkušenosti práce s databázovým nástrojem SQLDeveloper.</para>
+    <para/>
+    <para>Svou práci s SQLDeveloper mužů popsat jen 3 slovy: "Láska a nenávist".</para>
+    <para>Viděl jsem dodnes jen 2 takové user-unfriendly programy: prvním byl ISE (předmět BI-SAP), druhým je teď SQLDeveloper. Ale člověk je takové stvoření, že si může zvyknout na všechno a proto, když se práce blížila ke svému konci, cítil jsem se v interface SQLDeveloper, jako doma (aspoň při použití těch možnosti, které jsme používali, já jsem si jistý, že je to asi 1%).</para>
+  </conclusions>
+  <references>
+    <title>Odkazy</title>
+    <para>[1] Stránky předmětu BI-DBS - https://edux.fit.cvut.cz/courses/BI-DBS</para>
+    <para>[2] Hodně dotazů na StackOverflow - Oracle Oracle-SQLDeveloper</para>
+  </references>
+</sproject>
