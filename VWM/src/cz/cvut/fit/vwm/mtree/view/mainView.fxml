@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="1277.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.cvut.fit.vwm.mtree.controller.MainViewController">
+   <children>
+      <TextField fx:id="treeFolder" layoutX="14.0" layoutY="38.0" text="./mtree" />
+      <TextField fx:id="nodeSize" layoutX="14.0" layoutY="91.0" text="32" />
+      <TextField fx:id="filesDir" layoutX="14.0" layoutY="150.0" text="./files" />
+      <TextField fx:id="filesCnt" layoutX="14.0" layoutY="209.0" text="100000" />
+      <TextField fx:id="featCnt" layoutX="14.0" layoutY="261.0" text="20" />
+      <TextField fx:id="treeTime" editable="false" layoutX="14.0" layoutY="489.0" text="0" />
+      <Label layoutX="14.0" layoutY="14.0" text="M-Tree folder" />
+      <Button fx:id="treeDirBtn" layoutX="196.0" layoutY="38.0" mnemonicParsing="false" text="Choose directory" />
+      <Label layoutX="14.0" layoutY="74.0" text="Node Size" />
+      <Label layoutX="14.0" layoutY="133.0" text="Files folder" />
+      <Button fx:id="filesDirBtn" layoutX="196.0" layoutY="150.0" mnemonicParsing="false" text="Choose directory" />
+      <Label layoutX="14.0" layoutY="192.0" text="Number of files" />
+      <Label layoutX="14.0" layoutY="244.0" text="Features count" />
+      <Button fx:id="genFilesBtn" layoutX="196.0" layoutY="261.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="124.0" text="GENERATE files" />
+      <Button fx:id="loadTree" layoutX="16.0" layoutY="310.0" mnemonicParsing="false" text="Create or load tree" />
+      <Label layoutX="14.0" layoutY="472.0" text="Loading (creation) time" />
+      <Label layoutX="379.0" layoutY="14.0" text="kNN">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="kNNFile" layoutX="379.0" layoutY="91.0" text="./files/1.file" />
+      <TextField fx:id="kNNCnt" layoutX="379.0" layoutY="150.0" text="5" />
+      <TextArea fx:id="kNNTreeOut" editable="false" layoutX="379.0" layoutY="244.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="kNNBFOut" editable="false" layoutX="591.0" layoutY="244.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="379.0" layoutY="66.0" text="File" />
+      <Label layoutX="379.0" layoutY="133.0" text="k" />
+      <Button fx:id="kNNSearchBtn" layoutX="591.0" layoutY="150.0" mnemonicParsing="false" text="Do kNN Search" />
+      <Button fx:id="kNNFileBtn" layoutX="591.0" layoutY="91.0" mnemonicParsing="false" text="Choose file" />
+      <Label layoutX="378.0" layoutY="214.0" text="Found (M-Tree)" />
+      <Label layoutX="591.0" layoutY="214.0" text="Found (Brute Force)" />
+      <TextField fx:id="kNNTreeTime" editable="false" layoutX="379.0" layoutY="489.0" text="0" />
+      <Label layoutX="379.0" layoutY="472.0" text="kNN M-Tree time" />
+      <TextField fx:id="kNNBFTime" editable="false" layoutX="591.0" layoutY="489.0" text="0" />
+      <Label layoutX="591.0" layoutY="472.0" text="kNN Brute Force time" />
+      <Label layoutX="836.0" layoutY="13.0" text="Range Search">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rangeFile" layoutX="836.0" layoutY="90.0" text="./files/1.file" />
+      <TextField fx:id="radius" layoutX="836.0" layoutY="149.0" text="200" />
+      <TextArea fx:id="rangeTreeOut" editable="false" layoutX="836.0" layoutY="243.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="rangeBFOut" editable="false" layoutX="1048.0" layoutY="243.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="836.0" layoutY="65.0" text="File" />
+      <Label layoutX="836.0" layoutY="132.0" text="Radius" />
+      <Button fx:id="rangeSearchBtn" layoutX="1048.0" layoutY="149.0" mnemonicParsing="false" text="Do Range Search" />
+      <Button fx:id="rangeFileBtn" layoutX="1048.0" layoutY="90.0" mnemonicParsing="false" text="Choose file" />
+      <Label layoutX="835.0" layoutY="213.0" text="Found (M-Tree)" />
+      <Label layoutX="1048.0" layoutY="213.0" text="Found (Brute Force)" />
+      <TextField fx:id="rangeTreeTime" editable="false" layoutX="836.0" layoutY="488.0" text="0" />
+      <Label layoutX="836.0" layoutY="471.0" text="Range M-Tree time" />
+      <TextField fx:id="rangeBFTime" editable="false" layoutX="1048.0" layoutY="488.0" text="0" />
+      <Label layoutX="1048.0" layoutY="471.0" text="Range Brute Force time" />
+      <Button fx:id="insertFilesBtn" layoutX="17.0" layoutY="344.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="167.0" text="Insert files into the tree" />
+      <Label layoutX="196.0" layoutY="472.0" text="Insertion time" />
+      <TextField fx:id="insTime" editable="false" layoutX="196.0" layoutY="489.0" text="0" />
+   </children>
+</AnchorPane>

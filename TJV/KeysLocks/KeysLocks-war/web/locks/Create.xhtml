@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.CreateLocksTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="#{bundle.CreateLocksLabel_id}" for="id" />
+                    <h:inputText id="id" value="#{locksController.selected.id}" title="#{bundle.CreateLocksTitle_id}" required="true" requiredMessage="#{bundle.CreateLocksRequiredMessage_id}"/>
+                    <h:outputLabel value="#{bundle.CreateLocksLabel_manufacturer}" for="manufacturer" />
+                    <h:inputText id="manufacturer" value="#{locksController.selected.manufacturer}" title="#{bundle.CreateLocksTitle_manufacturer}" required="true" requiredMessage="#{bundle.CreateLocksRequiredMessage_manufacturer}"/>
+                    <h:outputLabel value="#{bundle.CreateLocksLabel_shape}" for="shape" />
+                    <h:inputText id="shape" value="#{locksController.selected.shape}" title="#{bundle.CreateLocksTitle_shape}" />
+                    <h:outputLabel value="#{bundle.CreateLocksLabel_color}" for="color" />
+                    <h:inputText id="color" value="#{locksController.selected.color}" title="#{bundle.CreateLocksTitle_color}" />
+                    <h:outputLabel value="#{bundle.CreateLocksLabel_weight}" for="weight" />
+                    <h:inputText id="weight" value="#{locksController.selected.weight}" title="#{bundle.CreateLocksTitle_weight}" />
+                    <h:outputLabel value="#{bundle.CreateLocksLabel_keys}" for="keys" />
+                    <h:selectOneMenu id="keys" value="#{locksController.selected.keys}" title="#{bundle.CreateLocksTitle_keys}" >
+                        <f:selectItems value="#{keysController.itemsAvailableSelectOne}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{locksController.create}" value="#{bundle.CreateLocksSaveLink}" />
+                <br />
+                <br />
+                <h:commandLink action="#{locksController.prepareList}" value="#{bundle.CreateLocksShowAllLink}" immediate="true"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.CreateLocksIndexLink}"/>
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

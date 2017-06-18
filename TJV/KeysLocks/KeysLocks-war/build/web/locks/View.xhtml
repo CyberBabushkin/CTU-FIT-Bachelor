@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.ViewLocksTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:panelGroup id="messagePanel" layout="block">
+                <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+            </h:panelGroup>
+            <h:form>
+                <h:panelGrid columns="2">
+                    <h:outputText value="#{bundle.ViewLocksLabel_id}"/>
+                    <h:outputText value="#{locksController.selected.id}" title="#{bundle.ViewLocksTitle_id}"/>
+                    <h:outputText value="#{bundle.ViewLocksLabel_manufacturer}"/>
+                    <h:outputText value="#{locksController.selected.manufacturer}" title="#{bundle.ViewLocksTitle_manufacturer}"/>
+                    <h:outputText value="#{bundle.ViewLocksLabel_shape}"/>
+                    <h:outputText value="#{locksController.selected.shape}" title="#{bundle.ViewLocksTitle_shape}"/>
+                    <h:outputText value="#{bundle.ViewLocksLabel_color}"/>
+                    <h:outputText value="#{locksController.selected.color}" title="#{bundle.ViewLocksTitle_color}"/>
+                    <h:outputText value="#{bundle.ViewLocksLabel_weight}"/>
+                    <h:outputText value="#{locksController.selected.weight}" title="#{bundle.ViewLocksTitle_weight}"/>
+                    <h:outputText value="#{bundle.ViewLocksLabel_keys}"/>
+                    <h:outputText value="#{locksController.selected.keys}" title="#{bundle.ViewLocksTitle_keys}"/>
+                </h:panelGrid>
+                <br />
+                <h:commandLink action="#{locksController.destroyAndView}" value="#{bundle.ViewLocksDestroyLink}"/>
+                <br />
+                <br />
+                <h:link outcome="Edit" value="#{bundle.ViewLocksEditLink}"/>
+                <br />
+                <h:commandLink action="#{locksController.prepareCreate}" value="#{bundle.ViewLocksCreateLink}" />
+                <br />
+                <h:commandLink action="#{locksController.prepareList}" value="#{bundle.ViewLocksShowAllLink}"/>
+                <br />
+                <br />
+                <h:link outcome="/index" value="#{bundle.ViewLocksIndexLink}"/>
+
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>
