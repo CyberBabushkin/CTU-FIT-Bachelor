@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30B8C483-80D0-6212-5019-CABCF6D4E87A" name="Membership">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Person_person_id" id="2BF330D1-B208-BBBF-60D3-588F1B824F55">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DDBE397-DA45-7F17-79F2-2E87B120CCF7" referredColumn="DABE3CE6-4D80-9509-BD56-4B21813D025B"/>
+</associations>
+</Column>
+<Column name="Team_team_id" id="D5AAF03D-2082-F063-4E0C-F6223BC4A5EF">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E43F3719-2384-D7CE-AD3F-E7F40B4D4C98" referredColumn="255A5672-18B9-3349-F7E5-6D8C520C45EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="63637AF5-40D2-CB29-37CB-320CBA2971F1" name="Membership_PK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF330D1-B208-BBBF-60D3-588F1B824F55"/>
+<colUsage columnID="D5AAF03D-2082-F063-4E0C-F6223BC4A5EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="529006B7-F0F7-CEC0-33AF-A5F8542A8FD4" name="Membership_Person_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>13FE0CB2-2C7B-7297-06E9-07DBF9010E11</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF330D1-B208-BBBF-60D3-588F1B824F55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E455D37-0EC0-0858-2774-D7F148275E5A" name="Membership_Team_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>13FE0CB2-2C7B-7297-06E9-07DBF9010E11</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5AAF03D-2082-F063-4E0C-F6223BC4A5EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

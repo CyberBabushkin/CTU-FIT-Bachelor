@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Login" directorySegmentName="seg_0" id="FC551F1C-FBE5-AD15-26F7-8E0F2D8C1AE2">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 20:55:50 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<sourcePk>9BC884EC-2293-287B-47A2-229D78E988B2</sourcePk>
+<dominantRole>EF5506AF-EC8F-E19F-5829-1A93ACD325E5</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF5506AF-EC8F-E19F-5829-1A93ACD325E5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>ACFF9FD2-1BDC-9EE8-29E1-9C008D9A72B5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

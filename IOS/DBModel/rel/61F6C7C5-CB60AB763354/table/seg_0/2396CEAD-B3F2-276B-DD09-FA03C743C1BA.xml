@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2396CEAD-B3F2-276B-DD09-FA03C743C1BA" name="Person">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>ACFF9FD2-1BDC-9EE8-29E1-9C008D9A72B5</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="CAD361E6-F2EE-49B3-D48B-E3D22934B1C1">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>D3FB1D8F-5CF1-33B7-DEDD-0515E4314E93</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="family_name" id="FF6EB726-33E5-C27B-7FD2-7FC4492E5C7B">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>E7A6B2BE-8324-1616-0CBC-2084CDEDE200</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avatar" id="B7C8ED6D-F35F-840E-732A-D5C16D003366">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>52124856-7E68-96C7-DF46-4F1226C16B2D</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Team_team_id" id="D9F56F04-F32A-874A-E616-541DF77A19B3">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>08419D5E-6790-6D4D-153A-3252674DD242</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBE9E636-01F4-D910-8372-A50198EFCF6E" referredColumn="A2E0C1DF-ADC0-8EC8-8641-F2037732C19A"/>
+</associations>
+</Column>
+<Column name="Users_user_id" id="28DC37B7-6117-E2E8-CA72-17ECA91F40AD">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>69498D03-5E86-8FB2-3595-FB3C335A8B7C</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A8E84C9-FDD7-53BC-3864-9B7FBEB0B664" referredColumn="BC80BDC0-9190-6889-FB92-FEF8EDD09F9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E838072-DFF2-8A29-588C-29AA036C8115" name="Person_PK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>044288B9-C6CE-2FB0-9A8B-101D2CC007FC</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28DC37B7-6117-E2E8-CA72-17ECA91F40AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44CDA7B8-625B-F680-38F0-80A0DD5F002B" name="Person_Users_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>FC551F1C-FBE5-AD15-26F7-8E0F2D8C1AE2</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28DC37B7-6117-E2E8-CA72-17ECA91F40AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5E0FC72-DFF3-B755-6F0F-817B0885EA8B" name="Person_Team_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>13FE0CB2-2C7B-7297-06E9-07DBF9010E11</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9F56F04-F32A-874A-E616-541DF77A19B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

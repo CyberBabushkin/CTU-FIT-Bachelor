@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ACFF9FD2-1BDC-9EE8-29E1-9C008D9A72B5" name="Person">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 20:46:07 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="D3FB1D8F-5CF1-33B7-DEDD-0515E4314E93">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 20:46:46 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="family_name" id="E7A6B2BE-8324-1616-0CBC-2084CDEDE200">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 20:47:00 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avatar" id="52124856-7E68-96C7-DF46-4F1226C16B2D">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 20:47:46 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="team_id" id="08419D5E-6790-6D4D-153A-3252674DD242">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-21 09:27:14 UTC</createdTime>
+<generatorID>13FE0CB2-2C7B-7297-06E9-07DBF9010E11</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D768DABC-5B0A-5CBF-025D-3D053BB42543</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="69498D03-5E86-8FB2-3595-FB3C335A8B7C">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-21 09:28:21 UTC</createdTime>
+<generatorID>FC551F1C-FBE5-AD15-26F7-8E0F2D8C1AE2</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<referedAttribute>B3198953-C2D1-3EB0-0A70-54E0EF670E90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="044288B9-C6CE-2FB0-9A8B-101D2CC007FC" name="Person PK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 20:46:43 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69498D03-5E86-8FB2-3595-FB3C335A8B7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

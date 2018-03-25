@@ -1,0 +1,12 @@
+target 'Pomodoro Enterprise' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire'
+  pod 'Sync', '~> 4'
+  pod 'AlamofireNetworkActivityIndicator', '~> 2.2'
+  pod 'MagicalRecord', '~> 2.3'
+  pod 'CorePlot', '~> 2.2'
+  pod "SearchTextField"
+  
+end

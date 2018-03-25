@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Membership" directorySegmentName="seg_0" id="13FE0CB2-2C7B-7297-06E9-07DBF9010E11">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:04:01 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<targetPk>DF5F0C8F-E18A-ED56-CF10-768FE71E89B7</targetPk>
+<identifying>false</identifying>
+<nameOnSource>hasMember</nameOnSource>
+<nameOnTarget>isMemberOf</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ACFF9FD2-1BDC-9EE8-29E1-9C008D9A72B5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C3B5E458-F1D5-448B-D8E2-EB9B3314F989</targetEntity>
+<transferable>true</transferable>
+<deleteRule>SET NULL</deleteRule>
+</Relation>

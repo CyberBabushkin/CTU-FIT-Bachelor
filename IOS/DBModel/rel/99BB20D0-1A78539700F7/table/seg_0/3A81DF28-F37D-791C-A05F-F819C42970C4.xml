@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A81DF28-F37D-791C-A05F-F819C42970C4" name="Person">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>ACFF9FD2-1BDC-9EE8-29E1-9C008D9A72B5</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_id" id="DABE3CE6-4D80-9509-BD56-4B21813D025B">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>B032CC49-BEA1-CDDC-6CB3-69F8B224C54A</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B70C81E6-CCB5-9E99-EF31-E40AD71A301C">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>D3FB1D8F-5CF1-33B7-DEDD-0515E4314E93</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="family_name" id="F425919E-C0AA-9D97-AFDC-D63BFAEFF172">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>E7A6B2BE-8324-1616-0CBC-2084CDEDE200</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="avatar" id="F6CB2856-1CA0-2D90-12AB-A7466F94179D">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>52124856-7E68-96C7-DF46-4F1226C16B2D</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_login" id="07EC4D43-0BCD-B3C0-3972-53E2228A1421">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>7B38DA60-DE3E-7E19-C332-3C97E30B4477</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1805EC55-4EBF-B018-6DC5-EA933DCDA484" referredColumn="3DF89E34-6BBC-2F0B-4EB1-D98E19D3B63C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="381AEFF8-19DC-BCA1-C3F9-1C5982783811" name="Person_PK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>044288B9-C6CE-2FB0-9A8B-101D2CC007FC</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DABE3CE6-4D80-9509-BD56-4B21813D025B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4708044E-1354-279D-C895-0CA62EEB2FC3" name="Person__IDX">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FC551F1C-FBE5-AD15-26F7-8E0F2D8C1AE2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="07EC4D43-0BCD-B3C0-3972-53E2228A1421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A7239E0-2E70-5ECE-8841-DC87CA1EC35F" name="Person_Users_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:35:26 UTC</createdTime>
+<generatorID>FC551F1C-FBE5-AD15-26F7-8E0F2D8C1AE2</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07EC4D43-0BCD-B3C0-3972-53E2228A1421"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.mapView(_:viewFor:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(self.checkinFRC.fetchedObjects as! [Checkin])[1].username">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MapViewController.prepare(for:sender:):MapViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DatabaseSync.download(_:):DatabaseSync.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DatabaseSync.createCheckin(withDate:lattitude:longitude:username:gender:):DatabaseSync.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "date.timeIntervalSince1970 as Double">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CheckinViewController.savePressed(_:):CheckinViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

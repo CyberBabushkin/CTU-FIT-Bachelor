@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3446ECE1-1F9E-0F3A-1120-67406C112117" name="Pomodoro">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>CCA1FFF7-56B1-16BD-B220-CF33A665955A</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pomodoro_id" id="8B98EDC8-52B0-2CF1-2684-4490595F3835">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>18503D3D-5666-8E0C-24E4-D755A7E49234</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="B4F8B7FC-C6A3-F834-9ED9-40B5C0ECCBA4">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>877AA3A1-639C-1E74-3F30-F33E9CC3DFEA</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT038</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Person_person_id" id="96A828F4-5E0D-383C-7B88-4FCE39132C01">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>8E2BF05A-B29B-5ACC-797F-716B3358E24C</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84FD5EB7-7F7E-A4D5-0348-E3A12A610894" referredColumn="DABE3CE6-4D80-9509-BD56-4B21813D025B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61EA3EA4-5CF0-FE56-9DE5-485CF13CED98" name="Pomodoro_PK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>E4D836C7-8FFA-3FF9-1823-7DA6C00D686A</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B98EDC8-52B0-2CF1-2684-4490595F3835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F471CBC-108E-2D83-80E6-43C570DB45CC" name="Pomodoro_Person_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:23:20 UTC</createdTime>
+<generatorID>CA9E820C-180B-7F07-9B04-D8CAA0E0123F</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96A828F4-5E0D-383C-7B88-4FCE39132C01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

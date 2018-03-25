@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="Pomodoro_Enterprise">
+    <entity name="List" representedClassName="ListCD" syncable="YES" codeGenerationType="class">
+        <attribute name="listId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="listId"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="title"/>
+            </userInfo>
+        </attribute>
+        <relationship name="tasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="list" inverseEntity="Task" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="tasks"/>
+            </userInfo>
+        </relationship>
+        <relationship name="team" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="lists" inverseEntity="Team" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="teamId"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="relatedByAttribute" value="listId"/>
+        </userInfo>
+    </entity>
+    <entity name="Person" representedClassName="PersonCD" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar" optional="YES" attributeType="String" maxValueString="32700" syncable="YES"/>
+        <attribute name="familyName" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="familyName"/>
+            </userInfo>
+        </attribute>
+        <attribute name="main" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="usersUserId" attributeType="Integer 32" maxValueString="50" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="usersUserId"/>
+            </userInfo>
+        </attribute>
+        <relationship name="hasCredentials" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Users" inverseName="isDescribedBy" inverseEntity="Users" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="userId"/>
+                <entry key="relatedByAttribute" value="usersID"/>
+            </userInfo>
+        </relationship>
+        <relationship name="isMemberOf" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Team" inverseName="hasMembers" inverseEntity="Team" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="teamId"/>
+            </userInfo>
+        </relationship>
+        <relationship name="pomodoros" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Pomodoro" inverseName="user" inverseEntity="Pomodoro" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="pomodoros"/>
+            </userInfo>
+        </relationship>
+        <relationship name="settings" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Settings" inverseName="user" inverseEntity="Settings" syncable="YES"/>
+        <userInfo>
+            <entry key="relatedByAttribute" value="usersUserId"/>
+        </userInfo>
+    </entity>
+    <entity name="Pomodoro" representedClassName="PomodoroCD" syncable="YES" codeGenerationType="class">
+        <attribute name="pdate" attributeType="Date" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="dateFormat" value="yyyy-MM-dd'T'HH:mm:ss"/>
+                <entry key="sync.remoteKey" value="pdate"/>
+            </userInfo>
+        </attribute>
+        <attribute name="pomodoroId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="pomodoroId"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="user" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="pomodoros" inverseEntity="Person" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="userId"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="relatedByAttribute" value="pomodoroId"/>
+        </userInfo>
+    </entity>
+    <entity name="Settings" representedClassName="SettingsCD" syncable="YES" codeGenerationType="class">
+        <attribute name="breakTime" attributeType="Integer 32" defaultValueString="5" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="breakTime"/>
+            </userInfo>
+        </attribute>
+        <attribute name="personUsersUserId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="personUsersUserId"/>
+            </userInfo>
+        </attribute>
+        <attribute name="pomodoroGoal" attributeType="Integer 32" defaultValueString="10" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="pomodoroGoal"/>
+            </userInfo>
+        </attribute>
+        <attribute name="pomodoroTime" attributeType="Integer 32" defaultValueString="30" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="pomodoroTime"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="taskGoal" attributeType="Integer 32" defaultValueString="10" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="taskGoal"/>
+            </userInfo>
+        </attribute>
+        <relationship name="user" maxCount="1" deletionRule="Deny" destinationEntity="Person" inverseName="settings" inverseEntity="Person" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="userId"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="relatedByAttribute" value="personUsersUserId"/>
+        </userInfo>
+    </entity>
+    <entity name="Task" representedClassName="TaskCD" syncable="YES" codeGenerationType="class">
+        <attribute name="dateFinish" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES">
+            <userInfo>
+                <entry key="dateFormat" value="yyyy-MM-dd'T'HH:mm:ss"/>
+                <entry key="sync.remoteKey" value="dateFinish"/>
+            </userInfo>
+        </attribute>
+        <attribute name="info" optional="YES" attributeType="String" maxValueString="255" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="info"/>
+            </userInfo>
+        </attribute>
+        <attribute name="name" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="taskId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="taskId"/>
+            </userInfo>
+        </attribute>
+        <relationship name="list" maxCount="1" deletionRule="Nullify" destinationEntity="List" inverseName="tasks" inverseEntity="List" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="listId"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="relatedByAttribute" value="taskId"/>
+        </userInfo>
+    </entity>
+    <entity name="Team" representedClassName="TeamCD" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="name"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="teamId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="teamId"/>
+            </userInfo>
+        </attribute>
+        <relationship name="hasMembers" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="isMemberOf" inverseEntity="Person" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="userId"/>
+            </userInfo>
+        </relationship>
+        <relationship name="lists" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="List" inverseName="team" inverseEntity="List" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="lists"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="relatedByAttribute" value="teamId"/>
+        </userInfo>
+    </entity>
+    <entity name="Users" representedClassName="UsersCD" syncable="YES" codeGenerationType="class">
+        <attribute name="login" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="login"/>
+            </userInfo>
+        </attribute>
+        <attribute name="password" attributeType="String" maxValueString="50" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="password"/>
+            </userInfo>
+        </attribute>
+        <attribute name="synced" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="userId" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES">
+            <userInfo>
+                <entry key="sync.remoteKey" value="userId"/>
+            </userInfo>
+        </attribute>
+        <relationship name="isDescribedBy" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Person" inverseName="hasCredentials" inverseEntity="Person" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="userId"/>
+            </userInfo>
+        </relationship>
+        <userInfo>
+            <entry key="relatedByAttribute" value="userId"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="List" positionX="-1100" positionY="-214" width="128" height="120"/>
+        <element name="Person" positionX="-1154" positionY="-429" width="128" height="195"/>
+        <element name="Pomodoro" positionX="-1332" positionY="-441" width="128" height="105"/>
+        <element name="Settings" positionX="-1332" positionY="-342" width="128" height="150"/>
+        <element name="Task" positionX="-909" positionY="-538" width="128" height="135"/>
+        <element name="Team" positionX="-882" positionY="-360" width="128" height="120"/>
+        <element name="Users" positionX="-1125" positionY="-387" width="128" height="120"/>
+    </elements>
+</model>

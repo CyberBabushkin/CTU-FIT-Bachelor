@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tasks" directorySegmentName="seg_0" id="D7777201-5906-22F3-AB76-D47BBE33FE01">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-19 21:10:59 UTC</createdTime>
+<ownerDesignName>DBModel</ownerDesignName>
+<engineerTo>
+<item key="61F6C7C5-0FE7-1967-7250-CB60AB763354" value="true"/>
+</engineerTo>
+<sourcePk>0E4901F6-1BCC-3780-94B3-C7887857EC18</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>hasTask</nameOnSource>
+<nameOnTarget>isPartOf</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A1023A21-BA80-1B4F-16DE-520C1CA569A4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BADE0DDF-9167-8FDC-B42F-729497ADAE85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

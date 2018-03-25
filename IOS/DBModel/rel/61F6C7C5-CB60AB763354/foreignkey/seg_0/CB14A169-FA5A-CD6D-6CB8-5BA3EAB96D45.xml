@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB14A169-FA5A-CD6D-6CB8-5BA3EAB96D45" containerWithKeyObject="6A882C1A-E4BF-9AC9-5984-310EAE0D054B" localFKIndex="418F3BDA-8466-F884-B1F9-348DB28CCCC8" name="Pomodoro_Person_FK">
+<createdBy>mannannlegur</createdBy>
+<createdTime>2017-11-30 23:40:18 UTC</createdTime>
+<generatorID>CA9E820C-180B-7F07-9B04-D8CAA0E0123F</generatorID>
+<ownerDesignName>DBModel</ownerDesignName>
+<referredTableLongName>Person</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>2396CEAD-B3F2-276B-DD09-FA03C743C1BA</referredTableID>
+<keyObject>8E838072-DFF2-8A29-588C-29AA036C8115</keyObject>
+<referredKeyID>8E838072-DFF2-8A29-588C-29AA036C8115</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Users_user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

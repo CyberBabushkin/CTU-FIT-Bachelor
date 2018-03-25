@@ -1,0 +1,79 @@
+source("/Users/mannannlegur/Documents/MOOC/MITx - 15.071x The Analytics Edge/Linear optimization/Airline_RM/Unit8_AirlineRM.R")
+library(lpSolveAPI)
+AirlineSimple = make.lp(3,2)
+set.column(AirlineSimple, 1, c(1,1,0))#
+set.column(AirlineSimple, 2, c(1,0,1))#
+set.constr.type(AirlineSimple, c("<=","<=","<="))#
+set.rhs(AirlineSimple, c(166,100,150))
+set.objfn(AirlineSimple, c(617,238))
+lp.control(AirlineSimple,sense='max')
+AirlineSimple
+solve(AirlineSimple)
+get.objective(AirlineSimple)#
+get.variables(AirlineSimple)
+AirlineConnecting = make.lp(8,6)#
+#
+set.column(AirlineConnecting, 1, c(1,1,1,0,0,0,0,0))#
+set.column(AirlineConnecting, 2, c(1,1,0,1,0,0,0,0))#
+set.column(AirlineConnecting, 3, c(1,0,0,0,1,0,0,0))#
+set.column(AirlineConnecting, 4, c(1,0,0,0,0,1,0,0))#
+set.column(AirlineConnecting, 5, c(0,1,0,0,0,0,1,0))#
+set.column(AirlineConnecting, 6, c(0,1,0,0,0,0,0,1))#
+set.constr.type(AirlineConnecting, rep("<=",8))#
+set.rhs(AirlineConnecting, c(166,166,80,120,75,100,60,110))#
+#
+set.objfn(AirlineConnecting, c(428,190,642,224,512,190))#
+lp.control(AirlineConnecting,sense='max')#
+#
+solve(AirlineConnecting)#
+get.objective(AirlineConnecting)#
+get.variables(AirlineConnecting)
+# ds = read.csv("~/Documents/CTU/VZD/1. cviceni/ecoli.data")
+?read.csv
+ds = read.csv("~/Documents/CTU/VZD/1. cviceni/ecoli.data", sep=" ")
+summary(ds)
+library(rpart)
+Tree = rpart(CLASS ~ . - SEQ_NAME, data=ds, method="class")
+summary(Tree)
+library(caTools)
+split = sample.split(ds$CLASS, SplitRatio=0.7)
+train = subset(ds, split == TRUE)
+test = subset(ds, split == FALSE)
+summary(train)
+Tree = rpart(CLASS ~ . - SEQ_NAME, data=train, method="class")
+library(rpart.plot)
+prp(Tree)
+train.predict = predict(Tree)
+train.predict = predict(Tree, type="class")
+table(train.predict, train$CLASS)
+test.predict = predict(Tree, newdata=test, type="class")
+table(tets.predict, test$CLASS)
+table(test.predict, test$CLASS)
+library(ROCR)
+PredictROC = predict(Tree, newdata = test)
+pred = prediction(PredictROC[,2], test$CLASS)
+prp(Tree)
+install.packages("scatterplot3d")
+library("scatterplot3d")
+colors = colors(as.numeric(ds$CLASS))
+colors = colors[as.numeric(ds$CLASS)]
+vars = c("ALM1", "ALM2", "MCG")
+ds_imp = ds[vars]
+summary(ds_imp)
+vars = c("ALM1", "ALM2", "MCG", "CLASS")
+ds_imp = ds[vars]
+scatterplot3d(ds_imp[, 1:3], color=colors)
+colors <- c("#999999", "#E69F00", "#56B4E9")
+colors
+colors()
+colors <- c("red", "green", "blue", "black", "cyan", "yellow", "gray1", "orange", "darkblue", "coral")
+colors = colors[as.numeric(ds$CLASS)]
+scatterplot3d(ds_imp[, 1:3], color=colors)
+irislog = read.csv("Iris.log", sep="\t")
+irislog = read.csv("Iris.log", sep="\t")
+str(irislog)
+lines(irislog$k, irislog$Performance)
+lines(irislog$k, irislog$Performance, type="l")
+lines(irislog$k, irislog$Performance, type="l")
+plot(irislog$k, irislog$Performance, type="l")
+plot(irislog$k[1:50], irislog$Performance[1:50], type="l")
